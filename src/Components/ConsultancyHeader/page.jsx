@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
 import { useInView } from "react-intersection-observer";
-import Online_Consultancy_banner from "@/images/Consultancy_header.png";
+import Online_Consultancy_banner from "@/images/consultancy_header.png";
 import styles from "@/Components/ConsultancyHeader/consultancyHeader.module.css";
 const Page = () => {
   const [ref, inView] = useInView({

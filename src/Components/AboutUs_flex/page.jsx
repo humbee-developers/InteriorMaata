@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import third_Section_image1 from "@/images/AboutUs_flex_image1.png";
-import third_Section_image2 from "@/images/AboutUs_flex_image2.png";
+import third_Section_image2 from "@/images/Aboutus_flex_image2.png";
 import Button from "@/Assets/Buttons/Button2";
 import Button3 from "@/Assets/Buttons/Button3";
 import styles from "@/Components/AboutUs_flex/AboutUsFlex.module.css";
