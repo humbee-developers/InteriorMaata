@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./style4.css";
 import { blur, translate } from "../../anim";
 import { useState } from "react";
-import nav_logo from "@/Svgs/logo.svg";
+import nav_logo from "@/svgs/logo.svg";
 import Image from "next/image";
 export default function Body({
   links,

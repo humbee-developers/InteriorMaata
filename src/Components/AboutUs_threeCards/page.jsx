@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Home_Layer from "@/Svgs/AboutUs_border.svg";
+import Home_Layer from "@/svgs/AboutUs_border.svg";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
 import styles from "@/Components/AboutUs_threeCards/AboutUs_threeCards.module.css";
 

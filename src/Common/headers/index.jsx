@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { opacity } from "./anim";
 import NavSection from "./nav/index";
-import nav_logo from "@/Svgs/logo.svg";
+import nav_logo from "@/svgs/logo.svg";
 // import logoImage from "../../images/PVOT-Design-Final-Logo-White.png";
 export default function NewNav() {
   const [isActive, setIsActive] = useState(false);

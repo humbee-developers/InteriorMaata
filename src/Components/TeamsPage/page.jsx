@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
 import Image from 'next/image';
-import img1 from "@/Svgs/Team_image1.svg"
-import img3 from "@/Svgs/Team_image2.svg"
-import img4 from "@/Svgs/Team_image3.svg"
-import img2 from "@/Svgs/Team_image4.svg"
-import img5 from "@/Svgs/Team_image5.svg"
+import img1 from "@/svgs/Team_image1.svg"
+import img4 from "@/svgs/Team_image3.svg"
+import img2 from "@/svgs/Team_image4.svg"
+import img5 from "@/svgs/Team_image5.svg"
+import img3 from "@/svgs/Team_image2.svg"
 import img7 from "@/images/Team_image7.png"
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TeamsPage/teamsPage.module.css"
