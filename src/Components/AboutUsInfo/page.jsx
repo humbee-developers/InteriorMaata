@@ -3,6 +3,7 @@ import Project from "@/Components/AboutUsInfo/index"
 
 export default function Home() {
 
+  
   const projects = [
     {
       title1: "Crafting dreamy Interiors",
