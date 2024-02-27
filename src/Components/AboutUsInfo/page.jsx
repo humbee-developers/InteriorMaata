@@ -1,9 +1,13 @@
 import styles from "@/Components/AboutUsInfo/AboutUsInfo.module.css"
 import Project from "@/Components/AboutUsInfo/index"
-
+// import craft1_img from "@/images/craft1.png";
+// import craft2_img from "@/images/craft2.png";
+// import craft3_img from "@/images/craft3.png";
+// import craft4_img from "@/images/craft4.png";
+// import craft5_img from "@/images/craft5.png";
 export default function Home() {
 
-  
+
   const projects = [
     {
       title1: "Crafting dreamy Interiors",

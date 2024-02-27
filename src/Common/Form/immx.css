@@ -1,31 +1,31 @@
 .p-dropdown-items {
-  background-color: white;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-family: "NeueMontreal-Regular";
+  background-color: white !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  font-family: "NeueMontreal-Regular" !important;
 }
 .p-dropdown-item {
-  padding-top: 2px;
-  padding-left: 2px;
-  padding-bottom: 2px;
+  padding-top: 2px !important;
+  padding-left: 2px !important;
+  padding-bottom: 2px !important;
 }
 
 #standard-basic-label {
-  color: white;
-  font-size: 18px;
+  color: white !important;
+  font-size: 18px !important;
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  transition: background-color 5000s;
+  transition: background-color 5000s !important;
   -webkit-text-fill-color: #fff !important;
 }
 
 #outlined-basic-label {
-  color: white;
-  font-size: 18px;
+  color: white !important;
+  font-size: 18px !important;
 }
 
 .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
