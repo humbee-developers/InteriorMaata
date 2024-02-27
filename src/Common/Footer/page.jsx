@@ -2,11 +2,11 @@
 import { React, useContext } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import facebook_logo from "@/Svgs/facebook.svg";
-import Instagram_logo from "@/Svgs/instagram.svg";
-import youtube_logo from "@/Svgs/youtube.svg";
-import whatsapp_logo from "@/Svgs/whatsapp.svg";
-import linkedin_logo from "@/Svgs/linkedin.svg";
+import facebook_logo from "@/svgs/facebook.svg";
+import Instagram_logo from "@/svgs/instagram.svg";
+import youtube_logo from "@/svgs/youtube.svg";
+import whatsapp_logo from "@/svgs/whatsapp.svg";
+import linkedin_logo from "@/svgs/linkedin.svg";
 import ScrollToTop from "react-scroll-to-top";
 import styles from "@/Common/Footer/Footer.module.css";
 import "./Scroll_To_Top.css";
