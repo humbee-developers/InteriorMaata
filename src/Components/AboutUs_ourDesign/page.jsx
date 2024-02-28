@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import styles from "@/Components/AboutUs_ourDesign/aboutUs_ourDesign.module.css";
-import Emphasis_logo from "@/svgs/Emphasis_icon.svg";
-import Variety_logo from "@/svgs/Variety_icon.svg";
-import Unity_logo from "@/svgs/Unity_icon.svg";
-import Functionality_logo from "@/svgs/Functionality_icon.svg";
-import Materiality_logo from "@/svgs/Materiality_icon.svg";
+import Emphasis_logo from "@/svgs/emphasis1.svg";
+import Variety_logo from "@/svgs/variety1.svg";
+import Unity_logo from "@/svgs/unity1.svg";
+import Functionality_logo from "@/svgs/functionality1.svg";
+import Materiality_logo from "@/svgs/materiality1.svg";
 
 function Seventh_Section() {
   return (
