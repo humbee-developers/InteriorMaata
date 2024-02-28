@@ -63,6 +63,7 @@
   display: flex;
   justify-content: space-around;
   gap: 6rem;
+  margin-right: 3rem;
 }
 .phone_no {
   color: #fff;
@@ -295,6 +296,7 @@
     border-top: 1px solid white;
     padding-top: 3rem;
     justify-content: flex-start;
+    margin-right: 0rem;
   }
   .Footer_Section {
     padding-top: 3rem;

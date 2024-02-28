@@ -1,12 +1,13 @@
 "use client"
 import React from 'react'
 import Stairs from "@/Animations/Stairs"
+import HomeBanner from "@/Components/Home_page_Banner/page"
 const Page = () => {
  
   return (
     <div>
       <Stairs>
-        <h1>Home</h1>
+        <HomeBanner />
       </Stairs>
     </div>
   )

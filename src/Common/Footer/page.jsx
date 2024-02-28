@@ -25,24 +25,34 @@ const Footer = () => {
           </div>
           <div className={styles.footer_Second}>
             <ul className={styles.footerUl}>
-              <li className={styles.footer_website}>website</li>
               <li className={styles.footer_home}>
-                <Link href="">Home</Link>
+                <Link href="/Home">Home</Link>
               </li>
               <li className={styles.footer_Search}>
-                <Link href="">Search</Link>
+                <Link href="/AboutUs">About Us</Link>
+              </li>
+              <li className={styles.footer_home}>
+                <Link href="/Consultancy">Online Consultancy</Link>
+              </li>
+              <li className={styles.footer_Search}>
+                <Link href="/Projects">Projects</Link>
               </li>
             </ul>
             <ul className={styles.footerUl}>
-              <li className={styles.footer_website}>others</li>
               <li className={styles.footer_home}>
-                <Link href="">careers</Link>
+                <Link href="/Team">Team</Link>
               </li>
               <li className={styles.footer_Search}>
-                <Link href="">contact</Link>
+                <Link href="/HowWeWork">How we work</Link>
+              </li>
+              <li className={styles.footer_home}>
+                <Link href="/Services">Services</Link>
+              </li>
+              <li className={styles.footer_Search}>
+                <Link href="/ContactUs">Contact</Link>
               </li>
             </ul>
-            <ul className={styles.footerUl}>
+            {/* <ul className={styles.footerUl}>
               <li className={styles.footer_website}>Get Listed</li>
               <li className={styles.footer_home}>
                 <Link href="">Blog</Link>
@@ -50,7 +60,7 @@ const Footer = () => {
               <li className={styles.footer_Search}>
                 <Link href="">Know Us</Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className={styles.footer_copyright}>

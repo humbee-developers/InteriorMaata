@@ -78,6 +78,7 @@ const Page = () => {
               {touched.Name && errors.Name && (
                 <p className={styles.error}>{errors.Name}</p>
               )}
+              {!touched.Name && !errors.Name && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
             <div className={styles.field}>
               <TextField
@@ -92,6 +93,7 @@ const Page = () => {
               {touched.LastName && errors.LastName && (
                 <p className={styles.error}>{errors.LastName}</p>
               )}
+              {!touched.LastName && !errors.LastName && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
 
             <div className={styles.field}>
@@ -107,6 +109,7 @@ const Page = () => {
               {touched.Email && errors.Email && (
                 <p className={styles.error}>{errors.Email}</p>
               )}
+              {!touched.Email && !errors.Email && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
 
             <div className={styles.field}>
@@ -122,6 +125,7 @@ const Page = () => {
               {touched.Phone && errors.Phone && (
                 <p className={styles.error}>{errors.Phone}</p>
               )}
+              {!touched.Phone && !errors.Phone && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
 
             <div className={styles.field}>
@@ -141,6 +145,7 @@ const Page = () => {
               {touched.Address && errors.Address && (
                 <p className={styles.error}>{errors.Address}</p>
               )}
+              {!touched.Address && !errors.Address && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
 
             <div className={styles.field}>
@@ -164,6 +169,7 @@ const Page = () => {
               {touched.select && errors.select && (
                 <p className={styles.error}>{errors.select}</p>
               )}
+              {!touched.select && !errors.select && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
 
             <div className={styles.field}>
@@ -183,6 +189,7 @@ const Page = () => {
               {touched.Description && errors.Description && (
                 <p className={styles.error}>{errors.Description}</p>
               )}
+              {!touched.Description && !errors.Description && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
             </div>
 
             <div className={styles.field}>

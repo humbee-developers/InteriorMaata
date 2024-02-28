@@ -33,9 +33,10 @@
   border: none;
   border-radius: 48px;
   color: white;
-  font-family: "NeueMontreal-Regular", sans-serif;
+  font-family: "NeueMontreal-Regular";
   font-size: 22px;
   font-weight: 400;
+  cursor: pointer;
   letter-spacing: 0.44px;
   text-transform: capitalize;
   word-wrap: break-word;
@@ -49,8 +50,9 @@
   border-radius: 48px;
   color: white;
   font-size: 22px;
-  font-family: "NeueMontreal-Regular", sans-serif;
+  font-family: "NeueMontreal-Regular";
   font-weight: 400;
+  cursor: pointer;
   letter-spacing: 0.44px;
   width: 242px;
   height: 54px;
@@ -62,8 +64,9 @@
   border: none;
   border-radius: 48px;
   color: black;
+  cursor: pointer;
   font-size: 22px;
-  font-family: "NeueMontreal-Regular", sans-serif;
+  font-family: "NeueMontreal-Regular";
   font-weight: 400;
   letter-spacing: 0.44px;
   width: 242px;
@@ -75,7 +78,7 @@
 .contentSection {
   padding: 2rem 4rem 6rem;
   display: flex;
-  font-family: "NeueMontreal-Regular", sans-serif;
+  font-family: "NeueMontreal-Regular";
   justify-content: space-around;
 }
 
@@ -96,7 +99,7 @@
   width: 330px;
   font-size: 24px;
   font-weight: 300;
-  font-family: "NeueMontreal-Light", sans-serif;
+  font-family: "NeueMontreal-Light";
   text-transform: capitalize;
   letter-spacing: 0.48px;
   word-wrap: break-word;
@@ -110,8 +113,9 @@
 .onlineConsultancy_section_btn {
   background-color: transparent;
   width: fit-content;
-  font-family: "NeueMontreal-Regular", sans-serif;
+  font-family: "NeueMontreal-Regular";
   font-size: 12px;
+  cursor: pointer;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -138,6 +142,13 @@
 }
 .accordian_section {
   display: none;
+}
+
+@media screen and (min-width:1500px)
+{
+  .onlineConsultancy_section_btn{
+    font-size: 20px;
+  }
 }
 
 /* ------------------------------------------------------------------- */
@@ -216,7 +227,7 @@
   }
 
   .onlineConsultancy_section_btn {
-    font-size: 12px;
+    font-size: 20px;
     padding: 0.7rem 2.6rem;
     margin: 2rem 0;
   }
