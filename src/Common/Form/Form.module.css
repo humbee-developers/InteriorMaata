@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .contact_form_wrapper{
   width: 63%;
@@ -24,9 +24,9 @@
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
-.field label {
+/* .field label {
   color: #fff;
   font-family: "NeueMontreal-Regular" !important;
   font-size: 17px;
@@ -34,25 +34,133 @@
   font-weight: 400;
   line-height: normal;
   text-transform: capitalize;
-}
+} */
 .contact_us_image {
   width: 50%;
 
 }
-.field {
+
+.form_group {
+  position: relative;
+  padding-bottom: 10px;
+  height: 90px;
+}
+
+.form_group1 {
+  position: relative;
+  margin-bottom: 10px;
+  height: 150px;
+  /* margin-top: 20px; */
+}
+
+.form_field {
+  border: 1px solid white !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "NeueMontreal-Regular" !important;
+  height: 55px;
+  background: transparent;
+  width: 100%;
+  padding: 0rem 15px;
+  font-size: 18px;
+  resize: none;
+  outline: none;
+  border: none;
+}
+.form_field::placeholder {
+  color: transparent;
+}
+
+.form_field:placeholder-shown ~ .form_label {
+  top: 14px;
+  border-right: none;
+  border-left: none;
+}
+
+.form_label {
+  background-color: #7f7047;
+  color: white;
+  display: block;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 0px 10px;
+  pointer-events: none;
+  position: absolute;
+  font-family: "NeueMontreal-Regular" !important;
+  border-right: none;
+  border-left: none;
+  top: -10px;
+  transition: 0.2s;
+}
+
+.form_field:focus {
+  border: 1px solid white !important;
+  outline: none;
+}
+
+.form_field:focus ~ .form_label {
+  background-color: #7f7047;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+/* address */
+.form_field_address {
+  border: 1px solid white !important;
+  border-radius: 5px;
+  color: white;
+  background: transparent;
+  width: 100%;
+  font-family: "NeueMontreal-Regular" !important;
+  padding: 17px 15px;
+  font-size: 18px;
+  resize: none;
+  outline: none;
+  border: none;
+}
+.form_field_address::placeholder {
+  color: transparent;
+}
+
+.form_field_address:placeholder-shown ~ .form_label {
+  top: 14px;
+  border-right: none;
+  border-left: none;
+}
+
+.form_field_address:focus {
+  border: 1px solid white !important;
+  outline: none;
+}
+
+.form_field_address:focus ~ .form_label {
+  background-color: #7f7047;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: -10px;
+  transition: 0.2s;
+}
+.Submit_button_outer{
+  margin-top: -2rem;
+}
+/* .field {
   margin-bottom: 3px;
   display: flex;
   flex-direction: column;
-}
-.Submit_button_outer{
-  margin-top: -15px;
-}
-.field input {
+} */
+
+/* .field input {
   background: transparent;
   border: none;
    font-family: "NeueMontreal-Regular" !important;
-  /* border-bottom: 1px solid #D1D1D1; */
-  /* padding-top: 1rem; */
   width: 100%;
   height: 20px;
   margin-bottom: 6px;
@@ -61,8 +169,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-.field_Address {
+} */
+/* .field_Address {
   padding-top: 0.3rem;
   background-color: transparent;
   font-size: 17px;
@@ -70,12 +178,11 @@
   color: white;
   outline: none;
   border: none;
-  /* border-bottom: 1px solid #D1D1D1; */
-}
-.field input:focus {
+} */
+/* .field input:focus {
   outline: none;
-}
-.dropdown_menu {
+} */
+/* .dropdown_menu {
   color: white;
   font-size: 17px;
   color: #fff;
@@ -86,24 +193,30 @@
   text-transform: capitalize;
   padding-bottom: 1rem;
   border-bottom: 1px solid #D1D1D1;
-}
-.p-dropdown-item {
+} */
+/* .p-dropdown-item {
   color: white;
   font-family: Neue Montreal;
   padding: 8px;
   background-color: #7F7047;
   font-size: 17px;
-}
+} */
 .error {
   color: red;
-  font-size: 15px;
-  margin-top: 0.3rem;
+  font-family: "NeueMontreal-Regular" !important;
+  font-size: 14px;
+  margin-top: 0.2rem;
+}
+.error1 {
+  color: red;
+  font-size: 14px;
+  font-family: "NeueMontreal-Regular" !important;
+  margin-top: 0;
 }
 .contact_img {
   display: block;
   width: 100%;
   object-fit: cover;
-  height: 100vh;
   object-position: bottom;
   max-width: 100%;
 }
@@ -122,22 +235,20 @@
   text-transform: capitalize;
   padding: 20px 80px 20px 80px;
 }
-.field_Select {
-  background-color: transparent;
-  border: none;
-}
+
+
 @media (min-width: 1500px) {
   .Contact_form_section{
-    height: 95vh;
+    /* height: 95vh; */
   }
   .contact_img{
-    height: 95vh;
+    /* height: 95vh; */
   }
   
 }
 @media (max-width: 1024px) {
   .contact_form_wrapper{
-    padding-top: 3rem;
+    padding-top: 0rem;
   }
 }
 @media (max-width: 768px) {
@@ -155,8 +266,8 @@
   }
   .contact_form_wrapper{
     width: 70%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .Submit_button {
     float: none;

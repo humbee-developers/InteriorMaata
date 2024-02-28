@@ -90,6 +90,13 @@ a {
 ::-webkit-scrollbar {
   display: none;
 }
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #7f7047 inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
 
 /* @font-face {
   font-family: 'Roseritta';

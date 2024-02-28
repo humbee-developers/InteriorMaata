@@ -1,7 +1,7 @@
 "use client";
 import { useFormik } from "formik";
 import React, { useState } from "react";
-import {ContactFormSchemas1} from "../../schema/Contact_form_schema";
+import { ContactFormSchemas1 } from "../../schema/Contact_form_schema";
 import Image from "next/image";
 import From_image from "@/images/Form_image.png";
 import Select from "@mui/material/Select";
@@ -23,9 +23,8 @@ const Page = () => {
     Email: "",
     Phone: "",
     Address: "",
-    select:"",
+    select: "",
     Description: "",
-   
   };
 
   const submitMessage = () => {
@@ -65,8 +64,18 @@ const Page = () => {
         <div className={styles.contact_form_wrapper}>
           <h1 className={styles.contact_form_title}>Reach out to us</h1>
           <form onSubmit={handleSubmit}>
-            <div className={styles.field}>
-              <TextField
+            <div className={styles.form_group}>
+              <input  
+              type="text"
+                className={styles.form_field}
+                placeholder="Full Name"
+                name="Name"
+                onChange={handleChange}
+                value={values.Name} />
+              <label for="Name" className={styles.form_label}>
+                Full Name
+              </label>
+              {/* <TextField
                 id="outlined-basic"
                 label="Full Name"
                 variant="outlined"
@@ -74,14 +83,27 @@ const Page = () => {
                 name="Name"
                 onChange={handleChange}
                 value={values.Name}
-              />
+              /> */}
               {touched.Name && errors.Name && (
-                <p className={styles.error}>{errors.Name}</p>
+                <div className={styles.error}>{errors.Name}</div>
               )}
-              {!touched.Name && !errors.Name && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
+              {!touched.Name && !errors.Name && (
+                <div style={{ visibility: "hidden" }}>&nbsp;</div>
+              )}
             </div>
-            <div className={styles.field}>
-              <TextField
+            <div className={styles.form_group}>
+              <input
+                type="text"
+                className={styles.form_field}
+                placeholder="Last Name"
+                name="LastName"
+                onChange={handleChange}
+                value={values.LastName}
+              />
+              <label for="LastName" className={styles.form_label}>
+                Last Name
+              </label>
+              {/* <TextField
                 id="outlined-basic"
                 label="Last Name"
                 variant="outlined"
@@ -89,15 +111,28 @@ const Page = () => {
                 name="LastName"
                 onChange={handleChange}
                 value={values.LastName}
-              />
+              /> */}
               {touched.LastName && errors.LastName && (
-                <p className={styles.error}>{errors.LastName}</p>
+                <div className={styles.error}>{errors.LastName}</div>
               )}
-              {!touched.LastName && !errors.LastName && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
+              {!touched.LastName && !errors.LastName && (
+                <div style={{ visibility: "hidden" }}>&nbsp;</div>
+              )}
             </div>
 
-            <div className={styles.field}>
-              <TextField
+            <div className={styles.form_group}>
+            <input
+                type="email"
+                className={styles.form_field}
+                placeholder="Email *"
+                name="Email"
+                onChange={handleChange}
+                value={values.Email}
+              />
+              <label for="Email" className={styles.form_label}>
+                Email
+              </label>
+              {/* <TextField
                 id="outlined-basic"
                 label="Email *"
                 variant="outlined"
@@ -105,15 +140,28 @@ const Page = () => {
                 name="Email"
                 onChange={handleChange}
                 value={values.Email}
-              />
+              /> */}
               {touched.Email && errors.Email && (
                 <p className={styles.error}>{errors.Email}</p>
               )}
-              {!touched.Email && !errors.Email && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
+              {!touched.Email && !errors.Email && (
+                <p style={{ visibility: "hidden" }}>&nbsp;</p>
+              )}
             </div>
 
-            <div className={styles.field}>
-              <TextField
+            <div className={styles.form_group}>
+            <input
+                type="tel"
+                className={styles.form_field}
+                placeholder="Phone No"
+                name="Phone"
+                onChange={handleChange}
+                value={values.Phone}
+              />
+              <label for="Phone" className={styles.form_label}>
+                Phone No
+              </label>
+              {/* <TextField
                 id="outlined-basic"
                 label="Phone No"
                 variant="outlined"
@@ -121,15 +169,28 @@ const Page = () => {
                 name="Phone"
                 onChange={handleChange}
                 value={values.Phone}
-              />
+              /> */}
               {touched.Phone && errors.Phone && (
                 <p className={styles.error}>{errors.Phone}</p>
               )}
-              {!touched.Phone && !errors.Phone && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
+              {!touched.Phone && !errors.Phone && (
+                <p style={{ visibility: "hidden" }}>&nbsp;</p>
+              )}
             </div>
 
-            <div className={styles.field}>
-              <FormControl fullWidth>
+            <div className={styles.form_group1}>
+            <textarea
+               rows={4}
+                className={styles.form_field_address}
+                placeholder="Address"
+                name="Address"
+                onChange={handleChange}
+                value={values.Address}
+              ></textarea>
+              <label for="Address" className={styles.form_label}>
+                Address
+              </label>
+              {/* <FormControl fullWidth>
                 <TextField
                   name="Address"
                   id="outlined-multiline-static"
@@ -141,14 +202,16 @@ const Page = () => {
                   onChange={handleChange}
                   value={values.Address}
                 ></TextField>
-              </FormControl>
+              </FormControl> */}
               {touched.Address && errors.Address && (
-                <p className={styles.error}>{errors.Address}</p>
+                <p className={styles.error1}>{errors.Address}</p>
               )}
-              {!touched.Address && !errors.Address && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
+              {!touched.Address && !errors.Address && (
+                <p style={{ visibility: "hidden" }}>&nbsp;</p>
+              )}
             </div>
 
-            <div className={styles.field}>
+            {/* <div className={styles.field}>
               <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">
                   How many BHK ( Bedroom ) is your new home
@@ -169,11 +232,24 @@ const Page = () => {
               {touched.select && errors.select && (
                 <p className={styles.error}>{errors.select}</p>
               )}
-              {!touched.select && !errors.select && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
-            </div>
+              {!touched.select && !errors.select && (
+                <p style={{ visibility: "hidden" }}>&nbsp;</p>
+              )}
+            </div> */}
 
-            <div className={styles.field}>
-              <FormControl fullWidth>
+            <div className={styles.form_group1}>
+            <textarea
+               rows={4}
+                className={styles.form_field_address}
+                placeholder="Brief description of your Project"
+                name="Description"
+                onChange={handleChange}
+                value={values.Description}
+              ></textarea>
+              <label for="Address" className={styles.form_label}>
+              Brief description of your Project
+              </label>
+              {/* <FormControl fullWidth>
                 <TextField
                   name="Description"
                   id="outlined-multiline-static"
@@ -185,11 +261,13 @@ const Page = () => {
                   value={values.Description}
                   onChange={handleChange}
                 ></TextField>
-              </FormControl>
+              </FormControl> */}
               {touched.Description && errors.Description && (
-                <p className={styles.error}>{errors.Description}</p>
+                <p className={styles.error1}>{errors.Description}</p>
               )}
-              {!touched.Description && !errors.Description && <p style={{ visibility: "hidden" }}>&nbsp;</p>}
+              {!touched.Description && !errors.Description && (
+                <p style={{ visibility: "hidden" }}>&nbsp;</p>
+              )}
             </div>
 
             <div className={styles.field}>
@@ -213,7 +291,6 @@ const Page = () => {
                 )}
               </div>
             </div>
-            
           </form>
         </div>
       </div>
