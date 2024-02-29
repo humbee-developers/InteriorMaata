@@ -87,7 +87,10 @@
     padding-right: 10rem;
   }
   .Consultancy_page_second_content_text {
-    font-size: 54px;
+    font-size: 39px;
+  }
+  .Consultancy_page_second_container{
+    padding-top: 2rem;
   }
 }
 

@@ -23,8 +23,13 @@ export default function App() {
       navigation={true}
         // navigation={true}
         modules={[Navigation, EffectFade]}
-        speed={500}
+        // speed={2500}
         loop={true}
+        effect="fade"
+        speed={1500}
+        fadeEffect={{
+          crossFade: true,
+        }}
         // navigation={{
         //       nextEl: ".sliderArrow_next",
         //       prevEl: ".sliderArrow_prev",

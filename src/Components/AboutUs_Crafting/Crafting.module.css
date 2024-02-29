@@ -1,0 +1,59 @@
+.Crafting_Section {
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+  }
+  
+  .Crafting_Section_Image {
+    display: flex;
+  }
+  
+  .Crafting_section_img {
+    display: block;
+  }
+  .Crafting_Section_Content_Text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 25rem;
+  }
+  .Crafting_Section_Content {
+    background: #c0c2aa;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .Crafting_Section_Left {
+    color: #000;
+    font-family: Neue Montreal;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.82px;
+    text-transform: capitalize;
+  }
+  
+  .Crafting_Section_Right {
+    color: #000;
+    font-family: Neue Montreal;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+  }
+  @media (max-width:1199px){
+    .Crafting_Section_Content_Text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 3rem;
+      padding-left: 2rem;
+      padding-right: 4rem;
+    }
+  }

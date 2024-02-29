@@ -16,20 +16,20 @@ const onlineConsultancy = () => {
 
   const content = [
     {
-      title: '2D Furniture Layout-1',
-      text: 'Our TEAM1 of excellent designers will help you build a design concept + furniture layout according to your need.',
+      title: '2D Furniture Layout',
+      text: 'Our team of excellent designers will help you build a design concept + furniture layout according to your need. ',
       imageUrl: img1,
       Color: '#cc7d45', // Button 1 background color
     },
     {
-      title: '2D Furniture Layout-2',
-      text: 'Our TEAM2 of excellent designers will help you build a design concept + furniture layout according to your need.',
+      title: '2D layout + 3D Design',
+      text: 'Virtual Design for your entire home, Our team of excellent designers and architects will help you design your home. ',
       imageUrl: img2,
       Color: '#7F7047', // Button 2 background color
     },
     {
-      title: '2D Furniture Layout-3',
-      text: 'Our TEAM3 of excellent designers will help you build a design concept + furniture layout according to your need.',
+      title: 'A to Z Design',
+      text: 'Our team of talented designers will create a 3d + 2d (Autocad ) + Working design concept to help you design your Home.Save up to 20% of your total Interior cost. ',
       imageUrl: img3,
       Color: 'white', // Button 3 background color
 

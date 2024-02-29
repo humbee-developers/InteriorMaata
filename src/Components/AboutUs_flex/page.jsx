@@ -1,13 +1,15 @@
 import React from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import third_Section_image1 from "@/images/AboutUs_flex_image1.png";
 import third_Section_image2 from "@/images/Aboutus_flex_image2.png";
-import Button from "@/Assets/Buttons/Button2";
-import Button3 from "@/Assets/Buttons/Button3";
+import Button from "@/Assets/Buttons/button6";
+import Button3 from "@/Assets/Buttons/button7";
 import styles from "@/Components/AboutUs_flex/AboutUsFlex.module.css";
 const Page = () => {
+  const router = useRouter();
   const [ref1, inView1] = useInView({
     triggerOnce: true, // Only trigger once
   });
@@ -54,7 +56,8 @@ const Page = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className={styles.forth_content_button}
           >
-            <Button button_text="Read More" />
+            <Button button_text="Read More" 
+             />
           </motion.div>
         </div>
         <div className={styles.forth_Section_image}>

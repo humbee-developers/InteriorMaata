@@ -9,6 +9,7 @@ import AboutUs_Carousal from "@/Components/AboutUs_Carousal/page"
 import AboutUs_flex from "@/Components/AboutUs_flex/page"
 import AboutUsInfo from "@/Components/AboutUsInfo/page"
 import AboutUs_ourDesign from "@/Components/AboutUs_ourDesign/page"
+import AboutUsCrafting from "@/Components/AboutUs_Crafting/page"
 const page = () => {
   useEffect( () => {
     (
@@ -29,6 +30,7 @@ const page = () => {
       <AboutUs_flex/>
       <AboutUsInfo/>
       <AboutUs_ourDesign/>
+      <AboutUsCrafting />
     </Stairs>
     </div>
   )

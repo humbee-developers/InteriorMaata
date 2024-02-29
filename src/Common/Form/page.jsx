@@ -151,7 +151,7 @@ const Page = () => {
 
             <div className={styles.form_group}>
             <input
-                type="tel"
+                type="number"
                 className={styles.form_field}
                 placeholder="Phone No"
                 name="Phone"

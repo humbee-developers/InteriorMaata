@@ -73,43 +73,57 @@ const Footer = () => {
           {/* social media */}
           <div className={styles.footer_social_media}>
             <div className={styles.footer_Facebook}>
+            <Link href="https://www.facebook.com/interiormaata" target="_blank">
               <Image
                 className={styles.footer_icons}
                 src={facebook_logo}
                 alt="none"
               />
+              </Link>
               {/* <p to="https://www.youtube.com/">sasas</p> */}
             </div>
             <div className={styles.footer_insta}>
-              <Image
+              <Link href="https://www.instagram.com/interiormaata/" target="_blank">
+                <Image
                 className={styles.footer_icons}
                 src={Instagram_logo}
                 alt="none"
-              />
+              /> </Link>
+              {/* <Image
+                className={styles.footer_icons}
+                src={Instagram_logo}
+                alt="none"
+              /> */}
               {/* <p>sasas</p> */}
             </div>
             <div className={styles.footer_youtube}>
               {/* <p>sasas</p> */}
+              <Link href="" target="_blank">
               <Image
                 className={styles.footer_icons}
                 src={whatsapp_logo}
                 alt="none"
               />
+              </Link>
             </div>
             <div className={styles.footer_whatsapp}>
+            <Link href="https://www.youtube.com/c/interiormaata" target="_blank">
               <Image
                 className={styles.footer_icons}
                 src={youtube_logo}
                 alt="none"
               />
+              </Link>
               {/* <p>sasas</p> */}
             </div>
             <div className={styles.footer_linkedin}>
+            <Link href="https://www.linkedin.com/in/ananya-bhattacharjee-3a5383135/" target="_blank">
               <Image
                 className={styles.footer_icons}
                 src={linkedin_logo}
                 alt="none"
               />
+              </Link>
               {/* <p>sasas</p> */}
             </div>
           </div>

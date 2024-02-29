@@ -57,7 +57,7 @@
   padding-top: 3rem;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
 }
 .footer_Second {
   display: flex;
@@ -235,6 +235,9 @@
 @media (max-width: 1024px) {
   .footer_last_Section {
     font-size: 115px;
+  }
+  .Footer_Content{
+    padding-bottom: 7rem;
   }
 
   .footer_social_media {
