@@ -1,10 +1,50 @@
-import React from "react";
+import React , {useEffect} from "react";
+import { motion, useAnimation } from "framer-motion";
+import  HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation"
+import { useInView } from "react-intersection-observer";
 import styles from "@/Components/HowWeWorkHeader/howWeWork.module.css"
 const Work = () => {
+
+
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
+
+
+
   return (
     <div className={styles.work_container}>
       <div className={styles.work_title}>
-        <p className={styles.work_text}>WE CAN MAKE YOUR DREAM COME TRUE</p>
+        <p className={styles.work_text}>
+        <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        transition={{ duration: 0.9 }}
+         >
+        <HeadingTextAnimation
+          heading={"WE CAN MAKE YOUR"}
+          justifyContent={"center"}
+        
+        />
+        <HeadingTextAnimation
+          heading={"DREAM COME TRUE"}
+          justifyContent={"center"}
+       
+        />
+        
+        </motion.div>
+        </p>
       </div>
       <div className={styles.work_title1}>
         <p className={styles.work_text1}>

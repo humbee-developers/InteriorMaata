@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useEffect } from "react";
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
@@ -12,7 +12,7 @@ import styles from "@/Components/ServicesFlex/servicesFlex.module.css";
 
 const Services_section = () => {
   const [ref1, inView1] = useInView({
-    triggerOnce: true, // Only trigger once
+    triggerOnce: false, // Only trigger once
   });
 
   const [ref2, inView2] = useInView({
@@ -48,7 +48,6 @@ const Services_section = () => {
     <>
       <motion.div
         className={styles.services_second_section_container}
-        ref={ref1}
       >
         <div className={styles.Services_second_Content}>
           <div className={styles.Services_second_Content_image}>
@@ -59,7 +58,7 @@ const Services_section = () => {
           </div>
           {/* content */}
           <div className={styles.Services_second_Content_inner}>
-            <motion.div
+            <motion.div  ref={ref1}
               initial="hidden"
               animate={inView1 ? "visible" : "hidden"}
               transition={{ duration: 0.1 , delay:0 }}

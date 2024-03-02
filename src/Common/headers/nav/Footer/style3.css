@@ -5,7 +5,6 @@
   align-items: center;
   color: #ffffff;
   font-family: "NeueMontreal-Regular";
-  
 }
 .ul {
   width: 100%;
@@ -14,7 +13,6 @@
   display: flex;
   gap: 2rem;
   list-style-type: none;
-  /* padding: 0 10px; */
 }
 .footer_link1{
 text-align: end;
@@ -33,13 +31,22 @@ text-align: end;
 
 @media (min-width: 1600px) and (max-width: 1920px) {
 
-}
-/* @media only screen and (min-width: 1000px) {
-  .footer_navbar {
-    justify-content: space-between;
 
-  }
   .ul {
-    width: auto;
+    width: 100%;
+    margin-top: 2rem;
+    overflow: hidden;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
   }
-} */
+
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .footer_navbar {
+    font-size: 12px;
+    margin-top: 3rem;
+  }
+}

@@ -109,7 +109,7 @@
   padding: 0.7rem 2rem 0.7rem 2rem;
 }
 
-@media(min-width:1600px){
+@media(min-width:1600px) and (max-width:1920px){
   .Services_Header_Outer {
     display: flex;
     padding-top: 8rem;

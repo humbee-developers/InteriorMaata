@@ -9,7 +9,6 @@
   font-size: 120.669px;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 2.413px;
   text-transform: uppercase;
   margin: 0 auto 1rem;
 }
@@ -25,8 +24,8 @@
 }
 .marquee_section {
   padding: 0 6rem;
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 .marquee_imageSection {
   margin: 0 0.5rem;
@@ -96,7 +95,6 @@
     font-size: 140.669px;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 2.413px;
     text-transform: uppercase;
     margin: 0 auto 1rem;
   }
@@ -142,7 +140,6 @@
     font-size: 120.669px;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 2.413px;
     text-transform: uppercase;
     margin: 0 auto 1rem;
   }
@@ -411,7 +408,6 @@
  
   .teamPage_content1 {
     font-size: 34px;
-    letter-spacing: 0.68px;
     width: 85%;
     margin: 0 auto 1rem;
   }
@@ -474,7 +470,6 @@
 @media screen and (max-width: 320px) {
   .teamPage_content1 {
     font-size: 32px;
-    letter-spacing: 0.68px;
     width: 85%;
     margin: 0 auto 1rem;
   }

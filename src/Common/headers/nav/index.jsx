@@ -1,52 +1,43 @@
 "use client"
-import "./style.css";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { height } from '../anim';
 import Body from './Body';
 import Footer from './Footer';
-import Image from './Image';
+import "./style.css";
 
 const links = [
   {
     title: "HOME",
     href: "/Home",
-    src: "home.png"
   },
   {
-    title: "AboutUs",
+    title: "About Us",
     href: "/AboutUs",
-    src: "shop.png"
   },
   {
     title: "Online Consultancy",
     href: "/Consultancy",
-    src: "home.png"
   },
   {
     title: "PROJECTS",
     href: "/Projects",
-    src: "lookbook.png"
   },
   {
     title: "TEAM",
     href: "/Team",
-    src: "contact.png"
   },
   {
     title: "HOW WE WORK",
     href: "/HowWeWork",
-    src: "contact.png"
   },
   {
     title: "SERVICES",
     href: "/Services",
-    src: "contact.png"
   },
   {
     title: "CONTACT",
     href: "/ContactUs",
-    src: "contact.png"
   }
 
 ]
@@ -62,7 +53,7 @@ export default function Index() {
           <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
           <Footer />
         </div>
-        <Image src={links[selectedLink.index].src} isActive={selectedLink.isActive}/>
+    
       </div>
     </motion.div>
   )

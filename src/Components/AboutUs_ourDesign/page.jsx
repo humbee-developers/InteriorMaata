@@ -1,5 +1,8 @@
-import React from "react";
+import React , {useEffect} from "react";
 import Image from "next/image";
+import { motion, useAnimation } from "framer-motion";
+import  HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation"
+import { useInView } from "react-intersection-observer";
 import styles from "@/Components/AboutUs_ourDesign/aboutUs_ourDesign.module.css";
 import Emphasis_logo from "@/svgs/emphasis1.svg";
 import Variety_logo from "@/svgs/variety1.svg";
@@ -8,13 +11,52 @@ import Functionality_logo from "@/svgs/functionality1.svg";
 import Materiality_logo from "@/svgs/materiality1.svg";
 
 function Seventh_Section() {
+
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
+
+
   return (
       <div className={styles.ourDesign_outer}>
         <div className={styles.seventh_Section_container}>
           <p className={styles.seventh_Section_content_text}>
-            Our 
-            design 
-            Approach
+
+          <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        transition={{ duration: 0.9 }}
+         >
+        <HeadingTextAnimation
+          heading={"Our "}
+          
+          justifyContent={"left"}
+        
+        />
+        <HeadingTextAnimation
+          heading={"design "}
+          
+          justifyContent={"left"}
+       
+        />
+        <HeadingTextAnimation
+          heading={"Approach "}
+          
+          justifyContent={" left"}
+        
+        />
+        </motion.div>
           </p>
           <p className={styles.seventh_Section_content_text1}>
             We have an integrated process for
