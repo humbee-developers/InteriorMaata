@@ -134,7 +134,10 @@
     max-width: 100%;
     height: auto;
   }
-  
+  .First_project_layout_image2_inner
+  {
+    width: 50%;
+  }
   @media (min-width:1500px){
     .first_project_text_header{
       font-size: 130px;
@@ -161,9 +164,9 @@
     .interior_material_specs_content{
       width: 45%;
     }
-    .First_project_layout_image2{
+    /* .First_project_layout_image2{
       gap: 7rem;
-    }
+    } */
     .first_project_text_firstcontent {
       width: 35%;
       float: right;
@@ -197,7 +200,7 @@
       align-items: center;
     }
     .first_project_layout_outer{
-      padding-top: 5rem;
+      padding-top: 10rem;
     }
     .first_project_text_header{
       font-size: 80px;
@@ -269,7 +272,7 @@
       font-size: 43px;
     }
     .first_project_layout_outer{
-      padding-top: 2rem;
+      padding-top: 10rem;
     }
     .first_project_text_firstcontent{
       padding-left: 3rem;
@@ -282,6 +285,10 @@
     .First_project_layout_image2{
       flex-direction: column;
       gap: 0rem;
+    }
+    .First_project_layout_image2_inner
+    {
+      width: 100%;
     }
     .interior_material_outer{
       padding-left: 3rem;
