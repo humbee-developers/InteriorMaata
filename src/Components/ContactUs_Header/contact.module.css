@@ -3,8 +3,8 @@
   }
   .Contact_us_overlay {
     position: absolute;
-    top: 47%;
-    left: 18%;
+    top: 40%;
+    left: 20%;
     transform: translate(-50%, -50%);
   }
   .Contact_us_overlay_text {
@@ -22,4 +22,24 @@
       display: block;
       height: 100vh;
   }
+
+
+
+  @media (min-width: 320px) and (max-width: 500px) {
+    .Contact_us_overlay_text {
+      font-size: 22px;
+    }
+    .Contact_Us_img{
+      width: 100%;
+      display: block;
+      height: auto;
+  }
+  .Contact_us_overlay {
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+  }
+  }
+  
   

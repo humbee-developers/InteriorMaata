@@ -1,11 +1,13 @@
 .headerMain {
   display: flex;
+  position:absolute;
+  z-index: 1;
   align-items: center;
-  padding: 40px;
+  padding: 40px 0 0 40px;
 }
 .header_sec {
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
   box-sizing: border-box;
   padding: 15px;
   font-family: Roseritta;
@@ -29,11 +31,13 @@
   display: flex;
   align-items: center;
   color: #7F7047;
+  cursor: pointer;
   text-transform: uppercase;
   gap: 1rem;
 }
 .interiormaata {
   font-size: 20px;
+  color:white;
   font-family: "NeueMontreal-Regular";
   transition: all 0.5s;
 }
@@ -157,5 +161,15 @@
   }
   .new_header_el {
     right: 20px;
+  }
+}
+
+@media(min-width:320px) and (max-width:500px){
+  .headerMain {
+    display: flex;
+    position:absolute;
+    z-index: 1;
+    align-items: center;
+    padding: 25px 0px 0px 25px;
   }
 }

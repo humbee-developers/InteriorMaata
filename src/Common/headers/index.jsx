@@ -1,11 +1,14 @@
 "use client";
-import "./style1.css";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { AnimatePresence } from "framer-motion";
 import NavSection from "./nav/index";
 import nav_logo from "@/svgs/logo.svg";
+import "./style1.css";
+
 export default function NewNav() {
+  const router = useRouter();
   const [isActive, setIsActive] = useState(false);
   const [toggle, setToggle] = useState(false);
   const handleNavLink = () => {
@@ -19,8 +22,10 @@ export default function NewNav() {
     <div className="headerMain">
       <div
         className={`nav_logo_outer`}
+        onClick={() => router.push("/")}
       >
         <Image
+       
           src={nav_logo}
           alt="Description of the image"
           className="nav_logo"
