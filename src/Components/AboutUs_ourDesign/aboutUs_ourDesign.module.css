@@ -49,7 +49,8 @@
 }
 
 .ourDesign_icons {
-  width: 10%;
+  /* width: 10%; */
+  height: auto;
   display: block;
 }
 .table_content::before {
@@ -163,7 +164,10 @@
     text-align: center;
   }
   .seventh_Section_content_text {
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-align: center;
     padding-bottom: 2rem;
   }
@@ -193,13 +197,16 @@
   }
 
   .seventh_Section_content_text {
-    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding-bottom: 2rem;
   }
-  .ourDesign_icons {
+  /* .ourDesign_icons {
     width: 20%;
-  }
+  } */
 }
 
 @media screen and (max-width: 425px) {
@@ -212,7 +219,7 @@
     padding-bottom: 1rem;
   }
   .table_Section {
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .seventh_Section_content_text {
     font-size: 50px;
@@ -240,6 +247,6 @@
   }
 
   .table_Section {
-    padding: 0 5px;
+    padding: 0 15px;
   }
 }
