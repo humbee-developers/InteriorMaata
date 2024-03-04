@@ -1,6 +1,7 @@
 'use client'
 import styles from "@/Components/AboutUsInfo/AboutUsInfo.module.css"
 import { motion } from 'framer-motion';
+import Image from "next/image";
 import { useState } from 'react';
 
 const anim = {
@@ -18,7 +19,7 @@ export default function index({project}) {
         <div onMouseEnter={() => {setIsActive(true)}} onMouseLeave={() => {setIsActive(false)}} className={styles.project}>
             <p>{title1}</p>
             <motion.div variants={anim} animate={isActive ? "open" : "closed"} className={styles.imgContainer}>
-                <img src={`/medias/${src}`}></img>
+                <Image className={styles.testingImage} alt="image" src={src}/>
             </motion.div>
             <p>{title2}</p>
         </div>
