@@ -1,7 +1,7 @@
-
 .aboutUsHeader {
   padding-top: 2rem;
   padding-bottom: 6rem;
+  margin: 8rem 0 0;
 }
 
 .ananya {
@@ -9,7 +9,7 @@
   font-family: Roseritta;
   font-size: 120.669px;
   font-style: normal;
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
@@ -20,9 +20,10 @@
 
 .aboutUs_flex_divider {
   display: flex;
-  width: 41%;
+  width: 60rem;
   gap: 2rem;
-  margin: 0px 38rem;
+  margin: 0 auto;
+  padding-left: 20rem;
 }
 
 .aboutUs_buttonOuter {
@@ -43,6 +44,7 @@
   text-transform: capitalize;
 }
 
+
 @media screen and (max-width: 1024px) {
   .ananya {
     font-size: 80px;
@@ -50,16 +52,16 @@
     padding-bottom: 1.5rem;
     width: 100%;
   }
-  
 
   .aboutUs_flex_divider {
     width: 100%;
-    flex-direction: column; 
+    flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    padding: 0;
   }
 
-  .aboutUs_banner_text_outer{
+  .aboutUs_banner_text_outer {
     margin: 0 auto;
     width: 52%;
   }
@@ -69,29 +71,48 @@
     /* line-height: 18px;  */
   }
 }
-
-@media screen and (max-width: 425px) {
-  .ananya{
-    font-size: 54px;
-    line-height: 38px;
-  }
-  .aboutUs_banner_text_outer{
-    width: 88%;
-  }
-  .aboutUs_flex_divider{
-    gap: 1.3rem;
-  }
-  .aboutUsHeader{
-    padding-bottom: 1rem;
+@media(max-width:575px){
+  .ananya {
+    font-size: 60px;
+    line-height: 48px;
+    padding-bottom: 1.5rem;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .ananya{
+@media screen and (max-width: 425px) {
+  .ananya {
+    font-size: 54px;
+    line-height: 38px;
+  }
+  .aboutUs_banner_text_outer {
+    width: 88%;
+  }
+  .aboutUs_flex_divider {
+    gap: 1.3rem;
+  }
+  .aboutUsHeader {
+    padding-bottom: 1rem;
+  }
+}
+@media(max-width:375px){
+  .ananya {
     font-size: 45px;
     line-height: 32px;
+    padding: 0 0 20px;
   }
-  .aboutUs_banner_text_outer{
+  .aboutUs_banner_image img{
+    max-width: 100%;
+    object-fit: cover;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ananya {
+    font-size: 40px;
+    line-height: 32px;
+  }
+  .aboutUs_banner_text_outer {
     width: 95%;
   }
 }
