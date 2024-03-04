@@ -11,8 +11,8 @@ import img3 from "@/svgs/Team_image2.svg";
 import img7 from "@/images/Team_image7.png";
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TeamsPage/teamsPage.module.css";
-// import Card from '@/Components/TeamsPage/Card_stack'
 import "./imx.css";
+
 const TeamPage = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
