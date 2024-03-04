@@ -1,5 +1,7 @@
-import React from "react";
+"use client"
+import React , {useEffect} from 'react'
 import Image from "next/image";
+import Stairs from "@/Animations/Stairs"
 // import Stairs from "@/Animations/Stairs"
 import Single_project_image1 from "@/images/single_project_img1.png";
 import Single_project_image2 from "@/images/single_project_img2.png";
@@ -14,8 +16,17 @@ import Interior_last_room from "@/images/Interior_last_room.png";
 import Interior_last_room_Svg from "@/svgs/Interior_Lastroom.svg";
 import styles from "@/app/Single_Project_Layout/Single_project.module.css";
 const Project_Header = () => {
+
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
+
+
   return(
-    // <Stairs>
+    <Stairs>
     <div className={styles.First_project_layout_header}>
       <div className={styles.first_project_layout_outer}>
         <div className={styles.first_project_layout_content}>
@@ -156,7 +167,7 @@ const Project_Header = () => {
         </div>
       </div>
     </div>
-  //  </Stairs>
+   </Stairs>
 )};
 
 export default Project_Header;
