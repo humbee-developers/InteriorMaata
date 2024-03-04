@@ -1,6 +1,6 @@
 .Services_Header_Outer {
   display: flex;
-  padding-top: 4rem;
+  padding-top: 8rem;
   justify-content: center;
   align-items: stretch;
   gap: 8rem;
@@ -112,7 +112,7 @@
 @media(min-width:1600px) and (max-width:1920px){
   .Services_Header_Outer {
     display: flex;
-    padding-top: 8rem;
+    padding-top: 15rem;
     justify-content: center;
     align-items: stretch;
     gap: 8rem;
@@ -145,7 +145,7 @@
   .Services_Header_Outer{
     flex-direction: column;
     gap: 2rem;
-    padding-top: 1rem;
+    padding-top: 9rem;
     padding-bottom: 1rem;
   }
   .Services_header_price_range{
