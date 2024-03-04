@@ -199,7 +199,7 @@
   .seventh_Section_content_text {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding-bottom: 2rem;
@@ -209,9 +209,9 @@
   } */
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .seventh_Section_container {
-    padding: 0rem 1rem 2rem 1rem;
+    padding: 0rem 2rem 2rem 2rem;
   }
   .table_content {
     /* padding: 1rem 1rem; */
