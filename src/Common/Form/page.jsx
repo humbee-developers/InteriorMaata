@@ -91,7 +91,7 @@ const Page = () => {
                 <div style={{ visibility: "hidden" }}>&nbsp;</div>
               )}
             </div>
-            <div className={styles.form_group}>
+            {/* <div className={styles.form_group}>
               <input
                 type="text"
                 className={styles.form_field}
@@ -103,22 +103,13 @@ const Page = () => {
               <label for="LastName" className={styles.form_label}>
                 Last Name
               </label>
-              {/* <TextField
-                id="outlined-basic"
-                label="Last Name"
-                variant="outlined"
-                type="text"
-                name="LastName"
-                onChange={handleChange}
-                value={values.LastName}
-              /> */}
               {touched.LastName && errors.LastName && (
                 <div className={styles.error}>{errors.LastName}</div>
               )}
               {!touched.LastName && !errors.LastName && (
                 <div style={{ visibility: "hidden" }}>&nbsp;</div>
               )}
-            </div>
+            </div> */}
 
             <div className={styles.form_group}>
             <input
