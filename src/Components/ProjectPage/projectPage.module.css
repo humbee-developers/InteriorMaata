@@ -46,6 +46,9 @@
       background-color: beige;
       width: 100%;
       height: auto;
+      aspect-ratio: 4 / 2;
+      object-fit: cover;
+  
       cursor: pointer;
     }
     
