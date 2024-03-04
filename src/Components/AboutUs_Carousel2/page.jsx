@@ -9,6 +9,8 @@ import PrevArrow from "@/Components/AboutUs_Carousel2/Arrows/PrevArrow";
 import NextArrow from "@/Components/AboutUs_Carousel2/Arrows/NextArrow";
 import "@/Components/AboutUs_Carousel2/Inbuilt.css";
 
+
+
 const imagesData = [
   {
     id: 1,
