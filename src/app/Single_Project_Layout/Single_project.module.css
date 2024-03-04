@@ -37,6 +37,7 @@
   }
   .Single_project_image1 {
     width: 100%;
+    object-fit: cover;
     padding-bottom: 2rem;
   }
   .First_project_layout_image2 {
