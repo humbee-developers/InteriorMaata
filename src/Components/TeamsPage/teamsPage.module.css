@@ -1,5 +1,6 @@
 .TeamPage_Section {
   padding: 0 4rem;
+  padding-top: 10rem;
 }
 .teamPage_content1 {
   width: 93%;
@@ -147,6 +148,7 @@
 
   .TeamPage_Section {
     padding: 0 3rem;
+    padding-top: 10rem;
   }
 
   .teamPage_content1 {
@@ -216,6 +218,7 @@
 @media screen and (max-width: 991px) {
   .TeamPage_Section {
     padding: 0 2rem;
+    padding-top: 10rem;
   }
 
   .teamPage_content1 {
@@ -280,6 +283,7 @@
 @media screen and (max-width: 768px) {
   .TeamPage_Section {
     padding: 0 1.5rem;
+    padding-top: 10rem;
   }
 
   .teamPage_content1 {
@@ -342,6 +346,7 @@
 @media screen and (max-width: 575px) {
   .TeamPage_Section {
     padding: 0 1.5rem;
+    padding-top: 10rem;
   }
 
   .teamPage_content1 {
@@ -381,7 +386,7 @@
     justify-content: center;
   }
   .teamPage_content4_Text {
-    width: 55%;
+    width: 70%;
     font-size: 11px;
   }
   .teamPage_content4_Text p {
@@ -404,6 +409,7 @@
 @media screen and (max-width: 425px) {
   .TeamPage_Section {
     padding: 0;
+    padding-top: 10rem;
   }
  
   .teamPage_content1 {
