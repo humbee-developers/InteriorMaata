@@ -2,9 +2,9 @@
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
-import img1 from "@/images/furniture_layout_img1.png"
-import img2 from "@/images/furniture_layout_img2.png"
-import img3 from "@/images/furniture_layout_img3.png"
+import img1 from "@/images/consultancy1.png"
+import img2 from "@/images/consultancy2.png"
+import img3 from "@/images/consultancy3.png"
 import styles from "@/Components/ConsultancyTab/consultancyTab.module.css"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomizedAccordions from "./Accordian"
