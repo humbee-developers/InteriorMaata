@@ -1,5 +1,6 @@
 .onlineConsultancy{
-  margin: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .onlineConsultancy_Innersection {
@@ -393,6 +394,10 @@
 
 /* -----------------------------768px--------------------------------- */
 @media (max-width: 768px) {
+  .onlineConsultancy{
+    padding-top: 6rem;
+    padding-bottom: 0rem;
+  }
   .onlineConsultancy_Innersection {
     display: none;
     /* background-color: #D4D4D4; */
@@ -402,5 +407,13 @@
     display: block;
     padding: 2rem 4rem;
     background-color: #d4d4d4;
+  }
+}
+
+
+@media(min-width:320px) and (max-width:500px){
+  .onlineConsultancy{
+    padding-top: 6rem;
+    padding-bottom: 0rem;
   }
 }
