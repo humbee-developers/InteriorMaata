@@ -20,14 +20,14 @@ const CustomizedAccordions = () => {
         },
         {
             id: 'panel2',
-            heading: '15 Rs / Sqft',
+            heading: '75 Rs / Sqft',
             title: '2D layout + 3D Design',
             text: 'Virtual Design for your entire home, Our team of excellent designers and architects will help you design your home. ',
             bgcolor: "#7F7047", textcolor: "white",
         },
         {
             id: 'panel3',
-            heading: '15 Rs / Sqft',
+            heading: '105 Rs / Sqft',
             title: 'A to Z Design',
             text: 'Our team of talented designers will create a 3d + 2d (Autocad ) + Working design concept to help you design your Home. Save up to 20% of your total Interior cost. ',
             bgcolor: "#FFF", textcolor: "black",

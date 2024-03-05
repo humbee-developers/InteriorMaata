@@ -57,7 +57,7 @@
 }
 
 .button-48 span {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .button2 span {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
 }
 
@@ -202,7 +202,7 @@
 }
 
 .button3 span {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
 }
 
@@ -278,7 +278,7 @@
 }
 
 .button4 span {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
 }
 
@@ -356,7 +356,7 @@
 }
 
 .button5 span {
-  z-index: 1;
+  /* z-index: 1; */
   position: relative;
 }
 
