@@ -25,7 +25,7 @@ const Work = () => {
   return (
     <div className={styles.work_container}>
       <div className={styles.work_title}>
-        <p className={styles.work_text}>
+        <div className={styles.work_text}>
         <motion.div
         ref={ref}
         initial="hidden"
@@ -44,7 +44,7 @@ const Work = () => {
         />
         
         </motion.div>
-        </p>
+        </div>
       </div>
       <div className={styles.work_title1}>
         <p className={styles.work_text1}>

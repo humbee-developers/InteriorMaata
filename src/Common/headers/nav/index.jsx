@@ -9,7 +9,7 @@ import "./style.css";
 const links = [
   {
     title: "HOME",
-    href: "/Home",
+    href: "/",
   },
   {
     title: "About Us",
