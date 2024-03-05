@@ -2,6 +2,7 @@
 import React , {useEffect} from 'react'
 import Stairs from "@/Animations/Stairs"
 import HomeBanner from "@/Components/Home_page_Banner/page"
+
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -9,6 +10,8 @@ const Page = () => {
       const locomotiveScroll = new LocomotiveScroll();
     })();
   }, []);
+  
+  
  
   return (
     <div>

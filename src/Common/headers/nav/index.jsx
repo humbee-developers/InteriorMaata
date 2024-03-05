@@ -9,7 +9,7 @@ import "./style.css";
 const links = [
   {
     title: "HOME",
-    href: "/Home",
+    href: "/",
   },
   {
     title: "About Us",
@@ -42,7 +42,7 @@ const links = [
 
 ]
 
-export default function Index() {
+export default function Index({navLinkHandler}) {
 
   const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
 
@@ -50,7 +50,7 @@ export default function Index() {
     <motion.div variants={height} initial="initial" animate="enter" exit="exit" className="nav">
       <div className="wrapper">
         <div className="container">
-          <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
+          <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink} handleNavLink={navLinkHandler} />
           <Footer />
         </div>
     
