@@ -1,5 +1,5 @@
 .aboutUsHeader {
-  padding-top: 12rem;
+  padding-top: 6rem;
   padding-bottom: 8rem;
 
 }
@@ -7,13 +7,13 @@
 .ananya {
   color: #7f7047;
   font-family: Roseritta;
-  font-size: 120.669px;
+  font-size: 100px;
   font-style: normal;
   width: 90%;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
-  line-height: 120px;
+  line-height: 100px;
   text-transform: uppercase;
 }
 

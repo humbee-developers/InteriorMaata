@@ -1,5 +1,8 @@
 "use client";
-import { React } from "react";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
+import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import Link from "next/link";
 import facebook_logo from "@/svgs/facebook.svg";
@@ -11,6 +14,18 @@ import ScrollToTop from "react-scroll-to-top";
 import styles from "@/Common/Footer/Footer.module.css";
 import "./Scroll_To_Top.css";
 const Footer = () => {
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
     <div>
       <div className={styles.Footer_Section}>
@@ -122,7 +137,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className={styles.footer_last_Section}>interiormaata</p>
+        <div className={styles.footer_last_Section}>
+        
+        <motion.div
+              ref={ref}
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              transition={{ duration: 0.9 }}
+            >
+              <HeadingTextAnimation
+                heading={"interiormaata"}
+                // justifyContent={"left"}
+              />
+            </motion.div>
+
+        </div>
       </div>
       <div>
         <ScrollToTop smooth color="black" />

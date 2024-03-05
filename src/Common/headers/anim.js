@@ -47,7 +47,7 @@ export const blur = {
   },
   open: {
     filter: "blur(4px)",
-    opacity: 0.6,
+    opacity: 0.5,
     transition: { duration: 0.3 },
   },
   closed: {
