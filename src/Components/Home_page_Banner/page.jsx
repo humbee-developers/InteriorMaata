@@ -26,7 +26,7 @@ const Page = () => {
           className={styles.Contact_Us_img}
         />
         <div className={styles.Contact_us_overlay}>
-          <p className={styles.Contact_us_overlay_text}>
+          <div className={styles.Contact_us_overlay_text}>
             <motion.div
               ref={ref}
               initial="hidden"
@@ -47,7 +47,7 @@ const Page = () => {
                 justifyContent={"left"}
               />
             </motion.div>
-          </p>
+          </div>
         </div>
       </div>
     </>

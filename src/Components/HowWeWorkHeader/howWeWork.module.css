@@ -1,7 +1,7 @@
 .work_container {
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 8rem;
+  padding-top: 10rem;
   padding-bottom: 8rem;
 }
 .work_title {
@@ -40,11 +40,14 @@
   .work_title1 {
     width: 50%;
   }
-
+  .work_text {
+    font-size: 140px;
+  }
   .work_text1 {
     font-size: 16px;
   }
   .work_container {
+    padding-top: 14rem;
     padding-bottom: 13.5rem;
   }
 }

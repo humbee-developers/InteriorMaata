@@ -47,7 +47,7 @@ const Project_Header = () => {
       <div className={styles.First_project_layout_header}>
         <div className={styles.first_project_layout_outer}>
           <div className={styles.first_project_layout_content}>
-            <p className={styles.first_project_text_header}>
+            <div className={styles.first_project_text_header}>
               <motion.div
                 ref={ref}
                 initial="hidden"
@@ -63,7 +63,7 @@ const Project_Header = () => {
                   justifyContent={"center"}
                 />
               </motion.div>
-            </p>
+            </div>
           </div>
           <div className={styles.first_project_text_firstcontent}>
             <p className={styles.first_project_text_content}>
