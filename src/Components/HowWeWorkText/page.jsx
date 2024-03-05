@@ -24,7 +24,7 @@ const Page = () => {
   return (
     <div className={styles.happy_container}>
       <div className={styles.happy_title}>
-        <p className={styles.happy_text}>
+        <div className={styles.happy_text}>
         <motion.div
         ref={ref}
         initial="hidden"
@@ -37,7 +37,7 @@ const Page = () => {
           heading={"HAPPY YOU , HAPPY US."}
           justifyContent={"center"}/>
         </motion.div>
-        </p>
+        </div>
       </div>
     </div>
   );

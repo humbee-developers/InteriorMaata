@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import styles from "@/Components/Marquee/Marquee.module.css"
+import "./marquee.css"
 const Marquee1 = () => (
     <>
         <Marquee direction="right" speed={70} >

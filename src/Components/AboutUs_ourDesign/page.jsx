@@ -30,7 +30,7 @@ function Seventh_Section() {
   return (
       <div className={styles.ourDesign_outer}>
         <div className={styles.seventh_Section_container}>
-          <p className={styles.seventh_Section_content_text}>
+          <div className={styles.seventh_Section_content_text}>
 
           <motion.div
         ref={ref}
@@ -57,7 +57,7 @@ function Seventh_Section() {
         
         />
         </motion.div>
-          </p>
+          </div>
           <p className={styles.seventh_Section_content_text1}>
             We have an integrated process for
             <br />

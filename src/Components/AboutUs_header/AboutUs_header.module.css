@@ -1,7 +1,7 @@
 .aboutUsHeader {
-  padding-top: 2rem;
-  padding-bottom: 6rem;
-  margin: 8rem 0 0;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+
 }
 
 .ananya {
@@ -14,7 +14,6 @@
   text-align: center;
   font-weight: 400;
   line-height: 120px;
-  /* letter-spacing: 2.413px; */
   text-transform: uppercase;
 }
 
@@ -43,7 +42,18 @@
   line-height: 19px;
   text-transform: capitalize;
 }
-
+@media(min-width:1600px) and (max-width:1920px){
+  .ananya {
+    font-size: 140.669px;
+    width: 90%;
+    line-height: 140px;
+  }
+  .aboutUsHeader {
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+  
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .ananya {
