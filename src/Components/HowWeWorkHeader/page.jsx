@@ -5,8 +5,6 @@ import { useInView } from "react-intersection-observer";
 import styles from "@/Components/HowWeWorkHeader/howWeWork.module.css"
 const Work = () => {
 
-
-
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
@@ -35,12 +33,10 @@ const Work = () => {
         <HeadingTextAnimation
           heading={"WE CAN MAKE YOUR"}
           justifyContent={"center"}
-        
         />
         <HeadingTextAnimation
           heading={"DREAM COME TRUE"}
           justifyContent={"center"}
-       
         />
         
         </motion.div>
