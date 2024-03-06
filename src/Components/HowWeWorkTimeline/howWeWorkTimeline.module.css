@@ -82,21 +82,7 @@
 .linesvg {
   max-width: 100%;
 }
-/* .border_top::before{
-  position: absolute;
-  content: "";
-  top: 50%;
-  width: 50%;
-  left: 50%;
-  background-color: red;
-  
-}
-.border_top{
-  position: relative;
-  border-top: 0.5px grey;
-  border-style: dashed;
-  width: 500px;
-} */
+
 .border_top {
   width: 666px;
   height: 84px;
@@ -157,11 +143,7 @@
 .border_top_max{
   display: none;
 }
-/* @keyframes dash {
-  to {
-    stroke-dashoffset: 2000;
-  }
-} */
+
 @media (min-width: 1600px) and (max-width:1920px) {
   .timeline_container {
     padding-left: 20rem;
@@ -170,20 +152,32 @@
   .timline1_meet_text_content {
     width: 100%;
   }
-  /* .timline1_meet_text_inner {
-    width: 65%;
+
+  .timline1_meet_text {
+    font-size: 68px;
   }
-  .timline1_meet_text_inner2 {
-    width: 80%;
-  } */
+
   .timeline1_innertext {
     padding-top: 1rem;
-    width: 65%;
+    width: 87%;
   }
   .timeline1_innertext2 {
     padding-top: 1rem;
     width: 85%;
   }
+
+
+  .timeline1_innertext4 {
+    padding-top: 1rem;
+    width: 96%;
+  }
+  .timeline1_innertext5 {
+    padding-top: 1rem;
+    width: 85%;
+  }
+
+
+
 }
 @media (max-width: 1024px) and (min-width: 767px) {
   .timeline_container {
