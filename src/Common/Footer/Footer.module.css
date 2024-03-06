@@ -17,10 +17,10 @@
   bottom: 0;
   content: "";
   display: block;
-  height: 1.5px;
+  height: 1.2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #CC7D45;
   transition: width 0.4s ease 0s, left 0.4s ease 0s;
   width: 0;
 }
@@ -39,10 +39,10 @@
   bottom: 0;
   content: "";
   display: block;
-  height: 1.5px;
+  height: 1.2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background:#CC7D45;
   transition: width 0.4s ease 0s, left 0.4s ease 0s;
   width: 0;
 }
@@ -160,7 +160,7 @@
 
 @media (min-width: 1600px) and (max-width: 1920px) {
   .footer_last_Section {
-    color: #fff;
+    /* color: #fff; */
     font-family: "NeueMontreal-Regular";
     font-size: 231px;
     font-style: normal;
@@ -183,7 +183,6 @@
     padding-bottom: 0.5rem;
     letter-spacing: 0.27px;
     text-transform: capitalize;
-    border-bottom: 1px solid white;
   }
 }
 
