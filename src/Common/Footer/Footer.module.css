@@ -1,7 +1,7 @@
 .Footer_Section {
-  background-color: black;
+  background-color: white;
   color: white;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -51,11 +51,11 @@
   left: 0;
 }
 .Footer_Content {
-  border-top: 1px solid white;
+  /* border-top: 1px solid rgb(170, 86, 86); */
   padding-top: 3rem;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 .footer_Second {
   display: flex;
@@ -64,7 +64,7 @@
   margin-right: 1rem;
 }
 .phone_no {
-  color: #fff;
+  color: #CC7D45;
   font-family: "NeueMontreal-Regular";
   font-size: 35.075px;
   font-style: normal;
@@ -89,7 +89,7 @@
 }
 
 .footer_address {
-  color: #c0c2aa;
+  color: #7F7047;
   opacity: 0.8;
   font-family: "NeueMontreal-Light";
   font-size: 35.075px;
@@ -112,7 +112,7 @@
 .footer_home,
 .footer_Search {
   padding-top: 0.7rem;
-  color: #c0c2aa;
+  color:#7F7047;
   font-family: "NeueMontreal-Light";
   font-size: 20px;
   font-style: normal;
@@ -124,7 +124,7 @@
 .footer_copyright {
   display: flex;
   justify-content: space-between;
-  color: #9d9d9d;
+  color:#9D9D9D;
   font-family: "NeueMontreal-Light";
   font-size: 18px;
   font-style: normal;
@@ -134,10 +134,10 @@
   padding-bottom: 0.5rem;
   letter-spacing: 0.27px;
   text-transform: capitalize;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #7F7047;
 }
 .footer_last_Section {
-  color: #fff;
+  color:#494949;
   font-family: "NeueMontreal-Regular";
   font-size: 181px;
   font-style: normal;
