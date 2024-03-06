@@ -115,11 +115,37 @@
 
 
 }
+ @media (min-width: 1025px) and (max-width:1344px) 
+{
+  .Residential_image
+  {
+    width: 550px ;
+  }
+  .services_second_section_container
+  {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+} 
+@media (min-width: 768px) and (max-width:1025px) 
+{
+  .Residential_image
+  {
 
-@media (max-width: 768px) {
+  }
+  .services_second_section_container
+  {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+} 
+
+
+
+@media (max-width:768px) {
   .services_second_section_container {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .Services_second_Content {
@@ -141,6 +167,8 @@
     height: auto;
   }
 }
+
+
 
 @media(min-width:321px) and (max-width: 500px) {
   .Services_Content_residential,
