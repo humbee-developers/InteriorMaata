@@ -77,7 +77,7 @@
     width: 12vw;
   }
   .main {
-    height: 70vh;
+    height: 92vh;
   }
   .gallery {
     width: 100%;
@@ -113,7 +113,7 @@
     width: 11vw;
   }
   .main {
-    height: 35vh;
+    height:42vh;
   }
 }
 
@@ -129,7 +129,7 @@
     width: 11vw;
   }
   .main {
-    height: 35vh;
+    height:42vh;
   }
 }
 @media (max-width: 375px) {
@@ -145,7 +145,7 @@
     width: 8vw;
   }
   .main {
-    height: 30vh;
+    height: 40vh;
   }
 }
 @media (max-width: 320px) {
