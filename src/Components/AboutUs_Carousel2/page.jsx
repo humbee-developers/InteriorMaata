@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import styles from "@/Components/AboutUs_Carousel2/AboutUS_Carousel2.module.css";
 import Image from "next/image";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import img7 from "@/images/flow.png"; // Make sure this import is correct
 import PrevArrow from "@/Components/AboutUs_Carousel2/Arrows/PrevArrow";
 import NextArrow from "@/Components/AboutUs_Carousel2/Arrows/NextArrow";
 import "@/Components/AboutUs_Carousel2/Inbuilt.css";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import styles from "@/Components/AboutUs_Carousel2/AboutUS_Carousel2.module.css";
 
 
 
