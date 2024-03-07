@@ -12,7 +12,8 @@
   color: #7f7047;
   text-align: center;
   font-family: Roseritta;
-  font-size: 120.669px;
+  font-size:8vw ;
+  /* font-size: 120.669px; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -27,7 +28,7 @@
 .work_text1 {
   color: #000;
   text-align: center;
-  font-family: Neue Montreal;
+  font-family: 'NeueMontreal-Regular';
   font-size: 15.616px;
   font-style: normal;
   font-weight: 400;
@@ -41,7 +42,7 @@
     width: 50%;
   }
   .work_text {
-    font-size: 140px;
+    font-size:8vw ;
   }
   .work_text1 {
     font-size: 16px;
@@ -51,20 +52,22 @@
     padding-bottom: 13.5rem;
   }
 }
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .work_text {
     font-size: 110px;
   }
-}
+} */
 @media (max-width: 768px) {
-  .work_text {
+  /* .work_text {
     font-size: 70px;
-  }
+  } */
   .work_title1 {
     width: 100%;
   }
   .work_container {
-    padding-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
   }
 }
@@ -72,12 +75,12 @@
   .work_container {
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2rem;
+    padding-top: 10rem;
     padding-bottom: 2rem;
   }
-  .work_text {
+  /* .work_text {
     font-size: 40px;
-  }
+  } */
   .work_title1 {
     padding-bottom: 0rem;
   }

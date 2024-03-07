@@ -19,12 +19,12 @@ export const height = {
   enter: {
     height: "100vh",
     transition,
-    background: "#CC7D45",
+    background: "#AE7B56",
   },
   exit: {
     height: 0,
     transition,
-    background: "#CC7D45",
+    background: "#AE7B56",
   },
 };
 export const background = {

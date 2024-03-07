@@ -14,6 +14,7 @@
   width: fit-content;
   display: flex;
   flex-direction: column;
+  z-index: 2;
   position: absolute;
   cursor: pointer;
   top: 50%;
@@ -21,7 +22,7 @@
 }
 
 .PrevArrowText {
-  font-family: "NeueMontreal-Regular";
+  font-family: 'NeueMontreal-Regular';
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;

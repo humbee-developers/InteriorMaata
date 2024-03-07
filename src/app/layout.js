@@ -1,12 +1,11 @@
 // import { Inter } from 'next/font/google'
 "use client";
-import "./globals.css";
-
 import Form from "@/Common/Form/page";
 import Headers from "@/Common/headers/index";
 import Footer from "@/Common/Footer/page";
 // const inter = Inter({ subsets: ['latin'] })
 import { usePathname } from "next/navigation";
+import "./globals.css";
 
 // export const metadata = {
 //   title: "Interiormaata",
@@ -21,12 +20,8 @@ export default function RootLayout({ children }) {
       <body>
         <Headers />
         {children}
-        {(location != "/") && (
-          <>
             <Form />
             <Footer />
-          </>
-        )}
       </body>
     </html>
   );
