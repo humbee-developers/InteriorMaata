@@ -3,19 +3,13 @@
   padding-right: 10rem;
   padding-bottom: 10rem;
 }
-.timeline_Section {
-  /* display: flex; */
-}
+
 .timeline_content1 {
   display: flex;
   justify-content: left;
   gap: 3rem;
 }
-.timeline_img_section {
-  /* width: 25%; */
-  /* display: flex;
-  justify-content: center; */
-}
+
 .timeline_content2 {
   display: flex;
   justify-content: end;
@@ -67,7 +61,7 @@
 .timline1_meet_text_inner,
 .timline1_meet_text_inner2 {
   color: #000;
-  font-family: Neue Montreal;
+  font-family: 'NeueMontreal-Regular';
   font-size: 15.616px;
   font-style: normal;
   font-weight: 400;

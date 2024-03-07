@@ -145,7 +145,6 @@
   
     .first_project_text_header{
       font-size:8vw ;
-      /* font-size: 130px; */
     }
     .first_project_text_firstcontent{
       width: 28%;
@@ -239,7 +238,6 @@
       width: 66%;
       color: #7f7047;
       font-family: Roseritta;
-      /* font-size: 42px; */
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -280,9 +278,6 @@
     .first_project_layout_outer{
       padding-top: 10rem;
     }
-    .first_project_text_header{
-      /* font-size: 80px; */
-    }
     .first_project_text_firstcontent{
       margin-right: 4rem;
       width: 52%;
@@ -297,7 +292,6 @@
     }
     .Interior_second_text_content_first{
       width: 100%;
-      /* font-size: 52px; */
     }
     .Interior_second_text_content{
       padding-left: 3rem;
@@ -343,7 +337,6 @@
       width: 80%;
       color: #7f7047;
       font-family: Roseritta;
-      /* font-size: 26px; */
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -362,11 +355,7 @@
       padding-bottom: 0rem;
     }
     .Interior_second_text_content_first{
-      /* font-size: 23px; */
       width:100%
-    }
-    .first_project_text_header{
-      /* font-size: 43px; */
     }
     .first_project_layout_outer{
       padding-top: 10rem;
@@ -426,9 +415,6 @@
     .Single_project_image1{
       padding-bottom: 1rem;
     }
-    .first_project_text_header{
-      /* font-size: 28px; */
-    }
     .first_project_text_firstcontent{
       padding-left: 2rem;
       padding-right: 2rem;
@@ -448,9 +434,6 @@
       padding-bottom: 0rem;
       padding-left: 2rem;
       padding-right: 2rem;
-    }
-    .Interior_second_text_content_first{
-      /* font-size: 20px; */
     }
     .first_project_text_content{
       font-size: 13px;
