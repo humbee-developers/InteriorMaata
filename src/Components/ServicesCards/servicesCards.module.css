@@ -131,9 +131,9 @@
 
 @media screen and (max-width: 992px) {
   .Services_Header_Outer {
-    gap: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    gap: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 

@@ -204,7 +204,7 @@ const Services_section = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className={styles.Services_second_Content_image}>
             <Image
               src={Commercial_Interior_Design}
               className={styles.Residential_image}

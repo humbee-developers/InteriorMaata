@@ -23,7 +23,7 @@
 .Services_Content_residential {
   color: #cc7d45;
   font-family: Roseritta;
-  font-size: 58px;
+  font-size:3.78vw;
   width: 82%;
   font-style: normal;
   font-weight: 400;
@@ -72,7 +72,7 @@
   .Services_Content_residential_desc {
     padding-top: 0.5rem;
     color: #000;
-    width: 70%;
+    width: 100%;
     font-family: "NeueMontreal-Regular";
     font-size: 15.616px;
     font-style: normal;
@@ -83,7 +83,7 @@
   .Services_Content_residential {
     color: #cc7d45;
     font-family: Roseritta;
-    font-size: 80px;
+    font-size:5.2vw;
     width: 100%;
     font-style: normal;
     font-weight: 400;
@@ -115,7 +115,7 @@
 
 
 }
- @media (min-width: 1025px) and (max-width:1344px) 
+ @media (min-width: 1200px) and (max-width:1344px) 
 {
   .Residential_image
   {
@@ -127,22 +127,20 @@
     padding-right: 7rem;
   }
 } 
-@media (min-width: 768px) and (max-width:1025px) 
-{
+@media (min-width: 1024px) and (max-width:1200px)  {
   .Residential_image
   {
-
+    width: 500px ;
   }
   .services_second_section_container
   {
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 } 
 
 
-
-@media (max-width:768px) {
+@media (max-width:1024px) {
   .services_second_section_container {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -160,14 +158,31 @@
 
   .Services_Content_residential,
   .Services_Content_residential_desc {
-    width: 70%;
+    width: 100%;
+  
+  }
+  
+  .Services_Content_residential
+  {
+    font-size: 6vw;
   }
   .Residential_image {
-    max-width: 100%;
-    height: auto;
+  width: 100%;
+   object-fit: cover;
+  }
+  .Services_second_Content_image
+  {
+    width: 100%;
   }
 }
-
+@media (max-width:768px)
+{
+  .Residential_image
+  {
+    height: auto;
+    max-width: 100%;
+  }
+}
 
 
 @media(min-width:321px) and (max-width: 500px) {
@@ -179,17 +194,13 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .Services_Content_residential{
-    font-size: 40px;
-  }
+ 
   .Services_Content_list_inner{
     padding-bottom: 1rem;
   }
 }
 @media(max-width:320px){
-  .Services_Content_residential{
-    font-size: 36px;
-  }
+ 
 
   .Services_Content_residential,
   .Services_Content_residential_desc {
