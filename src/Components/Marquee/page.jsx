@@ -7,7 +7,7 @@ const Marquee1 = () => (
         <Marquee direction="right" speed={70} >
             <div className={styles.main_marquee}>
                 <div className={styles.marquee_text}>
-                  <p>  interior moodboard - interior moodboard - interior moodboard - </p>
+                  <p>interior moodboard - interior moodboard - interior moodboard - </p>
                 </div>
             </div>
         </Marquee>
@@ -15,9 +15,9 @@ const Marquee1 = () => (
         <Marquee direction="left" speed={70} >
             <div>
                 <div className={styles.marquee_text}>
-                    interior moodboard - interior moodboard - interior moodboard -
+                  <p> interior moodboard - interior moodboard - interior moodboard - </p>
                 </div>
-            </div>
+            </div> 
         </Marquee>
     </>
 );
