@@ -11,10 +11,10 @@ const links = [
     title: "HOME",
     href: "/",
   },
-  {
-    title: "About Us",
-    href: "/AboutUs",
-  },
+  // {
+  //   title: "About Us",
+  //   href: "/AboutUs",
+  // },
   {
     title: "Online Consultancy",
     href: "/Consultancy",
@@ -38,6 +38,10 @@ const links = [
   {
     title: "CONTACT",
     href: "/ContactUs",
+  },
+  {
+    title: "SHOP",
+    href: "/Shop",
   }
 
 ]

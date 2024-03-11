@@ -93,8 +93,22 @@
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+@media (max-width:1200px)
+{
+  .landing_page_second_images
+  {
+    gap:2rem
+  }
+}
+@media (max-width:990px)
+{
+  .landing_page_second_images
+  {
+    gap:1rem
+  }
+}
 
-@media (max-width:768px){
+@media (max-width:850px){
   .landing_page_second_content_text{
     font-size: 4.5vw;
     padding-left: 2rem;
