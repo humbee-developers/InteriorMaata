@@ -5,7 +5,8 @@ import HowWeWorkHeader from "@/Components/HowWeWorkHeader/page";
 import HowWeWorkTimeline from "@/Components/HowWeWorkTimeline/page";
 import HowWeWorkText from "@/Components/HowWeWorkText/page";
 import ServicesCards from "@/Components/ServicesCards/page";
-import ServicesFlex from "@/Components/ServicesFlex/page";
+import Services_Slider from "@/Components/Service_Slider/page";
+// import ServicesFlex from "@/Components/ServicesFlex/page";
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -19,7 +20,8 @@ const Page = () => {
         <HowWeWorkHeader />
         <HowWeWorkTimeline />
         <ServicesCards />
-        <ServicesFlex />
+        {/* <ServicesFlex /> */}
+        <Services_Slider/>
         <HowWeWorkText />
       </Stairs>
     </div>
