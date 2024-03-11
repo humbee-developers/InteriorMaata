@@ -152,7 +152,7 @@
     }
     .Services_second_Content_inner {
       display: block;
-      order: 2;
+      /* order: 2; */
       max-width: 100%;
     }
   
