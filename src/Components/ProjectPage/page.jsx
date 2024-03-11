@@ -48,7 +48,7 @@ const Projects = () => {
                         <Image src={StarSvg} alt='star' className={`${styles.svg} ${projectName === 1 && styles.active}`} />
                         </div>
                         <div className={`${styles.tabItem} ${projectName === 2 && styles.active}`} onClick={() => handleClick(2)}>RESTAURANTS
-                        <Image src={StarSvg} alt='star' className={`${styles.svg} ${projectName === 2 && styles.active}`} />
+                        {/* <Image src={StarSvg} alt='star' className={`${styles.svg} ${projectName === 2 && styles.active}`} /> */}
                         </div>
                     </div>
 
