@@ -20,15 +20,6 @@ const page = () => {
   return (
     <div>
       <Stairs>
-        <AboutUs_header />
-        <AboutUs_threeCards />
-        <Marquee />
-        <AboutUs_Carousel2 />
-        {/* <AboutUs_Carousal/> */}
-        <AboutUs_flex />
-        <AboutUsInfo />
-        <AboutUs_ourDesign />
-        <AboutUsCrafting />
       </Stairs>
     </div>
   );
