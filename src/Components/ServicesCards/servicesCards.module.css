@@ -1,6 +1,6 @@
 .Services_Header_Outer {
   display: flex;
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   justify-content: center;
   align-items: stretch;
   gap: 8rem;
@@ -112,7 +112,7 @@
 @media (min-width: 1600px) and (max-width: 1920px) {
   .Services_Header_Outer {
     display: flex;
-    padding-top: 15rem;
+    /* padding-top: 15rem; */
     justify-content: center;
     align-items: stretch;
     gap: 8rem;
