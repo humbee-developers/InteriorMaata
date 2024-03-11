@@ -23,7 +23,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <a href="">FACEBOOK</a>
+                    <a href="">YOUTUBE</a>
                     
                 </motion.li>
             </ul>
