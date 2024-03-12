@@ -25,6 +25,18 @@
       line-height: normal;
       text-transform: uppercase;
     }
+    @media screen and (min-width: 1500px) {
+      .Consultancy_Banner {
+        max-width: 100%;
+        height: 100vh;
+      }
+    }
+    @media screen and (max-width: 1400px) {
+      .Consultancy_Banner {
+        max-width: 100%;
+        height: auto;
+      }
+    }
     @media screen and (max-width: 1024px) {
       .Consultancy_Banner {
         max-width: 100%;
