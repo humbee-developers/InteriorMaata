@@ -71,7 +71,7 @@
     padding-bottom: 5rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .work_container {
     padding-left: 2rem;
     padding-right: 2rem;
