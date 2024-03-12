@@ -103,9 +103,15 @@
   }
 }
 
+<<<<<<<<< Temporary merge branch 1
+@media (max-width: 850px) {
+  .landing_page_second_content_text {
+    font-size: 4.5vw;
+=========
 @media (max-width:850px){
   .landing_page_second_content_text{
-    font-size: 4.5vw;
+    font-size: 4.9vw;
+>>>>>>>>> Temporary merge branch 2
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -162,8 +168,14 @@
   }
 }
 
-@media (max-width:320px){
-  .landing_page_second_content_text{
+<<<<<<<<< Temporary merge branch 1
+@media (max-width: 320px) {
+  .landing_page_second_content_text {
     /* font-size: 15px; */
+=========
+@media (max-width:310px){
+  .landing_page_second_content_text{
+    font-size:4.7vw;
+>>>>>>>>> Temporary merge branch 2
   }
 }
