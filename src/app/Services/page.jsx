@@ -2,8 +2,8 @@
 import React, { useEffect } from "react";
 import Stairs from "@/Animations/Stairs"
 import ServicesCards from "@/Components/ServicesCards/page";
-// import ServicesFlex from "@/Components/ServicesFlex/page";
-import Slider from "@/Components/Service_Slider/page"
+import Slider from "@/Components/Project_Slider/page"
+import ServicesFlex from "@/Components/ServicesFlex/page";
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -16,10 +16,8 @@ const Page = () => {
     <div>
 
     <Stairs>
-    
       <ServicesCards />
-      <Slider />
-      {/* <ServicesFlex /> */}
+      <ServicesFlex />
       </Stairs>
     </div>
   );

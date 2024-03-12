@@ -250,4 +250,12 @@
   .timline1_meet_text {
     font-size: 28px;
   }
+  .timeline_content1,
+  .timeline_content2 {
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-bottom: 2rem; */
+    /* flex-direction: column; */
+  }
 }

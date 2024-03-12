@@ -31,19 +31,22 @@ const links = [
     title: "HOW WE WORK",
     href: "/HowWeWork",
   },
+  // {
+  //   title: "SERVICES",
+  //   href: "/Services",
+  // },
+
   {
-    title: "SERVICES",
-    href: "/Services",
+    title: "SHOP",
+    href: "/Shop",
   },
+
+
   {
     title: "CONTACT",
     href: "/ContactUs",
   },
-  {
-    title: "SHOP",
-    href: "/Shop",
-  }
-
+ 
 ]
 
 export default function Index({navLinkHandler}) {

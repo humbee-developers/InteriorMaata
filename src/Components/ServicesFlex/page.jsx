@@ -9,8 +9,6 @@ import Commercial_Interior_Design from "@/images/Commercial_Interior_Design.png"
 import Office_Interior_Design from "@/images/Office_Interior_Design.png";
 import Services_interior_svg from "@/svgs/Services_svg.svg";
 import styles from "@/Components/ServicesFlex/servicesFlex.module.css";
-import { SwiperSlide } from "swiper/react";
-
 
 const Services_section = () => {
   const [ref1, inView1] = useInView({
@@ -48,7 +46,6 @@ const Services_section = () => {
 
   return (
     <>
-        <SwiperSlide>
       <motion.div
         className={styles.services_second_section_container}
       >
@@ -298,7 +295,6 @@ const Services_section = () => {
           {/* content ends */}
         </motion.div>
       </motion.div>
-      </SwiperSlide>
     </>
   );
 };

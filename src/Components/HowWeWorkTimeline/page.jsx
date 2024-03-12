@@ -15,9 +15,13 @@ import timeline_img5 from "@/images/final_Reveal_img.png";
 // import border_line2 from "@/svgs/responsive_line.svg";
 import styles from "@/Components/HowWeWorkTimeline/howWeWorkTimeline.module.css";
 // import { gsap, Power3, Expo } from "gsap/all";
+import AOS from "aos";
+import "aos/dist/aos.css";
 gsap.registerPlugin(ScrollTrigger);
 
 const Timeline = () => {
+
+
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -55,11 +59,19 @@ const Timeline = () => {
   }, [controls, inView]);
 
 
+  useEffect(() => {
+    AOS.init({
+      easing: 'ease-out-quad',
+      duration: 1000,
+    });
+  },[])
+
+
   return (
     <div className={styles.timeline_container}>
       <div className={styles.timeline_Section}>
         <div className={styles.timeline_content1}>
-          <div className={styles.timeline_img_section}>
+          <div data-aos="zoom-in-up" className={styles.timeline_img_section}>
             <Image
               src={timeline_img1}
               alt="none"
@@ -100,7 +112,7 @@ const Timeline = () => {
         </div>
 
         <div className={styles.timeline_content2}>
-          <div className={styles.timeline_img_section}>
+          <div data-aos="zoom-in-up" className={styles.timeline_img_section}>
             <Image
               src={timeline_img2}
               alt="none"
@@ -147,7 +159,7 @@ const Timeline = () => {
         </div>
 
         <div className={styles.timeline_content1}>
-          <div className={styles.timeline_img_section}>
+          <div data-aos="zoom-in-up" className={styles.timeline_img_section}>
             <Image
               src={timeline_img3}
               alt="none"
@@ -194,7 +206,7 @@ const Timeline = () => {
         </div>
 
         <div className={styles.timeline_content2}>
-          <div className={styles.timeline_img_section}>
+          <div data-aos="zoom-in-up" className={styles.timeline_img_section}>
             <Image
               src={timeline_img4}
               alt="none"
@@ -241,7 +253,7 @@ const Timeline = () => {
         </div>
 
         <div className={styles.timeline_content1}>
-          <div className={styles.timeline_img_section}>
+          <div data-aos="zoom-in-up" className={styles.timeline_img_section}>
             <Image
               src={timeline_img5}
               alt="none"
