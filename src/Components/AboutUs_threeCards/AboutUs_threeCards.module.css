@@ -103,9 +103,10 @@
   }
 }
 
-@media (max-width: 850px) {
-  .landing_page_second_content_text {
-    font-size: 4.5vw;
+
+@media (max-width:850px){
+  .landing_page_second_content_text{
+    font-size: 4.9vw;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -153,5 +154,12 @@
 @media (max-width: 425px) {
   .landing_page_second_images {
     padding-bottom: 0rem;
+  }
+}
+
+
+@media (max-width:310px){
+  .landing_page_second_content_text{
+    font-size:4.7vw;
   }
 }
