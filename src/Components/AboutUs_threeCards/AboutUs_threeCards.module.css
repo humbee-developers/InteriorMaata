@@ -155,15 +155,3 @@
     padding-bottom: 0rem;
   }
 }
-
-@media (max-width: 375px) {
-  .landing_page_second_content_text {
-    /* font-size: 19px; */
-  }
-}
-
-@media (max-width: 320px) {
-  .landing_page_second_content_text {
-    /* font-size: 15px; */
-  }
-}
