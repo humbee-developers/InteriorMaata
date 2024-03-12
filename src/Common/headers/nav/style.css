@@ -41,9 +41,9 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media(max-width: 500px) {
   .wrapper{
-    padding: 6rem 2rem 0rem;
+    padding: 6rem 1.7rem 0rem;
    
   }
 }
