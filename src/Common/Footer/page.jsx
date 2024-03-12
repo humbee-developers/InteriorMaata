@@ -44,7 +44,7 @@ const Footer = () => {
                 <Link href="/Home">Home</Link>
               </li>
               <li className={styles.footer_Search}>
-                <Link href="/AboutUs">About Us</Link>
+                <Link href="/Team">Team</Link>
               </li>
               <li className={styles.footer_home}>
                 <Link href="/Consultancy">Online Consultancy</Link>
@@ -54,14 +54,14 @@ const Footer = () => {
               </li>
             </ul>
             <ul className={styles.footerUl}>
-              <li className={styles.footer_home}>
+              {/* <li className={styles.footer_home}>
                 <Link href="/Team">Team</Link>
-              </li>
+              </li> */}
               <li className={styles.footer_Search}>
                 <Link href="/HowWeWork">How we work</Link>
               </li>
               <li className={styles.footer_home}>
-                <Link href="/Services">Services</Link>
+                <Link href="/Shop">Shop</Link>
               </li>
               <li className={styles.footer_Search}>
                 <Link href="/ContactUs">Contact</Link>

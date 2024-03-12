@@ -377,6 +377,16 @@
 
 
 
+@media (max-width:768px){
+  .button3{
+    padding: 18px 18px;
+    font-size: 15px;
+  }
+  .button2{
+    padding: 18px 18px;
+    font-size: 15px;
+  }
+}
 @media (max-width:425px){
   .button3{
     padding: 13px 16px;

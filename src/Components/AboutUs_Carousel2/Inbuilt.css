@@ -11,6 +11,11 @@
   max-width: 100%;
 } */
 
+.image{
+  height:100%;
+  width:80%
+}
+
 .slick-list {
   height:100vh
 }
@@ -34,7 +39,12 @@
   color: rgba(204, 125, 69, 0.642);
   transform: scale(2.4);
 }
-
+@media(min-width:1600px) and (max-width:1920px){
+  .image{
+    height:100%;
+    width:100%
+  }
+}
 @media screen and (max-width: 1440px) {
   .slick-slide img {
     max-width: 100%;

@@ -39,7 +39,7 @@ export default function Body({
           alt="Description of the image"
           className="navOpenLogo_img"
         />
-        <span className="interiormaata_openMenu_Text">interiormaata</span>
+        {/* <span className="interiormaata_openMenu_Text">interiormaata</span> */}
       </div>
       {links.map((link, index) => {
         const { title, href } = link;
