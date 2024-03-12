@@ -110,7 +110,7 @@
 
 @media (max-width:850px){
   .landing_page_second_content_text{
-    font-size: 4.5vw;
+    font-size: 4.9vw;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -136,9 +136,9 @@
   }
 }
 
-@media (max-width:320px){
+@media (max-width:310px){
   .landing_page_second_content_text{
-    /* font-size: 15px; */
+    font-size:4.7vw;
   }
   
 }
