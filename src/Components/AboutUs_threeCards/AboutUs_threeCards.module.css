@@ -51,27 +51,26 @@
   transition: all 0.5s;
 }
 .Landing_image2 {
-    position: relative;
-  }
-  
-  .Landing_image2:hover {
-    display: block;
-    background-image: url(../../images//AboutUs_Architectural\ _image.png);
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-  }
+  position: relative;
+}
 
-  .Landing_image3 {
-    position: relative;
-  }
-  
-  .Landing_image3:hover {
-    display: block;
-    background-image: url(../../images//AboutUs_Quality_image.png);
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-  }
+.Landing_image2:hover {
+  display: block;
+  background-image: url(../../images//AboutUs_Architectural\ _image.png);
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+}
 
+.Landing_image3 {
+  position: relative;
+}
+
+.Landing_image3:hover {
+  display: block;
+  background-image: url(../../images//AboutUs_Quality_image.png);
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+}
 
 .overlay_text_content {
   color: #000;
@@ -93,52 +92,66 @@
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-@media (max-width:1200px)
-{
-  .landing_page_second_images
-  {
-    gap:2rem
+@media (max-width: 1200px) {
+  .landing_page_second_images {
+    gap: 2rem;
   }
 }
-@media (max-width:990px)
-{
-  .landing_page_second_images
-  {
-    gap:1rem
+@media (max-width: 990px) {
+  .landing_page_second_images {
+    gap: 1rem;
   }
 }
 
-@media (max-width:850px){
-  .landing_page_second_content_text{
-    font-size: 4.9vw;
+@media (max-width: 850px) {
+  .landing_page_second_content_text {
+    font-size: 4.5vw;
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .landing_page_second_images{
+  .landing_page_second_images {
     flex-direction: column;
     gap: 1rem;
     padding-top: 3rem;
   }
 }
-
-@media (max-width:425px){
-  .landing_page_second_content_text{
-    /* font-size: 22px; */
+@media (max-width: 500px) {
+  .Landing_image1 {
+    position: relative;
+    background-image: url(../../images//AboutUs_Quality_image.png);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
   }
-  .landing_page_second_images{
+
+  .Landing_image1:hover {
+    display: none;
+  }
+  .Landing_image2 {
+    position: relative;
+    background-image: url(../../images//AboutUs_Architectural\ _image.png);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+  }
+
+  .Landing_image2:hover {
+    display: none;
+  }
+
+  .Landing_image3 {
+    position: relative;
+    background-image: url(../../images//AboutUs_Quality_image.png);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+  }
+
+  .Landing_image3:hover {
+    display: none;
+   
+  }
+}
+
+@media (max-width: 425px) {
+  .landing_page_second_images {
     padding-bottom: 0rem;
   }
-}
-
-@media (max-width:375px){
-  .landing_page_second_content_text{
-    /* font-size: 19px; */
-  }
-}
-
-@media (max-width:310px){
-  .landing_page_second_content_text{
-    font-size:4.7vw;
-  }
-  
 }

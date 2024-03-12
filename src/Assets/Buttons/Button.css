@@ -234,6 +234,7 @@
   letter-spacing: 0;
   float: right;
   line-height: 1em;
+  border-radius: 5px                                                ;
   margin: 0;
   opacity: 1;
   outline: 0;
@@ -261,6 +262,7 @@
   left: 0;
   color: black;
   position: absolute;
+  border-radius: 5px;
   top: 0;
   transform: translateZ(0);
   transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
@@ -290,7 +292,11 @@
   color: rgb(0, 0, 0);
 }
 
-
+@media (max-width:500px){
+  .button4{
+    padding: 1.3rem 4rem;
+  }
+}
 
 
 
