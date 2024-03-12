@@ -53,6 +53,7 @@
   .interior_material_content {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
   }
   .interior_material_img {
     max-width: 100%;

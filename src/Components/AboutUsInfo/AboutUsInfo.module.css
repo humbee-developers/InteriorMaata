@@ -60,10 +60,14 @@
     margin: 0px;
   }
 }
-
+@media(max-width: 1300px) {
+  .project p {
+    font-size: 45px;
+  }
+}
 @media(min-width:1025px) and  (max-width: 1199px) {
   .project p {
-    font-size: 40px;
+    font-size: 39px;
   }
 }
 
@@ -119,7 +123,7 @@
 
 @media (max-width: 500px) {
   .project p {
-    font-size: 24px;
+    font-size: 23px;
   }
   .testingImage {
     width: 11vw;
@@ -132,7 +136,7 @@
     height:50vh;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .project p {
     font-size: 20px;
   }
@@ -142,10 +146,16 @@
     height: 5vh;
   }
   .project img {
-    width: 8vw;
+    width: 11vw;
+    height: 3vh;
   }
   .main {
     height: 40vh;
+  }
+}
+@media (max-width: 375px) {
+  .project p {
+    font-size: 18px;
   }
 }
 @media (max-width: 320px) {
