@@ -1086,7 +1086,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src1} alt="image" />
+                <Image className="image" src={slide1_src1} alt="image" />
               </motion.div>
               <motion.div
                 className={styles.image2}
@@ -1094,7 +1094,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src2} alt="image" />
+                <Image className="image" src={slide1_src2} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1103,7 +1103,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src3} alt="image" />
+                <Image className="image" src={slide1_src3} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1112,7 +1112,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src4} alt="image" />
+                <Image className="image" src={slide1_src4} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1121,7 +1121,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src5} alt="image" />
+                <Image className="image" src={slide1_src5} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1130,7 +1130,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src6} alt="image" />
+                <Image className="image" src={slide1_src6} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1139,7 +1139,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src7} alt="image" />
+                <Image className="image" src={slide1_src7} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1148,7 +1148,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src8} alt="image" />
+                <Image className="image" src={slide1_src8} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1157,7 +1157,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src9} alt="image" />
+                <Image className="image" src={slide1_src9} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1166,7 +1166,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src10} alt="image" />
+                <Image className="image" src={slide1_src10} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1175,7 +1175,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls1}
               >
-                <Image src={slide1_src11} alt="image" />
+                <Image className="image" src={slide1_src11} alt="image" />
               </motion.div>
             </div>
           </div>
@@ -1190,7 +1190,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src1} alt="image" />
+                <Image className="image" src={slide2_src1} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1199,7 +1199,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src2} alt="image" />
+                <Image className="image" src={slide2_src2} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1208,7 +1208,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src3} alt="image" />
+                <Image className="image" src={slide2_src3} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1217,7 +1217,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src4} alt="image" />
+                <Image className="image" src={slide2_src4} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1226,7 +1226,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src5} alt="image" />
+                <Image className="image" src={slide2_src5} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1235,7 +1235,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src6} alt="image" />
+                <Image className="image" src={slide2_src6} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1244,7 +1244,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src7} alt="image" />
+                <Image className="image" src={slide2_src7} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1253,7 +1253,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src8} alt="image" />
+                <Image className="image" src={slide2_src8} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1262,7 +1262,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src9} alt="image" />
+                <Image className="image" src={slide2_src9} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1271,7 +1271,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src10} alt="image" />
+                <Image className="image" src={slide2_src10} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1280,7 +1280,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls2}
               >
-                <Image src={slide2_src11} alt="image" />
+                <Image className="image" src={slide2_src11} alt="image" />
               </motion.div>
             </div>
           </div>
@@ -1295,7 +1295,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src1} alt="image" />
+                <Image className="image" src={slide3_src1} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1304,7 +1304,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src2} alt="image" />
+                <Image className="image" src={slide3_src2} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1313,7 +1313,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src3} alt="image" />
+                <Image className="image" src={slide3_src3} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1322,7 +1322,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src4} alt="image" />
+                <Image className="image" src={slide3_src4} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1331,7 +1331,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src5} alt="image" />
+                <Image className="image" src={slide3_src5} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1340,7 +1340,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src6} alt="image" />
+                <Image className="image" src={slide3_src6} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1349,7 +1349,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src7} alt="image" />
+                <Image className="image" src={slide3_src7} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1358,7 +1358,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src8} alt="image" />
+                <Image className="image" src={slide3_src8} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1367,7 +1367,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src9} alt="image" />
+                <Image className="image" src={slide3_src9} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1376,7 +1376,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src10} alt="image" />
+                <Image className="image" src={slide3_src10} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1385,7 +1385,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls3}
               >
-                <Image src={slide3_src11} alt="image" />
+                <Image className="image" src={slide3_src11} alt="image" />
               </motion.div>
 
             </div>
@@ -1401,7 +1401,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src1} alt="image" />
+                <Image className="image" src={slide4_src1} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1410,7 +1410,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src2} alt="image" />
+                <Image className="image" src={slide4_src2} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1419,7 +1419,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src3} alt="image" />
+                <Image className="image" src={slide4_src3} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1428,7 +1428,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src4} alt="image" />
+                <Image className="image" src={slide4_src4} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1437,7 +1437,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src5} alt="image" />
+                <Image className="image" src={slide4_src5} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1446,7 +1446,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src6} alt="image" />
+                <Image className="image" src={slide4_src6} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1455,7 +1455,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src7} alt="image" />
+                <Image className="image" src={slide4_src7} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1464,7 +1464,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src8} alt="image" />
+                <Image className="image" src={slide4_src8} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1473,7 +1473,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src9} alt="image" />
+                <Image className="image" src={slide4_src9} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1482,7 +1482,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src10} alt="image" />
+                <Image className="image" src={slide4_src10} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1491,7 +1491,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls4}
               >
-                <Image src={slide4_src11} alt="image" />
+                <Image className="image" src={slide4_src11} alt="image" />
               </motion.div>
 
             </div>
@@ -1509,7 +1509,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src1} alt="image" />
+                <Image className="image" src={slide5_src1} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1518,7 +1518,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src2} alt="image" />
+                <Image className="image" src={slide5_src2} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1527,7 +1527,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src3} alt="image" />
+                <Image className="image" src={slide5_src3} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1536,7 +1536,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src4} alt="image" />
+                <Image className="image" src={slide5_src4} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1545,7 +1545,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src5} alt="image" />
+                <Image className="image" src={slide5_src5} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1554,7 +1554,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src6} alt="image" />
+                <Image className="image" src={slide5_src6} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1563,7 +1563,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src7} alt="image" />
+                <Image className="image" src={slide5_src7} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1572,7 +1572,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src8} alt="image" />
+                <Image className="image" src={slide5_src8} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1581,7 +1581,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src9} alt="image" />
+                <Image className="image" src={slide5_src9} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1590,7 +1590,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src10} alt="image" />
+                <Image className="image" src={slide5_src10} alt="image" />
               </motion.div>
 
               <motion.div
@@ -1599,7 +1599,7 @@ const Page = () => {
                 initial="hidden"
                 animate={controls5}
               >
-                <Image src={slide5_src11} alt="image" />
+                <Image className="image" src={slide5_src11} alt="image" />
               </motion.div>
 
             </div>
