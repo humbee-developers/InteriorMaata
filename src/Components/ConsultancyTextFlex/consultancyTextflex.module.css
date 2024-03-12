@@ -79,6 +79,9 @@
     padding-left: 20rem;
     padding-right: 20rem;
   }
+  .Consultancy_page_second_content_text {
+    font-size: 3.4vw;
+  }
 }
 
 @media (max-width: 1440px) {

@@ -5,6 +5,7 @@
     .Consultancy_Banner {
       width: 100%;
       display: block;
+      object-fit: cover;
       height: 100vh;
     }
     .Online_consultancy_img {
