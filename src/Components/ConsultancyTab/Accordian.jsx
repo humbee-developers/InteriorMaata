@@ -30,7 +30,7 @@ const CustomizedAccordions = () => {
             heading: '105 Rs / Sqft',
             title: 'A to Z Design',
             text: 'Our team of talented designers will create a 3d + 2d (Autocad ) + Working design concept to help you design your Home. Save up to 20% of your total Interior cost. ',
-            bgcolor: "#FFF", textcolor: "black",
+            bgcolor: "#CC7D45", textcolor: "white",
         },
     ];
 

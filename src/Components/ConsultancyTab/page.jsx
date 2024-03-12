@@ -31,7 +31,7 @@ const onlineConsultancy = () => {
       title: 'A to Z Design',
       text: 'Our team of talented designers will create a 3d + 2d (Autocad ) + Working design concept to help you design your Home.Save up to 20% of your total Interior cost. ',
       imageUrl: img3,
-      Color: 'white', // Button 3 background color
+      Color: '#cc7d45', // Button 3 background color
 
     },
   ];
