@@ -63,7 +63,7 @@
   margin-bottom: 4rem;
   margin-top: 2rem;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .teamPage_content4_Text {
   width: 45%;
@@ -132,7 +132,7 @@
     margin-bottom: 4rem;
     margin-top: 3rem;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
 }
 
@@ -192,7 +192,7 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .teamPage_content4_Text {
     width: 40%;
@@ -260,7 +260,7 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .teamPage_content4_Text {
     width: 50%;

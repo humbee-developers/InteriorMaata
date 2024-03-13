@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
-import Stairs from "@/Animations/Stairs"
-import TeamsPage from '@/Components/TeamsPage/page'
+import Stairs from "@/Animations/Stairs";
+import TeamsPage from "@/Components/TeamsPage/page";
+// import TeamCard from '@/Components/teamCard/Page'
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -11,11 +12,12 @@ const Page = () => {
   }, []);
   return (
     <div>
-    <Stairs>
-      <TeamsPage/>
-    </Stairs>
+      <Stairs>
+        <TeamsPage />
+        {/* <TeamCard /> */}
+      </Stairs>
     </div>
-  )
-}
+  );
+};
 
-export default Page;                                        
+export default Page;
