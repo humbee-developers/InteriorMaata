@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Stairs from "@/Animations/Stairs";
-import TeamsPage from "@/Components/TeamsPage/page";
+import TeamsPage from "@/Components/TeamsPage/Page";
 const Page = () => {
   useEffect(() => {
     (async () => {
