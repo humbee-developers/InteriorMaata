@@ -13,7 +13,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <a href="https://www.instagram.com/interiormaata/"  target='_blank'>INSTAGRAM </a>
+                    <a href="https://www.instagram.com/interiormaata/"  target='_blank'>INSTAGRAM </a>  
                     
                 </motion.li>
 
