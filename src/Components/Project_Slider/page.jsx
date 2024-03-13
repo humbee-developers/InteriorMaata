@@ -28,6 +28,7 @@ export default function App() {
         <div className={styles.Carousel_Slider_container}>
           <Swiper
             className={styles.mySwiper}
+          
             modules={[FreeMode, Thumbs, Pagination, Autoplay]}
             slidesPerView={1}
             autoplay={{
@@ -36,10 +37,10 @@ export default function App() {
             // centeredSlides={true}
             loop={true}
             speed={1500}
-            thumbs={{
-              swiper:
-                thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
-            }}
+            // thumbs={{
+            //   swiper:
+            //     thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+            // }}
           >
             <SwiperSlide>
               <div className={styles.third_section_content}>
@@ -88,18 +89,20 @@ export default function App() {
       <div className={styles.abc}>
         <div className={styles.Carousel_Slider_container2}>
           <Swiper
+           modules={[ Thumbs, Pagination, Autoplay]}
             onSwiper={setThumbsSwiper}
             loop={true}
-            autoplay={true}
+            autoplay={{
+              delay: 2500,
+            }}
             slidesPerView={1}
             speed={1500}
             pagination={{
-              clickable: true,
               dynamicBullets: true,
             }}
-            watchSlidesProgress={false}
-            freeMode={true}
-            modules={[FreeMode, Thumbs]}
+            // watchSlidesProgress={false}
+            // freeMode={true}
+           
             className="mySwiper2"
           >
             <SwiperSlide>

@@ -4,11 +4,20 @@ import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
-import img1 from "@/svgs/Team_image1.svg";
-import img4 from "@/svgs/Team_image3.svg";
-import img2 from "@/svgs/Team_image4.svg";
-import img5 from "@/svgs/Team_image5.svg";
-import img3 from "@/svgs/Team_image2.svg";
+import img1 from "@/images/Teamslider1.png";
+import img2 from "@/images/Teamslider2.png";
+import img3 from "@/images/Teamslider3.png";
+import img4 from "@/images/Teamslider4.png";
+import img5 from "@/images/Teamslider5.png";
+import img6 from "@/images/Teamslider6.png";
+import img15 from "@/images/Teamslider7.png";
+import img8 from "@/images/Teamslider8.png";
+import img9 from "@/images/Teamslider9.png";
+import img10 from "@/images/Teamslider10.png";
+import img11 from "@/images/Teamslider11.png";
+import img12 from "@/images/Teamslider12.png";
+import img13 from "@/images/Teamslider13.png";
+
 import img7 from "@/images/Team_image7.png";
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TeamsPage/teamsPage.module.css";
@@ -38,7 +47,7 @@ const TeamPage = () => {
     }
   }, [controls, inView]);
 
-  const photos = [img1, img2, img3, img4, img5];
+  const photos = [img1, img2, img3, img4, img5, img6, img15, img8, img9, img10, img11, img12, img13];
   return (
     <>
       <div className={styles.TeamPage_Section}>
@@ -71,7 +80,7 @@ const TeamPage = () => {
                 key={`marquee-image-${index}`}
                 className={styles.marquee_imageSection}
               >
-                <Image src={photo} alt={`image`} />
+                <Image src={photo} alt={`image`} className={styles.slider_img}/>
               </div>
             ))}
           </Marquee>

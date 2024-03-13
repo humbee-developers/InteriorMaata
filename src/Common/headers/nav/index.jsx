@@ -11,10 +11,6 @@ const links = [
     title: "HOME",
     href: "/",
   },
-  // {
-  //   title: "About Us",
-  //   href: "/AboutUs",
-  // },
   {
     title: "Online Consultancy",
     href: "/Consultancy",
@@ -31,23 +27,16 @@ const links = [
     title: "HOW WE WORK",
     href: "/HowWeWork",
   },
-  // {
-  //   title: "SERVICES",
-  //   href: "/Services",
-  // },
-
   {
     title: "SHOP",
     href: "",
+    comingSoon: true, // Add this flag to indicate it's coming soon
   },
-
-
   {
     title: "CONTACT",
     href: "/ContactUs",
   },
- 
-]
+];
 
 export default function Index({navLinkHandler}) {
 
