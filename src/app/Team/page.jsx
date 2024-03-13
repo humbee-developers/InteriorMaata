@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Stairs from "@/Animations/Stairs"
 import TeamsPage from '@/Components/TeamsPage/page'
+import TeamCard from '@/Components/teamCard/Page'
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -13,6 +14,7 @@ const Page = () => {
     <div>
     <Stairs>
       <TeamsPage/>
+      {/* <TeamCard /> */}
     </Stairs>
     </div>
   )
