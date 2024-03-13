@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
@@ -22,7 +22,7 @@ import img7 from "@/images/Team_image7.png";
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TeamsPage/teamsPage.module.css";
 import "./imx.css";
-import TeamCard from "@/Components/teamCard/Page"
+import TeamCard from "@/Components/teamCard/Page";
 
 const TeamPage = () => {
   const [ref, inView] = useInView({
@@ -33,11 +33,9 @@ const TeamPage = () => {
     triggerOnce: true,
   });
 
-
   const [ref2, inView2] = useInView({
     triggerOnce: true,
   });
-
 
   const controls = useAnimation();
 
@@ -47,7 +45,21 @@ const TeamPage = () => {
     }
   }, [controls, inView]);
 
-  const photos = [img1, img2, img3, img4, img5, img6, img15, img8, img9, img10, img11, img12, img13];
+  const photos = [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img15,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+  ];
   return (
     <>
       <div className={styles.TeamPage_Section}>
@@ -80,14 +92,18 @@ const TeamPage = () => {
                 key={`marquee-image-${index}`}
                 className={styles.marquee_imageSection}
               >
-                <Image src={photo} alt={`image`} className={styles.slider_img}/>
+                <Image
+                  src={photo}
+                  alt={`image`}
+                  className={styles.slider_img}
+                />
               </div>
             ))}
           </Marquee>
         </div>
         <div className={styles.teamPage_content3}>
           <div className={styles.teamPage_content3_Text}>
-          <motion.div
+            <motion.div
               ref={ref1}
               initial="hidden"
               animate={inView1 ? "visible" : "hidden"}
@@ -101,12 +117,11 @@ const TeamPage = () => {
                 heading={"Excellence: Get To Know The Faces"}
                 justifyContent={"center"}
               />
-               <HeadingTextAnimation
+              <HeadingTextAnimation
                 heading={"Behind Our Success."}
                 justifyContent={"center"}
               />
             </motion.div>
-
           </div>
         </div>
         <div className={styles.teamPage_content4}>
@@ -127,11 +142,10 @@ const TeamPage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.card_stack_section}>
-        </div>
+        <div className={styles.card_stack_section}></div>
         <div className={styles.teamPage_content3}>
           <div className={styles.teamPage_content3_Text}>
-          <motion.div
+            <motion.div
               ref={ref2}
               initial="hidden"
               animate={inView2 ? "visible" : "hidden"}
@@ -146,7 +160,6 @@ const TeamPage = () => {
                 justifyContent={"center"}
               />
             </motion.div>
-
           </div>
         </div>
         <TeamCard />
