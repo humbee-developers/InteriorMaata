@@ -317,7 +317,6 @@
 
 .image47 {
   position: absolute;
-  position: absolute;
   left: 43%;
     top: 18rem;
 }
@@ -395,7 +394,6 @@
   }
   
   .image3 {
-    position: absolute;
     position: absolute;
     left: 43%;
     top: 24rem;
@@ -679,7 +677,6 @@
   
   .image45 {
     position: absolute;
-    position: absolute;
     left: 38%;
     top: 6rem;
     z-index: 1;
@@ -693,7 +690,6 @@
   }
   
   .image47 {
-    position: absolute;
     position: absolute;
     left: 43%;
     top: 24rem;
@@ -746,6 +742,80 @@
     position: absolute;
     left: 58%;
     top: 50rem;
+  }
+}
+
+@media(max-width:1440px){
+
+
+  .image12 {
+    position: absolute;
+    left: 38%;
+    top: 6rem;
+    z-index: 1;
+  }
+  
+  .image13 {
+    position: absolute;
+    left: 34.4%;
+    top: 29rem;
+    z-index: 2;
+  }
+  
+  .image14 {
+    position: absolute;
+    left: 43%;
+    top: 24rem;
+  }
+  
+  .image15 {
+    position: absolute;
+    left: 51%;
+    top: 3rem;
+  }
+  
+  .image16 {
+    position: absolute;
+    left: 38%;
+    top: 13rem;
+    z-index: 2;
+  }
+  
+  .image17 {
+    position: absolute;
+    left: 36%;
+    top: 25rem;
+  }
+
+
+  .image18 {
+    position: absolute;
+    left: 60%;
+    top: 28rem;
+  }
+  
+  .image19 {
+    position: absolute;
+    left: 60%;
+    top: 33rem;
+  }
+  
+  .image20 {
+    position: absolute;
+    left: 60%;
+    top: 38rem;
+  }
+  
+  .image21 {
+    position: absolute;
+    left: 60%;
+    top: 43rem;
+  }
+  
+  .image22 {
+    position: absolute;
+    left: 60%;
+    top: 48rem;
   }
 }
 
