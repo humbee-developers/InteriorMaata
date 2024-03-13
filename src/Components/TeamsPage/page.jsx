@@ -13,6 +13,7 @@ import img7 from "@/images/Team_image7.png";
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TeamsPage/teamsPage.module.css";
 import "./imx.css";
+import TeamCard from "@/Components/teamCard/Page"
 
 const TeamPage = () => {
   const [ref, inView] = useInView({
@@ -139,6 +140,7 @@ const TeamPage = () => {
 
           </div>
         </div>
+        <TeamCard />
         <div className={styles.teamPage_content4}>
           <div className={styles.teamPage_content4_Text}>
             <div>
