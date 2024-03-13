@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Stairs from "@/Animations/Stairs"
 import TeamsPage from '@/Components/TeamsPage/page'
-import TeamCard from '@/Components/teamCard/Page'
+// import TeamCard from '@/Components/teamCard/Page'
 const Page = () => {
   useEffect(() => {
     (async () => {
