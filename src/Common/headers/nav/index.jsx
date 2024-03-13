@@ -38,7 +38,7 @@ const links = [
 
   {
     title: "SHOP",
-    href: "/Shop",
+    href: "",
   },
 
 
@@ -59,8 +59,7 @@ export default function Index({navLinkHandler}) {
         <div className="container">
           <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink} handleNavLink={navLinkHandler} />
           <Footer />
-        </div>
-    
+        </div>  
       </div>
     </motion.div>
   )

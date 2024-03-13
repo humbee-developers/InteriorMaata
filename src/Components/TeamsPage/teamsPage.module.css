@@ -440,7 +440,7 @@
   .teamPage_content3_Text {
     width: 100%;
     padding: 0 1rem;
-    font-size: 20px;
+    font-size: 18px;
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -474,10 +474,10 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 324px) {
   .teamPage_content1 {
     font-size: 32px;
-    width: 85%;
+    width: 90%;
     margin: 0 auto 1rem;
   }
 
