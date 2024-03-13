@@ -10,10 +10,11 @@
 }
 
 .main {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 8rem auto;
 }
 
 .gallery {
@@ -49,7 +50,7 @@
   height: 9vh;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1450px) {
   .project img {
     width: 9vw;
   }
@@ -81,7 +82,8 @@
     width: 12vw;
   }
   .main {
-    height: 92vh;
+    height: auto;
+    margin: 6rem auto;
   }
   .gallery {
     width: 100%;
@@ -114,10 +116,12 @@
     height: 3vh;
   }
   .project img {
-    width: 11vw;
+    width: 10vw;
+    height: 6vh;
   }
   .main {
-    height:42vh;
+    height:auto;
+    margin: 5rem auto;
   }
 }
 
@@ -128,12 +132,14 @@
   .testingImage {
     width: 11vw;
     height: 3vh;
+  
   }
   .project img {
     width: 11vw;
   }
   .main {
-    height:50vh;
+    height:auto;
+    margin: 4rem auto;
   }
 }
 @media (max-width: 420px) {
@@ -150,7 +156,8 @@
     height: 3vh;
   }
   .main {
-    height: 40vh;
+    height:auto;
+    margin: 4rem auto;
   }
 }
 @media (max-width: 375px) {
@@ -160,10 +167,21 @@
 }
 @media (max-width: 320px) {
   .project p {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .project img {
-    width: 8vw;
+    width: 11vw;
+    height: 3vh;
   }
 }
+@media (max-width: 318px) {
+  .project p {
+    font-size: 16px;
+  }
+
+  .project img {
+    width: 7vw;
+  }
+}
+
