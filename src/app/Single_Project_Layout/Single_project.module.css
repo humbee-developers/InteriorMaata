@@ -53,6 +53,7 @@
   .interior_material_content {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
   }
   .interior_material_img {
     max-width: 100%;
@@ -190,7 +191,7 @@
 
   @media(min-width:200px) and (max-width:500px){
     .Interior_second_text_content_first{
-      font-size: 4.7vw;
+      font-size: 4.9vw;
     }
   }
 
@@ -431,7 +432,7 @@
       padding-bottom: 2rem;
     }
     .interior_last_room_Section{
-      padding-bottom: 0rem;
+      padding-bottom: 1.5rem;
       padding-left: 2rem;
       padding-right: 2rem;
     }

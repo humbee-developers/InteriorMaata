@@ -81,6 +81,16 @@
     padding-right: 5rem;
   }
 }
+@media (max-width: 991px) {
+  .Crafting_Section_Content_Text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 7rem;
+    padding-right: 1rem;
+  }
+}
 @media (max-width: 768px) {
   .Crafting_Section_Content_Text {
     display: flex;

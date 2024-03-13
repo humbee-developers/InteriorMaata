@@ -61,10 +61,10 @@
   word-wrap: break-word;
 }
 .btn3 {
-  background-color: white;
+  background-color: #cc7d45;
   border: none;
   border-radius: 48px;
-  color: black;
+  color: white;
   cursor: pointer;
   font-size: 22px;
   font-family: "NeueMontreal-Regular";

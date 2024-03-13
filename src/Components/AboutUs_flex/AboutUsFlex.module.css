@@ -63,7 +63,8 @@
 
 .forth_Section_img {
   width: 100%;
-  height: auto;
+  object-fit: cover;
+  height: 100%;
   display: block;
 }
 
@@ -80,9 +81,7 @@
     padding-bottom: 4rem;
     /* flex-direction: column; */
   }
-  .forth_Section_container{
-    flex-direction: column;
-  }
+ 
   .forth_Section_image{
     width: 100%;
   }
@@ -91,6 +90,9 @@
 @media (max-width: 768px) {
   .forth_Section_container1{
     flex-direction: column-reverse;
+  }
+  .forth_Section_container{
+    flex-direction: column;
   }
 }
 

@@ -44,7 +44,7 @@
   margin-bottom: 2rem;
 }
 .teamPage_content3_Text {
-  width: 73%;
+  width: 90%;
   color: #cc7d45;
   text-align: center;
   font-family: "Roseritta";
@@ -101,7 +101,7 @@
   }
 
   .teamPage_content3_Text {
-    width: 65%;
+    width: 80%;
     color: #cc7d45;
     text-align: center;
     font-family: "Roseritta";
@@ -180,7 +180,7 @@
     margin-bottom: 1rem;
   }
   .teamPage_content3_Text {
-    width: 80%;
+    width: 100%;
     font-size: 46px;
   }
   .teamPage_content4 {
@@ -248,7 +248,7 @@
     margin-bottom: 1rem;
   }
   .teamPage_content3_Text {
-    width: 76%;
+    width: 100%;
     font-size: 36px;
   }
   .teamPage_content4 {
@@ -312,7 +312,7 @@
     margin-bottom: 1rem;
   }
   .teamPage_content3_Text {
-    width: 69%;
+    width: 100%;
     font-size: 28px;
   }
   .teamPage_content4 {
@@ -346,7 +346,7 @@
 @media screen and (max-width: 575px) {
   .TeamPage_Section {
     padding: 0 1.5rem;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 
   .teamPage_content1 {
@@ -375,8 +375,8 @@
     margin-bottom: 1rem;
   }
   .teamPage_content3_Text {
-    width: 83%;
-    font-size: 28px;
+    width: 100%;
+    font-size: 24px;
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -409,7 +409,7 @@
 @media screen and (max-width: 430px) {
   .TeamPage_Section {
     padding: 0;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
  
   .teamPage_content1 {
@@ -438,8 +438,9 @@
     margin-bottom: 1rem;
   }
   .teamPage_content3_Text {
-    width: 90%;
-    font-size: 22px;
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 18px;
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -473,16 +474,17 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 324px) {
   .teamPage_content1 {
     font-size: 32px;
-    width: 85%;
+    width: 90%;
     margin: 0 auto 1rem;
   }
 
   .teamPage_content3_Text {
-    width: 93%;
-    font-size: 18px;
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 15px;
   }
 
 

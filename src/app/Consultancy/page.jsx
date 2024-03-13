@@ -4,6 +4,7 @@ import Stairs from "@/Animations/Stairs"
 import ConsultancyHeader from "@/Components/ConsultancyHeader/page";
 import ConsultancyTextFlex from "@/Components/ConsultancyTextFlex/page";
 import ConsultancyTab  from "@/Components/ConsultancyTab/page";
+import AboutUs_Carousal from "@/Components/AboutUs_Carousal/page"
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -16,8 +17,9 @@ const Page = () => {
     <div>
     <Stairs>
       <ConsultancyHeader />
-      <ConsultancyTextFlex />
+      <ConsultancyTextFlex /> 
       <ConsultancyTab/>
+      <AboutUs_Carousal/>
     </Stairs>
     </div>
   );

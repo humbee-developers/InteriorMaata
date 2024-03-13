@@ -11,10 +11,10 @@ const links = [
     title: "HOME",
     href: "/",
   },
-  {
-    title: "About Us",
-    href: "/AboutUs",
-  },
+  // {
+  //   title: "About Us",
+  //   href: "/AboutUs",
+  // },
   {
     title: "Online Consultancy",
     href: "/Consultancy",
@@ -31,15 +31,22 @@ const links = [
     title: "HOW WE WORK",
     href: "/HowWeWork",
   },
+  // {
+  //   title: "SERVICES",
+  //   href: "/Services",
+  // },
+
   {
-    title: "SERVICES",
-    href: "/Services",
+    title: "SHOP",
+    href: "",
   },
+
+
   {
     title: "CONTACT",
     href: "/ContactUs",
-  }
-
+  },
+ 
 ]
 
 export default function Index({navLinkHandler}) {
@@ -52,8 +59,7 @@ export default function Index({navLinkHandler}) {
         <div className="container">
           <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink} handleNavLink={navLinkHandler} />
           <Footer />
-        </div>
-    
+        </div>  
       </div>
     </motion.div>
   )

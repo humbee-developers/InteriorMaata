@@ -1,6 +1,6 @@
 .Services_Header_Outer {
   display: flex;
-  padding-top: 8rem;
+  /* padding-top: 10rem; */
   justify-content: center;
   align-items: stretch;
   gap: 8rem;
@@ -112,7 +112,7 @@
 @media (min-width: 1600px) and (max-width: 1920px) {
   .Services_Header_Outer {
     display: flex;
-    padding-top: 15rem;
+    /* padding-top: 15rem; */
     justify-content: center;
     align-items: stretch;
     gap: 8rem;
@@ -131,9 +131,9 @@
 
 @media screen and (max-width: 992px) {
   .Services_Header_Outer {
-    gap: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    gap: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
