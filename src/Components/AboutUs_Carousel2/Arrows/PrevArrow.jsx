@@ -8,7 +8,7 @@ const PrevArrow = (props) => {
   return (
     <div className={styles.customPrevArrow} onClick={onClick}>
       <div className={styles.PrevArrowText}>MOODBOARD</div>
-      <Image src={PrevArrowSvg} className={styles.arrowIcon} />
+      <Image src={PrevArrowSvg} alt="image" className={styles.arrowIcon} />
     </div>
   );
 };

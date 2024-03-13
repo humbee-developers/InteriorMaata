@@ -7,7 +7,7 @@ const Button = (props) => {
   const router = useRouter()
   return (
     <div>
-     <button onClick={()=>router.push("/Projects")} class="button2" role="button"><span class="text">{props.button_text}</span></button>
+     <button onClick={()=>router.push("/Projects")} className="button2" role="button"><span className="text">{props.button_text}</span></button>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const NextArrow = (props) => {
   return (
     <div className={styles.customNextArrow} onClick={onClick}>
       <div className={styles.NextArrowText}>MOODBOARD</div>
-      <Image src={NextArrowSvg} className={styles.arrowIcon} />
+      <Image src={NextArrowSvg} alt="image" className={styles.arrowIcon} />
     </div>
   );
 };

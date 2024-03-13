@@ -6,7 +6,7 @@ const Button = (props) => {
   // const router = useRouter()
   return (
     <div>
-     <button  class="button4" role="button"><span class="text">{props.button_text}</span></button>
+     <button  className="button4" role="button"><span className="text">{props.button_text}</span></button>
     </div>
   )
 }

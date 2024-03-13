@@ -72,7 +72,7 @@ const Page = () => {
                 name="Name"
                 onChange={handleChange}
                 value={values.Name} />
-              <label for="Name" className={styles.form_label}>
+              <label htmlFor="Name" className={styles.form_label}>
                 Full Name
               </label>
               {/* <TextField
@@ -120,7 +120,7 @@ const Page = () => {
                 onChange={handleChange}
                 value={values.Email}
               />
-              <label for="Email" className={styles.form_label}>
+              <label htmlFor="Email" className={styles.form_label}>
                 Email
               </label>
               {/* <TextField
@@ -149,7 +149,7 @@ const Page = () => {
                 onChange={handleChange}
                 value={values.Phone}
               />
-              <label for="Phone" className={styles.form_label}>
+              <label htmlFor="Phone" className={styles.form_label}>
                 Phone No
               </label>
               {/* <TextField
@@ -178,7 +178,7 @@ const Page = () => {
                 onChange={handleChange}
                 value={values.Address}
               ></textarea>
-              <label for="Address" className={styles.form_label}>
+              <label htmlFor="Address" className={styles.form_label}>
                 Address
               </label>
               {/* <FormControl fullWidth>
@@ -237,7 +237,7 @@ const Page = () => {
                 onChange={handleChange}
                 value={values.Description}
               ></textarea>
-              <label for="Address" className={styles.form_label}>
+              <label htmlFor="Address" className={styles.form_label}>
               Brief description of your Project
               </label>
               {/* <FormControl fullWidth>
@@ -290,7 +290,7 @@ const Page = () => {
           <Image
             src={From_image}
             alt=""
-            srcset=""
+            srcSet=""
             className={styles.contact_img}
           />
         </div>

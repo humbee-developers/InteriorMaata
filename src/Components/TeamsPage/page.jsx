@@ -9,6 +9,7 @@ import img2 from "@/images/Teamslider2.png";
 import img3 from "@/images/Teamslider3.png";
 import img4 from "@/images/Teamslider4.png";
 import img5 from "@/images/Teamslider5.png";
+import img7 from "@/images/Team_image7.png";
 import img6 from "@/images/Teamslider6.png";
 import img15 from "@/images/Teamslider7.png";
 import img8 from "@/images/Teamslider8.png";
@@ -18,11 +19,10 @@ import img11 from "@/images/Teamslider11.png";
 import img12 from "@/images/Teamslider12.png";
 import img13 from "@/images/Teamslider13.png";
 
-import img7 from "@/images/Team_image7.png";
+import TeamCard from "@/Components/teamCard/Page"
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TeamsPage/teamsPage.module.css";
 import "./imx.css";
-import TeamCard from "@/Components/teamCard/Page"
 
 const TeamPage = () => {
   const [ref, inView] = useInView({
@@ -80,7 +80,7 @@ const TeamPage = () => {
                 key={`marquee-image-${index}`}
                 className={styles.marquee_imageSection}
               >
-                <Image src={photo} alt={`image`} className={styles.slider_img}/>
+                <Image src={photo} alt="image" className={styles.slider_img}/>
               </div>
             ))}
           </Marquee>

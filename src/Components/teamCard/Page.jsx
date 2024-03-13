@@ -54,11 +54,11 @@ const Page = () => {
                   <Image
                     src={i0}
                     // width="900"
-                    alt=""
+                    alt="image"
                     className="c-image-contain"
                   />
                   <div className="c-project_details">
-                    <div className="c-text-2 cc-bold">View Case Study</div>
+                   
                   </div>
                 </a>
               </div>
@@ -71,11 +71,11 @@ const Page = () => {
                   <Image
                     src={i1}
                     // width="900"
-                    alt=""
+                    alt="image"
                     className="c-image-contain"
                   />
                   <div className="c-project_details">
-                    <div className="c-text-2 cc-bold">View Case Study</div>
+                    
                   </div>
                 </a>
               </div>
@@ -88,11 +88,11 @@ const Page = () => {
                   <Image
                     src={i2}
                     // width="900"
-                    alt=""
+                    alt="image"
                     className="c-image-contain"
                   />
                   <div className="c-project_details">
-                    <div className="c-text-2 cc-bold">View Case Study</div>
+                
                   </div>
                 </a>
               </div>
