@@ -109,7 +109,7 @@
     line-height: normal;
     text-transform: capitalize;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 500px) {
     .carousel_text_Content {
       width: 50%;
     }

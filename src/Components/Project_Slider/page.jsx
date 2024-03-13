@@ -28,7 +28,6 @@ export default function App() {
         <div className={styles.Carousel_Slider_container}>
           <Swiper
             className={styles.mySwiper}
-          
             modules={[FreeMode, Thumbs, Pagination, Autoplay]}
             slidesPerView={1}
             autoplay={{
