@@ -1,8 +1,8 @@
 import i0 from "@/images/teamCard1.png";
-import i1 from "@/images/teamCard2.png";
+import i1 from "@/images/team2.png";
 import i2 from "@/images/teamCard3.png";
-// import i3 from "@/images/teamCard1.png";
-// import i4 from "@/images/teamCard1.png";
+import i3 from "@/images/teamcard4.png";
+import i4 from "@/images/teamcard5.png";
 import "./teamCard.css";
 import "./teamCard2.css";
 import gsap from "gsap";
@@ -96,7 +96,7 @@ const Page = () => {
                   </div>
                 </a>
               </div>
-              {/* <div className="c-project cc-4">
+              <div className="c-project cc-4">
                 <a
                   href=""
                   target="_blank"
@@ -129,7 +129,7 @@ const Page = () => {
                     <div className="c-text-2 cc-bold">View Case Study</div>
                   </div>
                 </a>
-              </div> */}
+              </div>  
               {/* <div no-pointer="1" className="c-project cc-invisible"></div> */}
             </div>
           </div>
