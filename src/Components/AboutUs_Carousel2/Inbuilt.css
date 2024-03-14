@@ -107,7 +107,7 @@
   }
   .slick-list{
     margin-left: -10rem !important;
-    min-height: 40rem;
+    min-height: 42rem;
   }
   .slick-slide{
     margin-left: 0rem;
@@ -120,7 +120,7 @@
     height: auto;
   }
   .slick-list{
-    min-height: 40rem;
+    min-height: 42rem;
   }
   .slick-slide{
     margin-left: 0rem;
@@ -134,7 +134,7 @@
     height: auto;
   }
   .slick-list{
-    min-height: 40rem;
+    min-height: 42rem;
   }
  
 }
@@ -146,7 +146,7 @@
   }
   .slick-list{
     margin-left: -8rem !important;
-    min-height: 34rem;
+    min-height: 37rem;
   }
  
 }
