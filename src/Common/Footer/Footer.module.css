@@ -172,8 +172,8 @@
   .Footer_Section {
     padding-top: 3rem;
     /* padding-bottom: 2rem; */
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .footer_copyright {
     display: flex;
@@ -225,7 +225,7 @@
 
 @media (min-width: 1921px) and (max-width: 2560px) {
   .footer_last_Section {
-    font-size: 12vw;
+    font-size: 12.3vw;
   }
 
   .footer_copyright {
@@ -247,7 +247,7 @@
 
 @media (min-width: 1601px) and (max-width: 1920px) {
   .footer_last_Section {
-    font-size: 12vw;
+    font-size: 12.4vw;
   }
 }
 
@@ -259,8 +259,8 @@
   .Footer_Section {
     padding-top: 3rem;
     /* padding-bottom: 2rem; */
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 

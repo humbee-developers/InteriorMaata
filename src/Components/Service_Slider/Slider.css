@@ -401,3 +401,8 @@
   object-fit: cover;
 }
 }
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .productSlider .wrapper .productSliderCardItem .card1 {
+    padding: 65px 45px 52px 70px;
+  }
+}

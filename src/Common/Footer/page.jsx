@@ -73,7 +73,7 @@ const Footer = () => {
           <div>
             <p>
               Copyright &copy; 2024 Interiormaata, All Right Reserved. Designed
-              & Developed by H/dS.
+              & Developed by H/dS
             </p>
           </div>
           <div className={styles.footer_social_media}>
@@ -153,9 +153,9 @@ const Footer = () => {
 
         </div>
       </div>
-      <div>
+      {/* <div>
         <ScrollToTop smooth color="black" />
-      </div>
+      </div> */}
     </div>
   );
 };
