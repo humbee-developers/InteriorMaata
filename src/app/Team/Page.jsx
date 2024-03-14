@@ -13,7 +13,6 @@ const Page = () => {
     <div>
       <Stairs>
         <TeamsPage />
-       
       </Stairs>
     </div>
   );

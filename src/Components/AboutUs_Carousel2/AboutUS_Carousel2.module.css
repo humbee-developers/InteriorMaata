@@ -16,7 +16,7 @@
   z-index: 2;
 }
 
-.image3 {  
+.image3 {
   position: absolute;
   position: absolute;
   left: 43%;
@@ -71,7 +71,6 @@
   left: 58%;
   top: 36rem;
 }
-
 
 /*  */
 
@@ -145,10 +144,7 @@
   top: 36rem;
 }
 
-
 /*  */
-
-
 
 .image23 {
   position: absolute;
@@ -174,7 +170,7 @@
 .image26 {
   position: absolute;
   left: 50%;
-    top: 2rem;
+  top: 2rem;
 }
 
 .image27 {
@@ -220,10 +216,7 @@
   top: 38rem;
 }
 
-
 /*  */
-
-
 
 .image34 {
   position: absolute;
@@ -243,13 +236,13 @@
   position: absolute;
   position: absolute;
   left: 43%;
-    top: 18rem;
+  top: 18rem;
 }
 
 .image37 {
   position: absolute;
   left: 50%;
-    top: 2rem;
+  top: 2rem;
 }
 
 .image38 {
@@ -295,11 +288,7 @@
   top: 38rem;
 }
 
-
 /*  */
-
-
-
 
 .image45 {
   position: absolute;
@@ -318,13 +307,13 @@
 .image47 {
   position: absolute;
   left: 43%;
-    top: 18rem;
+  top: 18rem;
 }
 
 .image48 {
   position: absolute;
   left: 50%;
-    top: 2rem;
+  top: 2rem;
 }
 
 .image49 {
@@ -337,7 +326,7 @@
 .image50 {
   position: absolute;
   left: 43%;
-    top: 28rem;
+  top: 28rem;
 }
 
 .image51 {
@@ -370,92 +359,85 @@
   top: 38rem;
 }
 
-
-
-
-@media (max-width: 1440px)
-{
+@media (max-width: 1440px) {
   .main_carousel {
     position: relative;
     height: 95vh;
   }
 }
 
-
-
-
-@media(min-width:1600px) and (max-width:1920px){
+@media (min-width: 1600px) and (max-width: 1920px) {
   .image1 {
     position: absolute;
     left: 38%;
     top: 6rem;
     z-index: 1;
   }
-  
+
   .image2 {
     position: absolute;
     left: 34.4%;
     top: 29rem;
     z-index: 2;
   }
-  
+
   .image3 {
     position: absolute;
     left: 43%;
     top: 24rem;
   }
-  
+
   .image4 {
     position: absolute;
     left: 51%;
     top: 3rem;
   }
-  
+
   .image5 {
     position: absolute;
     left: 38%;
     top: 9rem;
     z-index: 2;
   }
-  
+
   .image6 {
     position: absolute;
     left: 42%;
     top: 32rem;
   }
-  
+
   .image7 {
     position: absolute;
     left: 58%;
     top: 28rem;
   }
-  
+
   .image8 {
     position: absolute;
     left: 58%;
     top: 33rem;
   }
-  
+
   .image9 {
     position: absolute;
     left: 58%;
     top: 38rem;
   }
-  
+
   .image10 {
     position: absolute;
     left: 58%;
     top: 43rem;
   }
-  
+
   .image11 {
     position: absolute;
     left: 58%;
     top: 48rem;
   }
-  
+
   /* slider 2  */
-  
+
   .image12 {
     position: absolute;
     position: absolute;
@@ -463,72 +445,72 @@
     top: 6rem;
     z-index: 1;
   }
-  
+
   .image13 {
     position: absolute;
     left: 34.4%;
     top: 29rem;
     z-index: 2;
   }
-  
+
   .image14 {
     position: absolute;
     position: absolute;
     left: 43%;
     top: 24rem;
   }
-  
+
   .image15 {
     position: absolute;
     left: 51%;
     top: 3rem;
   }
-  
+
   .image16 {
     position: absolute;
     left: 38%;
     top: 13rem;
     z-index: 2;
   }
-  
+
   .image17 {
     position: absolute;
     left: 36%;
     top: 25rem;
   }
-  
+
   .image18 {
     position: absolute;
     left: 58%;
     top: 28rem;
   }
-  
+
   .image19 {
     position: absolute;
     left: 58%;
     top: 33rem;
   }
-  
+
   .image20 {
     position: absolute;
     left: 58%;
     top: 38rem;
   }
-  
+
   .image21 {
     position: absolute;
     left: 58%;
     top: 43rem;
   }
-  
+
   .image22 {
     position: absolute;
     left: 58%;
     top: 48rem;
   }
-  
+
   /* slider 3 */
-  
+
   .image23 {
     position: absolute;
     position: absolute;
@@ -536,75 +518,72 @@
     top: 6rem;
     z-index: 1;
   }
-  
+
   .image24 {
     position: absolute;
     left: 34.4%;
     top: 31rem;
     z-index: 2;
   }
-  
+
   .image25 {
     position: absolute;
     position: absolute;
     left: 43%;
     top: 24rem;
   }
-  
+
   .image26 {
     position: absolute;
     left: 51%;
     top: 3rem;
   }
-  
+
   .image27 {
     position: absolute;
     left: 38%;
     top: 11rem;
     z-index: 2;
   }
-  
+
   .image28 {
     position: absolute;
     left: 43%;
     top: 38rem;
   }
-  
+
   .image29 {
     position: absolute;
     left: 58%;
     top: 30rem;
   }
-  
+
   .image30 {
     position: absolute;
     left: 58%;
     top: 35rem;
   }
-  
+
   .image31 {
     position: absolute;
     left: 58%;
     top: 40rem;
   }
-  
+
   .image32 {
     position: absolute;
     left: 58%;
     top: 45rem;
   }
-  
+
   .image33 {
     position: absolute;
     left: 58%;
     top: 50rem;
   }
-  
-  
-  
+
   /* slider 4 */
-  
-  
+
   .image34 {
     position: absolute;
     position: absolute;
@@ -612,138 +591,135 @@
     top: 6rem;
     z-index: 1;
   }
-  
+
   .image35 {
     position: absolute;
     left: 34.4%;
     top: 31rem;
     z-index: 2;
   }
-  
+
   .image36 {
     position: absolute;
     position: absolute;
     left: 43%;
     top: 24rem;
   }
-  
+
   .image37 {
     position: absolute;
     left: 51%;
     top: 3rem;
   }
-  
+
   .image38 {
     position: absolute;
     left: 38%;
     top: 11rem;
     z-index: 2;
   }
-  
+
   .image39 {
     position: absolute;
     left: 41%;
     top: 32rem;
   }
-  
+
   .image40 {
     position: absolute;
     left: 58%;
     top: 30rem;
   }
-  
+
   .image41 {
     position: absolute;
     left: 58%;
     top: 35rem;
   }
-  
+
   .image42 {
     position: absolute;
     left: 58%;
     top: 40rem;
   }
-  
+
   .image43 {
     position: absolute;
     left: 58%;
     top: 45rem;
   }
-  
+
   .image44 {
     position: absolute;
     left: 58%;
     top: 50rem;
   }
-  
+
   /* slider 5 */
-  
-  
-  
-  
+
   .image45 {
     position: absolute;
     left: 38%;
     top: 6rem;
     z-index: 1;
   }
-  
+
   .image46 {
     position: absolute;
     left: 34.4%;
     top: 31rem;
     z-index: 2;
   }
-  
+
   .image47 {
     position: absolute;
     left: 43%;
     top: 24rem;
   }
-  
+
   .image48 {
     position: absolute;
     left: 51%;
     top: 3rem;
   }
-  
+
   .image49 {
     position: absolute;
     left: 38%;
     top: 11rem;
     z-index: 2;
   }
-  
+
   .image50 {
     position: absolute;
     left: 43%;
     top: 38rem;
   }
-  
+
   .image51 {
     position: absolute;
     left: 58%;
     top: 30rem;
   }
-  
+
   .image52 {
     position: absolute;
     left: 58%;
     top: 35rem;
   }
-  
+
   .image53 {
     position: absolute;
     left: 58%;
     top: 40rem;
   }
-  
+
   .image54 {
     position: absolute;
     left: 58%;
     top: 45rem;
   }
-  
+
   .image55 {
     position: absolute;
     left: 58%;
@@ -825,240 +801,311 @@
   }
 } */
 
-@media (max-width: 1350px){
-  .image7 ,.image8,.image9,.image10, .image11, .image18, .image19, .image20, .image21, .image22{
-  
-    left: 62%;
-  
+@media (max-width: 1350px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
   }
-  
-  .image4{
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
+    left: 62%;
+  }
+
+  .image4 {
     left: 56%;
   }
 }
 
-@media (max-width: 1024px){
-  .image7 ,.image8,.image9,.image10, .image11,  .image18, .image19, .image20, .image21, .image22{
-  
+@media (max-width: 1024px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
+  }
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
     left: 67%;
-  
   }
 
-  .image4{
+  .image4 {
     left: 58%;
   }
-  .image6{
+  .image6 {
     left: 45%;
   }
 }
 
-@media (max-width: 940px){
-  .image7 ,.image8,.image9,.image10, .image11, .image18, .image19, .image20, .image21, .image22{
-  
+@media (max-width: 940px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
+  }
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
     left: 70%;
-  
   }
- 
-  .image4{
+
+  .image4 {
     left: 58%;
   }
-  .image6{
+  .image6 {
     left: 45%;
   }
-  .image3{
+  .image3 {
     left: 46%;
   }
 }
 
-@media (max-width: 900px){
-  .image7 ,.image8,.image9,.image10, .image11, .image18, .image19, .image20, .image21, .image22{
-  
-    left: 74%;
-  
+@media (max-width: 900px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
+  }
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
+    left: 70%;
   }
 
-  .image4{
+  .image4 {
     left: 64%;
   }
-  .image6{
+  .image6 {
     left: 45%;
   }
-  .image3{
+  .image3 {
     left: 46%;
   }
 }
-@media (max-width: 768px){
-  .image7 ,.image8,.image9,.image10, .image11, .image18, .image19, .image20, .image21, .image22{
-  
+@media (max-width: 768px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
+  }
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
     left: 75%;
-  
   }
- 
-  .image4{
+
+  .image4 {
     left: 64%;
     top: 0;
   }
-  .image6{
+  .image6 {
     left: 45%;
   }
-  .image3{
+  .image3 {
     left: 48%;
   }
-  .image6{
+  .image6 {
     left: 50%;
     top: 21rem;
   }
-  .image1{
+  .image1 {
     top: 0rem;
   }
-  .image2{
-    left:35%;
+  .image2 {
+    left: 35%;
     top: 20rem;
   }
 }
-@media (max-width: 650px){
-  .image7 ,.image8,.image9,.image10, .image11, .image18, .image19, .image20, .image21, .image22{
-  
-    left: 80%;
-  
+@media (max-width: 650px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
   }
-  
-  .image4{
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
+    left: 80%;
+  }
+
+  .image4 {
     left: 64%;
     top: 0;
   }
-  .image6{
+  .image6 {
     left: 45%;
   }
-  .image3{
+  .image3 {
     left: 48%;
   }
-  .image6{
+  .image6 {
     left: 50%;
     top: 21rem;
   }
-  .image1{
+  .image1 {
     top: 0rem;
   }
-  .image2{
-    left:35%;
+  .image2 {
+    left: 35%;
     top: 20rem;
   }
 }
 
-
-@media (max-width: 500px){
-  .image7 ,.image8,.image9,.image10, .image11, .image18, .image19, .image20, .image21, .image22{
-  
-    left: 80%;
-  
+@media (max-width: 500px) {
+  .main_carousel {
+    position: relative;
+    height: auto;
   }
-  .image7
-  {
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
+    left: 80%;
+  }
+  .image7 {
     top: 14rem;
   }
-  .image8
-  {
+  .image8 {
     top: 18rem;
   }
-  .image9
-  {
-    top:22rem;
+  .image9 {
+    top: 22rem;
   }
-  .image10
-  {
-    top:26rem;
+  .image10 {
+    top: 26rem;
   }
-  .image11
-  {
-    top:30rem;
+  .image11 {
+    top: 30rem;
   }
- 
-  .image4{
+
+  .image4 {
     left: 64%;
     top: 0;
   }
-  .image6{
+  .image6 {
     left: 45%;
     top: 18rem;
   }
-  .image3{
+  .image3 {
     left: 48%;
     top: 12rem;
   }
-  .image6{
+  .image6 {
     left: 50%;
     top: 18rem;
   }
-  .image1{
+  .image1 {
     top: 0rem;
   }
-  .image2{
-    left:32%;
+  .image2 {
+    left: 32%;
     top: 15rem;
   }
-  .image5{
-    width: 80%!important;
+  .image5 {
+    width: 80% !important;
     top: 3rem;
   }
 }
-@media (max-width: 420px){
-  .image7 ,.image8,.image9,.image10, .image11 ,  .image18, .image19, .image20, .image21, .image22{
-  
+@media (max-width: 420px) {
+  .image7,
+  .image8,
+  .image9,
+  .image10,
+  .image11,
+  .image18,
+  .image19,
+  .image20,
+  .image21,
+  .image22 {
     left: 80%;
-  
   }
-  .image7
-  {
+  .image7 {
     top: 14rem;
   }
-  .image8
-  {
+  .image8 {
     top: 18rem;
   }
-  .image9
-  {
-    top:22rem;
+  .image9 {
+    top: 22rem;
   }
-  .image10
-  {
-    top:26rem;
+  .image10 {
+    top: 26rem;
   }
-  .image11
-  {
-    top:30rem;
+  .image11 {
+    top: 30rem;
   }
- 
-  .image4{
+
+  .image4 {
     left: 70%;
     top: 0;
   }
-  .image6{
+  .image6 {
     left: 45%;
     top: 18rem;
   }
-  .image3{
+  .image3 {
     left: 48%;
     top: 12rem;
   }
-  .image6{
+  .image6 {
     left: 50%;
     top: 18rem;
   }
-  .image1{
+  .image1 {
     top: 0rem;
   }
-  .image2{
-    left:32%;
+  .image2 {
+    left: 32%;
     top: 15rem;
   }
-  .image5{
-    width: 90%!important;
+  .image5 {
+    width: 90% !important;
     top: 4rem;
   }
 }
-
-
 
 .wrapper {
   background-color: rgba(249, 241, 235, 1);
@@ -1090,7 +1137,6 @@
     font-size: 20px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .imageNumbering {
