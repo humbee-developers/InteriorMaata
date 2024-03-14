@@ -1078,7 +1078,7 @@ const Page = () => {
     <div className={styles.main_carousel}>
       <div className={styles.wrapper}>
         <Slider {...settings}>
-          <div className={styles.slide} ref={ref1}>
+          <div className={styles.slide1} ref={ref1}>
             <div className={styles.slideContent}>
               <motion.div
                 className={styles.image1}
