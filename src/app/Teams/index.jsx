@@ -1,8 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
 import Stairs from "@/Animations/Stairs";
-import TeamsPage from "@/Components/TeamsPage/page";
-const Page = () => {
+import TeamsPage from "@/Components/TPage/page";
+import Comp from "@/Components/comp/page"
+const Page1 = () => {
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -10,12 +11,11 @@ const Page = () => {
     })();
   }, []);
   return (
-    <div>
       <Stairs>
         <TeamsPage />
+        <Comp/>
       </Stairs>
-    </div>
   );
 };
 
-export default Page;
+export default Page1;

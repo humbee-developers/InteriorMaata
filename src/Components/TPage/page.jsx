@@ -20,8 +20,8 @@ import img12 from "@/images/Teamslider12.png";
 import img13 from "@/images/Teamslider13.png";
 import TeamCard from "@/Components/teamCard/Page";
 import Marquee from "react-marquee-slider";
-import styles from "@/Components/TeamsPage/teamsPage.module.css";
-import "./imx.css";
+import styles from "@/Components/TPage/teamsPage.module.css";
+// import "./imx.css";
 
 const TeamPage = () => {
   const [ref, inView] = useInView({
