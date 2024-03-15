@@ -21,7 +21,6 @@ import img13 from "@/images/Teamslider13.png";
 import TeamCards from "@/Components/TeamCards/page";
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TPage/teamsPage.module.css";
-// import "./imx.css";
 
 const TeamPage = () => {
   const [ref, inView] = useInView({
@@ -85,7 +84,7 @@ const TeamPage = () => {
           </div>
         </div>
         <div className={styles.marquee_section}>
-          <Marquee>
+          <Marquee velocity={70} >
             {photos.map((photo, index) => (
               <div
                 key={`marquee-image-${index}`}

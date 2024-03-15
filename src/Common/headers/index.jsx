@@ -29,6 +29,7 @@ export default function NewNav() {
           src={nav_logo}
           alt="Description of the image"
           className="nav_logo"
+          onClick={() => router.push("/")}
         />
         <span className="interiormaata">interiormaata</span>
       </div>
