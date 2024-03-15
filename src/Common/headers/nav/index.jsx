@@ -20,8 +20,8 @@ const links = [
     href: "/Projects",
   },
   {
-    title: "TEAM",
-    href: "/Team",
+    title: "TEAMS",
+    href: "/Teams",
   },
   {
     title: "HOW WE WORK",

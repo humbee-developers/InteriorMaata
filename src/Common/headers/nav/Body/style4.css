@@ -12,9 +12,10 @@
 
 .coming-soon {
   font-size: 12px;
+
   font-family: "NeueMontreal-Regular";
   margin-left: 5px; /* Adjust as needed */
-  color: rgb(0, 0, 0); /* Or any other color you prefer */
+  /* color: rgb(0, 0, 0); Or any other color you prefer */
 }
 
 .nav_body p {
