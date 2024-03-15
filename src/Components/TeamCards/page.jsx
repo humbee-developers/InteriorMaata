@@ -8,22 +8,22 @@ import "./teamCard2.css";
 import gsap from "gsap";
 import Image from "next/image";
 // import { ScrollTrigger } from "gsap/all";
-const Page = () => {
-  const cards = gsap.utils.toArray(".c-project");
+const page = () => {
+  // const cards = gsap.utils.toArray(".c-project");
 
-  cards.forEach((card, index) => {
-    gsap.to(card, {
-      scrollTrigger: {
-        trigger: card,
-        start: () => `top bottom-=100`,
-        end: () => `top top+=40`,
-        scrub: true,
-        markers: false,
-        invalidateOnRefresh: true,
-      },
-      ease: "none",
-      scale: () => 1 - (cards.length - index) * 0.025,
-    });
+  // cards.forEach((card, index) => {
+  //   gsap.to(card, {
+  //     scrollTrigger: {
+  //       trigger: card,
+  //       start: () => `top bottom-=100`,
+  //       end: () => `top top+=40`,
+  //       scrub: true,
+  //       markers: false,
+  //       invalidateOnRefresh: true,
+  //     },
+  //     ease: "none",
+  //     scale: () => 1 - (cards.length - index) * 0.025,
+  //   });
 
     // ScrollTrigger.create({
     //   trigger: card,
@@ -35,7 +35,7 @@ const Page = () => {
     //   end: "max",
     //   invalidateOnRefresh: true,
     // });
-  });
+  // });
   return (
     <div>
       <section id="projects" className="c-section cc-projects">
@@ -57,9 +57,7 @@ const Page = () => {
                     alt="image"
                     className="c-image-contain"
                   />
-                  <div className="c-project_details">
-                   
-                  </div>
+                  <div className="c-project_details"></div>
                 </a>
               </div>
               <div className="c-project cc-2">
@@ -74,9 +72,7 @@ const Page = () => {
                     alt="image"
                     className="c-image-contain"
                   />
-                  <div className="c-project_details">
-                    
-                  </div>
+                  <div className="c-project_details"></div>
                 </a>
               </div>
               <div className="c-project cc-3">
@@ -91,9 +87,7 @@ const Page = () => {
                     alt="image"
                     className="c-image-contain"
                   />
-                  <div className="c-project_details">
-                
-                  </div>
+                  <div className="c-project_details"></div>
                 </a>
               </div>
               <div className="c-project cc-4">
@@ -129,7 +123,7 @@ const Page = () => {
                     <div className="c-text-2 cc-bold">View Case Study</div>
                   </div>
                 </a>
-              </div>  
+              </div>
               {/* <div no-pointer="1" className="c-project cc-invisible"></div> */}
             </div>
           </div>
@@ -139,4 +133,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
