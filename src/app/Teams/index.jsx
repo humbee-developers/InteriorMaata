@@ -2,8 +2,7 @@
 import React, { useEffect } from "react";
 import Stairs from "@/Animations/Stairs";
 import TeamsPage from "@/Components/TPage/page";
-import Comp from "@/Components/comp/page"
-const Page1 = () => {
+const Page = () => {
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -13,9 +12,8 @@ const Page1 = () => {
   return (
       <Stairs>
         <TeamsPage />
-        <Comp/>
       </Stairs>
   );
 };
 
-export default Page1;
+export default Page;
