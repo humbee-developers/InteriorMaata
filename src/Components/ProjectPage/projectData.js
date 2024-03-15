@@ -11,7 +11,7 @@ const projectsData = [
     [
         {
             image: img1,
-            title: "Jaimini and Amit's dream home page1",
+            title: "Jaimini and Amit's dream home ",
             year: "2019",
             project: "RESIDENTIAL",
             architect: "architect name here",
@@ -24,7 +24,7 @@ const projectsData = [
         },
         {
             image: img2,
-            title: "Jaimini and Amit's dream home2",
+            title: "Jaimini and Amit's dream home",
             year: "2020",
             project: "RESIDENTIAL",
             architect: "architect name here",
@@ -37,7 +37,7 @@ const projectsData = [
         },
         {
             image: img3,
-            title: "Jaimini and Amit's dream home3",
+            title: "Jaimini and Amit's dream home",
             year: "2019",
             project: "RESIDENTIAL",
             architect: "architect name here",
@@ -176,7 +176,7 @@ const projectsData = [
     [
         {
             image: img2,
-            title: "Jaimini and Amit's dream home page2",
+            title: "Jaimini and Amit's dream home",
             year: "2019",
             project: "RESIDENTIAL",
             architect: "architect name here",
@@ -189,7 +189,7 @@ const projectsData = [
         },
         {
             image: img1,
-            title: "Jaimini and Amit's dream home2",
+            title: "Jaimini and Amit's dream home",
             year: "2020",
             project: "RESIDENTIAL",
             architect: "architect name here",
@@ -202,7 +202,7 @@ const projectsData = [
         },
         {
             image: img3,
-            title: "Jaimini and Amit's dream home3",
+            title: "Jaimini and Amit's dream home",
             year: "2019",
             project: "RESIDENTIAL",
             architect: "architect name here",
