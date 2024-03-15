@@ -8,10 +8,10 @@ import Marquee from "@/Components/Marquee/page";
 import AboutUs_Carousel2 from "@/Components/AboutUs_Carousel2/page";
 import AboutUs_flex from "@/Components/AboutUs_flex/page";
 import AboutUsInfo from "@/Components/AboutUsInfo/page";
-// import TextureImage from '@/images/textureImage.png';
-import TextureImage from  "../.././images/textureImage.png"
 import AboutUs_ourDesign from "@/Components/AboutUs_ourDesign/page";
-import AboutUsCrafting from "@/Components/AboutUs_Crafting/page";
+import Form from "@/Common/Form/page";
+import Footer from "@/Common/Footer/page";
+// import AboutUsCrafting from "@/Components/AboutUs_Crafting/page";
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -21,9 +21,9 @@ const Page = () => {
   }, []);
 
   return (
-    <div style={{backgroundImage: `url(../images/textureImage.png)`}} >
-      <Stairs>
+    <Stairs>
         <HomeBanner />
+    <div style={{backgroundImage: `url(/textureImage.png)`, backgroundRepeat:"no-repeat",backgroundSize: "cover",backgroundPosition:"center"}} >
         <AboutUs_header />
         <AboutUs_threeCards />
         <Marquee />
@@ -31,9 +31,11 @@ const Page = () => {
         <AboutUs_flex />
         <AboutUsInfo />
         <AboutUs_ourDesign />
-        <AboutUsCrafting />
-      </Stairs>
+        {/* <AboutUsCrafting /> */}
+        <Form />
+        <Footer />
     </div>
+      </Stairs>
   );
 };
 

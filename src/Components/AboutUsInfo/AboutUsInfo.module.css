@@ -42,6 +42,7 @@
   width: 0;
 }
 .project img {
+  object-fit: contain;
   width: 10vw;
 }
 
