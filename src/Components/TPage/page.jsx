@@ -18,7 +18,7 @@ import img10 from "@/images/Teamslider10.png";
 import img11 from "@/images/Teamslider11.png";
 import img12 from "@/images/Teamslider12.png";
 import img13 from "@/images/Teamslider13.png";
-import TeamCard from "@/Components/teamCard/Page";
+import TeamCards from "@/Components/TeamCards/page";
 import Marquee from "react-marquee-slider";
 import styles from "@/Components/TPage/teamsPage.module.css";
 // import "./imx.css";
@@ -161,7 +161,7 @@ const TeamPage = () => {
             </motion.div>
           </div>
         </div>
-        <TeamCard />
+        <TeamCards />
         <div className={styles.teamPage_content4}>
           <div className={styles.teamPage_content4_Text}>
             <div>
