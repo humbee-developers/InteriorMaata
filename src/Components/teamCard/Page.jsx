@@ -7,7 +7,7 @@ import "./teamCard.css";
 import "./teamCard2.css";
 import gsap from "gsap";
 import Image from "next/image";
-import { ScrollTrigger } from "gsap/all";
+// import { ScrollTrigger } from "gsap/all";
 const Page = () => {
   const cards = gsap.utils.toArray(".c-project");
 
