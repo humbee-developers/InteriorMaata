@@ -78,8 +78,8 @@
     width: 100%;
   }
   
-  .c-projects-wrapper {
-    width: 66.2%;
+  .c-projects-wrapper-team {
+    width: 100%;
   }
   .c-projects-layout {
     display: -webkit-box;
@@ -212,8 +212,8 @@
 
 
   @media screen and (max-width: 1199px) {
-    .c-projects-wrapper {
-      width: 75%;
+    .c-projects-wrapper-team {
+      width: 90%;
     }
   }
   @media screen and (max-width: 991px) {
@@ -250,13 +250,13 @@
     .c-text-2 {
       font-size: 16px;
     }
-    .c-projects-wrapper {
-      width: 80%;
+    .c-projects-wrapper-team {
+      width: 90%;
     }
   }
   @media screen and (max-width: 767px) {
-    .c-projects-wrapper {
-      width: 100%;
+    .c-projects-wrapper-team {
+      width: 90%;
     }
     .c-transition {
       top: -200vh;

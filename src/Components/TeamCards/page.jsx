@@ -43,7 +43,7 @@ const page = () => {
           <div className="c-projects-layout">
             <div
               data-w-id="8ecb513b-e731-cc62-ada9-78b5e5d0a8c5"
-              className="c-projects-wrapper"
+              className="c-projects-wrapper-team"
             >
               <div className="c-project cc-1">
                 <a
