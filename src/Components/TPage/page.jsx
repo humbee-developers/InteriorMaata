@@ -141,6 +141,7 @@ const TeamPage = () => {
             </div>
           </div>
         </div>
+        <TeamCards />
         <div className={styles.card_stack_section}></div>
         <div className={styles.teamPage_content3}>
           <div className={styles.teamPage_content3_Text}>
@@ -161,7 +162,7 @@ const TeamPage = () => {
             </motion.div>
           </div>
         </div>
-        <TeamCards />
+   
         <div className={styles.teamPage_content4}>
           <div className={styles.teamPage_content4_Text}>
             <div>
