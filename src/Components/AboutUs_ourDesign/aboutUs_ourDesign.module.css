@@ -18,7 +18,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 1.16px;
   text-transform: uppercase;
 }
 
@@ -41,8 +40,9 @@
 
 .table_content {
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+  padding: 20px 30px;
   align-items: center;
   cursor: pointer;
   position: relative;
@@ -70,16 +70,16 @@
 }
 
 .table_content:nth-child(n) {
-  border-top: 1px solid #cc7d45;
+  border-top: 1px solid #cc7d456b;
 }
 .table_content:nth-last-child(1) {
-  border-bottom: 1px solid #cc7d45;
+  border-bottom: 1px solid #cc7d456b;
 }
 .table_section_content {
   padding-left: 1rem;
 }
 .table_Section_emphasis {
-  color: #000;
+  color: #cc7d45;
   padding-bottom: 4px;
   font-family: "NeueMontreal-Regular";
   font-size: 27px;
@@ -91,7 +91,7 @@
 }
 
 .table_content_emphasis {
-  color: #9e9e9e;
+  color: #000000;
   font-family: "NeueMontreal-Regular";
   font-size: 18px;
   font-style: normal;
@@ -258,8 +258,8 @@
   }
   .table_content {
     /* padding: 1rem 1rem; */
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
   }
   .table_Section {
     padding: 0 20px;

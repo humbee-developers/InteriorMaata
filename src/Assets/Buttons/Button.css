@@ -3,11 +3,10 @@
 
 .button-48 {
   appearance: none;
-  background-color: #FFFFFF;
-  /* border-width: 0; */
+  background-color: transparent;
   box-sizing: border-box;
   color: #7F7047;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #7F7047;
   cursor: pointer;
   display: inline-block;
   font-family: "NeueMontreal-Regular";
@@ -18,12 +17,12 @@
   margin: 0;
   opacity: 1;
   outline: 0;
-  padding: 1.5em 2.2em;
+  padding: 1.1em 2em;
   position: relative;
   text-align: center;
   text-decoration: none;
   text-rendering: geometricprecision;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
   user-select: none;
   -webkit-user-select: none;
@@ -85,7 +84,7 @@
   margin: 0;
   opacity: 1;
   outline: 0;
-  padding: 1.5em 2.2em;
+  padding: 1.1em 2em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -161,7 +160,7 @@
   margin: 0;
   opacity: 1;
   outline: 0;
-  padding: 1.5em 2.2em;
+  padding: 1.1em 2em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -232,7 +231,7 @@
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
-  float: right;
+  float: left;
   line-height: 1em;
   border-radius: 5px                                                ;
   margin: 0;

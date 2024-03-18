@@ -20,8 +20,12 @@ export default function RootLayout({ children }) {
       <body>
         <Headers />
         {children}
-        <Form />
-        <Footer />
+        {location != "/" && (
+          <>
+            <Form />
+            <Footer />
+          </>
+        )}
       </body>
     </html>
   );

@@ -1,28 +1,24 @@
-"use client";
 import React from "react";
-import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Parallax,EffectFade, Navigation } from "swiper/modules";
+import Image from "next/image";
+import image1 from "@/images/consultancyProjectImage1.png";
+import image2 from "@/images/consultancyProjectImage2.png";
+import image3 from "@/images/consultancyProjectImage3.png";
+import image4 from "@/images/consultancyProjectImage4.png";
+import image5 from "@/images/consultancyProjectImage5.png";
+
+import styles from "@/Components/ConsultancyCarousal/ConsultancyCarousal.module.css";
+import "./ConsultancyCarousal.css"
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
-import { EffectFade, Navigation } from "swiper/modules";
-import Image from "next/image";
-import AboutUs_carousal_image from "@/images/AboutUs_carousal_image1.png";
-import AboutUs_carousal_image2 from "@/images/AboutUs_carousal_image3.jpg";
-// import sliderArrow from "@/Svgs/AboutUs_carousal_icon.svg"
-
-import styles from "@/Components/AboutUs_Carousal/AboutUs_Carousal.module.css";
-import "./AboutUsCarousal.css"
 export default function App() {
-    // const arrowRef1 = useRef(null);
-    // const arrowRef2 = useRef(null);
   return (
     <>
-      {/* effect={'fade'} */}
       <Swiper
       navigation={true}
-        // navigation={true}
-        modules={[Navigation, EffectFade]}
+        modules={[Navigation, Parallax,  EffectFade]}
         // speed={2500}
         loop={true}
         effect="fade"
@@ -32,7 +28,6 @@ export default function App() {
         }}
         // navigation={{
         //       nextEl: ".sliderArrow_next",
-        //       prevEl: ".sliderArrow_prev",
         //       disabledClass: "swiper-button-disabled",
         //     }}
         className={styles.mySwiper}
@@ -40,7 +35,7 @@ export default function App() {
         <SwiperSlide>
           <div className={styles.third_section_content}>
             <Image
-              src={AboutUs_carousal_image}
+              src={image1}
               alt="carousal_image"
               className={styles.third_section_image}
             />
@@ -57,7 +52,7 @@ export default function App() {
         <SwiperSlide>
           <div className={styles.third_section_content}>
             <Image
-              src={AboutUs_carousal_image2}
+              src={image2}
               alt="carousal_image"
               className={styles.third_section_image}
             />
@@ -74,7 +69,7 @@ export default function App() {
         <SwiperSlide>
           <div className={styles.third_section_content}>
             <Image
-              src={AboutUs_carousal_image}
+              src={image3}
               alt="carousal_image"
               className={styles.third_section_image}
             />
@@ -91,7 +86,24 @@ export default function App() {
         <SwiperSlide>
           <div className={styles.third_section_content}>
             <Image
-              src={AboutUs_carousal_image2}
+              src={image4}
+              alt="carousal_image"
+              className={styles.third_section_image}
+            />
+            <div className={styles.third_section_overlay}>
+              <p className={styles.third_section_overlay_text}>
+                "Designing spaces, sparking joy:
+                <span className={styles.third_section_overlay_span}>
+                  where elegance meets functionality effortlessly."
+                </span>
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.third_section_content}>
+            <Image
+              src={image5}
               alt="carousal_image"
               className={styles.third_section_image}
             />

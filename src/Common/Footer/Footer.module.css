@@ -1,5 +1,5 @@
 .Footer_Section {
-  background-color: white;
+  background-color: transparent;
   color: white;
   padding-top: 3rem;
   /* padding-bottom: 2rem; */
@@ -124,7 +124,7 @@
 .footer_copyright {
   display: flex;
   justify-content: space-between;
-  color: #9d9d9d;
+  color: #000000;
   font-family: "NeueMontreal-Light";
   font-size: 18px;
   font-style: normal;
@@ -178,7 +178,7 @@
   .footer_copyright {
     display: flex;
     justify-content: space-between;
-    color: #9d9d9d;
+    color: #000000;
     font-family: "NeueMontreal-Light";
     font-size: 22px;
     font-style: normal;
@@ -209,7 +209,7 @@
   .footer_copyright {
     display: flex;
     justify-content: space-between;
-    color: #9d9d9d;
+    color: #000000;
     font-family: "NeueMontreal-Light";
     font-size: 17px;
     font-style: normal;
@@ -253,7 +253,7 @@
 
 @media (min-width: 1025px) and (max-width: 1600px) {
   .footer_last_Section {
-    font-size: 12vw;
+    font-size: 12.3vw;
   }
 
   .Footer_Section {
