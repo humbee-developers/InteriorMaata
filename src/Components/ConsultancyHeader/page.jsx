@@ -1,12 +1,9 @@
-"use client";
 import React, { useEffect } from "react";
-import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
 import { useInView } from "react-intersection-observer";
-import Online_Consultancy_banner from "@/images/consultancy_header.png";
 import styles from "@/Components/ConsultancyHeader/consultancyHeader.module.css";
-const Page = () => {
+const Consultancy = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
@@ -18,43 +15,39 @@ const Page = () => {
       controls.start("visible");
     }
   }, [controls, inView]);
+
   return (
-    <div>
-      <div className={styles.Online_consultancy_banner}>
-        <div className={styles.Online_consultancy_img}>
-          <Image
-            src={Online_Consultancy_banner}
-            alt="none"
-            className={styles.Consultancy_Banner}
-          />
+    <div className={styles.work_container}>
+      <div className={styles.work_title}>
+        <div className={styles.work_text}>
           <motion.div
             ref={ref}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
             transition={{ duration: 0.9 }}
-            className={styles.Online_Consultancy_Content}
           >
             <HeadingTextAnimation
-              heading={"Transforming  "}
+              heading={"TRANSFORMING SPACES"}
               justifyContent={"center"}
-              className={styles.Consultancy_Banner_text}
             />
             <HeadingTextAnimation
-              heading={"Spaces,"}
-              justifyContent={"left"}
-              className={styles.Consultancy_Banner_text}
-            />
-
-            <HeadingTextAnimation
-              heading={"Inspiring Lives"}
+              heading={"INSPIRING LIVES"}
               justifyContent={"center"}
-              className={styles.Consultancy_Banner_text}
             />
           </motion.div>
         </div>
       </div>
+      <div className={styles.work_title1}>
+        <p className={styles.work_text1}>
+          Ananya said, " Every project is like a baby, you take care of them
+          with lots of love and care, pamper them till it's big enough to move
+          into a new family with proper manners and culture ". We stand for
+          sustainable design and apply design thinking on it, which means each
+          project is unique and customized according to your requirements. Here
+          have a look at how it goes.
+        </p>
+      </div>
     </div>
   );
 };
-
-export default Page;
+export default Consultancy;

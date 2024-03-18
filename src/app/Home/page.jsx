@@ -12,7 +12,6 @@ import AboutUs_ourDesign from "@/Components/AboutUs_ourDesign/page";
 import Form from "@/Common/Form/page";
 import Footer from "@/Common/Footer/page";
 import BackgroundImage from "@/images/textureImage.png"
-// import AboutUsCrafting from "@/Components/AboutUs_Crafting/page";
 const Page = () => {
   useEffect(() => {
     (async () => {
@@ -32,7 +31,6 @@ const Page = () => {
         <AboutUs_flex />
         <AboutUsInfo />
         <AboutUs_ourDesign />
-        {/* <AboutUsCrafting /> */}
         <Form />
         <Footer />
     </div>

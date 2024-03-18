@@ -139,8 +139,7 @@
     font-size: 4.3vw;
   }
 }
-@media screen and (max-width: 665px) {
-}
+
 @media screen and (max-width: 765px) {
   .Services_Header_Outer {
     flex-direction: column;
@@ -159,11 +158,14 @@
 }
 
 @media screen and (max-width: 576px) {
+   .Consultancy_page_second_content {
+    padding-top: 3rem;
+  }
   .Consultancy_page_second_content {
-    padding-top: 0rem;
+    padding-top: 3rem;
   }
   .Consultancy_page_second_container {
-    padding-top: 3rem;
+    padding-top: 0rem;
   }
   .Consultancy_page_second_content_text {
     font-size: 5vw;

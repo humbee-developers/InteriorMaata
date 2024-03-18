@@ -26,42 +26,7 @@ const Page = () => {
   return (
     <div className={styles.Main_Container}>
       <div className={styles.Consultancy_page_second_container}>
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          transition={{ duration: 0.9 }}
-          className={styles.Consultancy_page_second_content}
-        >
-          <HeadingTextAnimation
-            heading={" Get your home designed in the "}
-            justifyContent={"left"}
-            className={styles.Consultancy_page_second_content_text}
-          />
-          <HeadingTextAnimation
-            heading={" comfort of your home without  "}
-            justifyContent={"left"}
-            className={styles.Consultancy_page_second_content_text}
-          />
-
-          <HeadingTextAnimation
-            heading={"any hassle. Our team of excellent "}
-            justifyContent={"left"}
-            className={styles.Consultancy_page_second_content_text}
-          />
-
-          <HeadingTextAnimation
-            heading={" designers will guide you in designing"}
-            justifyContent={"left"}
-            className={styles.Consultancy_page_second_content_text}
-          />
-
-          <HeadingTextAnimation
-            heading={"  your home exactly the way you want."}
-            justifyContent={"left"}
-            className={styles.Consultancy_page_second_content_text}
-          />
-        </motion.div>
+     
         <div className={styles.online_consultancy_text}>
           <p>Online Consultancy Includes</p>
         </div>
@@ -134,6 +99,42 @@ const Page = () => {
             </div>
           </div>
         </div>
+   <motion.div
+          ref={ref}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          transition={{ duration: 0.9 }}
+          className={styles.Consultancy_page_second_content}
+        >
+          <HeadingTextAnimation
+            heading={" Get your home designed in the "}
+            justifyContent={"left"}
+            className={styles.Consultancy_page_second_content_text}
+          />
+          <HeadingTextAnimation
+            heading={" comfort of your home without  "}
+            justifyContent={"left"}
+            className={styles.Consultancy_page_second_content_text}
+          />
+
+          <HeadingTextAnimation
+            heading={"any hassle. Our team of excellent "}
+            justifyContent={"left"}
+            className={styles.Consultancy_page_second_content_text}
+          />
+
+          <HeadingTextAnimation
+            heading={" designers will guide you in designing"}
+            justifyContent={"left"}
+            className={styles.Consultancy_page_second_content_text}
+          />
+
+          <HeadingTextAnimation
+            heading={"  your home exactly the way you want."}
+            justifyContent={"left"}
+            className={styles.Consultancy_page_second_content_text}
+          />
+        </motion.div>
       </div>
     </div>
   );

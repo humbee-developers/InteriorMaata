@@ -13,7 +13,6 @@
   text-align: center;
   font-family: Roseritta;
   font-size:8vw ;
-  /* font-size: 120.669px; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -52,15 +51,8 @@
     padding-bottom: 13.5rem;
   }
 }
-/* @media (max-width: 1200px) {
-  .work_text {
-    font-size: 110px;
-  }
-} */
+
 @media (max-width: 768px) {
-  /* .work_text {
-    font-size: 70px;
-  } */
   .work_title1 {
     width: 100%;
   }
@@ -78,10 +70,7 @@
     padding-top: 8rem;
     padding-bottom: 2rem;
   }
-  
-  /* .work_text {
-    font-size: 40px;
-  } */
+
   .work_title1 {
     padding-bottom: 0rem;
   }

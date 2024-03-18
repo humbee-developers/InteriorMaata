@@ -111,20 +111,20 @@
     transform-origin: 50% 0%;
   }
   .cc-1 {
-    top: 22vh !important;
+    top: 5vh !important;
   }
   
   .cc-2 {
-    top: 14vh !important;
+    top: 9vh !important;
     transform: translateX(-3rem);
   }
   .cc-3 {
-    top: 20vh !important;
-    transform: translateX(5rem);
+    top: 4vh !important;
+    transform: translateX(2rem);
   }
   .cc-4 {
-    top: 28vh !important;
-    transform: translateX(-8rem);
+    top: 9vh !important;
+    transform: translateX(-1rem);
   }
   .cc-5 {
     top: 30vh !important;
