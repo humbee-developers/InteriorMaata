@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
-import Contact_us_header_img from "@/images/contact_header.png";
+import Contact_us_header_img from "@/images/contactUsTexture.png";
 import styles from "@/Components/ContactUs_Header/contact.module.css";
 const Page = () => {
   const [ref, inView] = useInView({
@@ -35,17 +35,13 @@ const Page = () => {
             >
               <HeadingTextAnimation
                 heading={"Transforming "}
-                justifyContent={"left"}
+                justifyContent={"center"}
               />
               <HeadingTextAnimation
-                heading={"Spaces,"}
-                justifyContent={"left"}
+                heading={"Spaces, Inspiring Lives"}
+                justifyContent={"center"}
               />
 
-              <HeadingTextAnimation
-                heading={"Inspiring Lives"}
-                justifyContent={"left"}
-              />
             </motion.div>
           </div>
         </div>
