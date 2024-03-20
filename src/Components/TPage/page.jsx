@@ -84,7 +84,7 @@ const TeamPage = () => {
           </div>
         </div>
         <div className={styles.marquee_section}>
-          <Marquee velocity={70} >
+          <Marquee velocity={20} >
             {photos.map((photo, index) => (
               <div
                 key={`marquee-image-${index}`}

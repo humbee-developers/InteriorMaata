@@ -7,7 +7,6 @@
   color: #7f7047;
   text-align: center;
   font-family: "Roseritta";
-  /* font-size: 120.669px; */
   font-size:8vw;
   font-weight: 400;
   line-height: normal;
@@ -53,7 +52,8 @@
   color: #cc7d45;
   text-align: center;
   font-family: "Roseritta";
-  font-size: 58px;
+  /* font-size: 58px; */
+  font-size: 4vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -111,7 +111,7 @@
     color: #cc7d45;
     text-align: center;
     font-family: "Roseritta";
-    font-size: 66px;
+    /* font-size: 66px; */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -187,7 +187,7 @@
   }
   .teamPage_content3_Text {
     width: 100%;
-    font-size: 46px;
+    /* font-size: 46px; */
   }
   .teamPage_content4 {
     padding: 0 4rem;
@@ -255,7 +255,7 @@
   }
   .teamPage_content3_Text {
     width: 100%;
-    font-size: 36px;
+    /* font-size: 36px; */
   }
   .teamPage_content4 {
     padding: 0 4rem;
@@ -319,7 +319,7 @@
   }
   .teamPage_content3_Text {
     width: 100%;
-    font-size: 28px;
+    /* font-size: 28px; */
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -383,7 +383,8 @@
   }
   .teamPage_content3_Text {
     width: 100%;
-    font-size: 24px;
+    font-size: 5vw;
+    /* font-size: 24px; */
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -447,7 +448,7 @@
   .teamPage_content3_Text {
     width: 100%;
     padding: 0 1rem;
-    font-size: 18px;
+    /* font-size: 18px; */
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -491,7 +492,7 @@
   .teamPage_content3_Text {
     width: 100%;
     padding: 0 1rem;
-    font-size: 15px;
+    /* font-size: 15px; */
   }
 
 
