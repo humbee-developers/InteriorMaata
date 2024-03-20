@@ -4,7 +4,7 @@ import Stairs from "@/Animations/Stairs"
 import ServicesCards from "@/Components/ServicesCards/page";
 import Slider from "@/Components/Project_Slider/page"
 import ServicesFlex from "@/Components/ServicesFlex/page";
-const Page = () => {
+const page = () => {
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -23,4 +23,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
