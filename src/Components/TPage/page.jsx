@@ -124,7 +124,7 @@ const TeamPage = () => {
         </div>
         <div className={styles.teamPage_content4}>
           <div className={styles.teamPage_content4_Text}>
-            <div>
+       
               <p>
                 And When It Stops, It’s Not Over - It’s In You Now, In Your
                 Head, Your Heart, And Spirit.
@@ -137,7 +137,7 @@ const TeamPage = () => {
               <p>You Shared The Wonder.</p>
               <p>You Know The Feeling?</p>
               <p>That’s What We’re After, Every Time We Make A Film.</p>
-            </div>
+       
           </div>
         </div>
         <TeamCards />
@@ -164,7 +164,7 @@ const TeamPage = () => {
    
         <div className={styles.teamPage_content4}>
           <div className={styles.teamPage_content4_Text}>
-            <div>
+           
               <p>
                 Step into the world of interiormaata, where design meets
                 imagination. Our dedicated team of architects and designers is
@@ -181,7 +181,7 @@ const TeamPage = () => {
                 of interior design with innovation, precision, and a touch of
                 elegance.
               </p>
-            </div>
+      
           </div>
         </div>
         <div className={styles.image_content5}>

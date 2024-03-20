@@ -383,8 +383,7 @@
   }
   .teamPage_content3_Text {
     width: 100%;
-    font-size: 5vw;
-    /* font-size: 24px; */
+    font-size: 5.4vw;
   }
   .teamPage_content4 {
     padding: 0 1rem;
@@ -421,7 +420,6 @@
   }
  
   .teamPage_content1 {
-    /* font-size: 34px; */
     width: 85%;
     margin: 0 auto 1rem;
   }
@@ -458,8 +456,8 @@
     justify-content: center;
   }
   .teamPage_content4_Text {
-    width: 70%;
-    font-size: 11px;
+    width: 85%;
+    font-size: 13px;
   }
   .teamPage_content4_Text p {
     padding: 2px 0;
@@ -506,8 +504,8 @@
 
 
   .teamPage_content4_Text {
-    width: 75%;
-    font-size: 11px;
+    width: 86%;
+    font-size: 13px;
   }
 
 
