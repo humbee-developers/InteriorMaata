@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,useRef  } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
@@ -1022,6 +1022,13 @@ const Page = () => {
     }
   }, [controls5, inView5]);
 
+  const sliderRef = useRef(null);
+
+  const goToSlide = (slideIndex) => {
+    sliderRef.current.slickGoTo(slideIndex);
+    setCurrentSlide(slideIndex);
+  };
+
   const totalImages = 5;
 
   const resetAnimations = () => {
@@ -1038,12 +1045,12 @@ const Page = () => {
     centerMode: true,
     centerPadding: "0px",
     fade: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: <PrevArrow onClick={resetAnimations} />,
-    nextArrow: <NextArrow onClick={resetAnimations} />,
+    // prevArrow: <PrevArrow onClick={resetAnimations} />,
+    // nextArrow: <NextArrow onClick={resetAnimations} />,
     beforeChange: (oldIndex, newIndex) => {
       setCurrentSlide(newIndex);
     },
@@ -1077,7 +1084,7 @@ const Page = () => {
   return (
     <div className={styles.main_carousel}>
       <div className={styles.wrapper}>
-        <Slider {...settings}>
+        <Slider {...settings}  ref={sliderRef}>
           <div className={styles.slide1} ref={ref1}>
             <div className={styles.slideContent}>
               <motion.div
@@ -1614,6 +1621,14 @@ const Page = () => {
         <div className={styles.number}>
           <span>0{currentSlide + 1}</span>/0{totalImages}
         </div>
+      </div>
+
+      <div className={styles.slideControlButtons}>
+        <button className={styles.slideControlButton1} onClick={() => goToSlide(0)}></button>
+        <button className={styles.slideControlButton2} onClick={() => goToSlide(1)}></button>
+        <button className={styles.slideControlButton3} onClick={() => goToSlide(2)}></button>
+        <button className={styles.slideControlButton4} onClick={() => goToSlide(3)}></button>
+        <button className={styles.slideControlButton5} onClick={() => goToSlide(4)}></button>
       </div>
     </div>
   );

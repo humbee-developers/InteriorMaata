@@ -2,6 +2,66 @@
   position: relative;
 }
 
+
+.slideControlButtons{
+  display: flex;
+  gap:1rem;
+  border-radius: 15px;
+  transform: translate(6rem, -5rem);
+  /* background-color: #E8D8CE; */
+  background: #CC7D45;
+  opacity: 0.9;
+background: linear-gradient(to bottom right, #CC7D45 10%, #E8D8CE 68%);
+  padding:1rem 1rem;
+}
+
+.slideControlButton1{
+  border-radius: 50%;
+  height: 40px;
+  background-color: #AE7B56;
+  cursor: pointer;
+  width: 40px;
+  border:1px solid white
+}
+.slideControlButton2{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #D18211;
+  cursor: pointer;
+  border:1px solid white
+}
+
+.slideControlButton3{
+  border-radius: 50%;
+  height: 40px;
+  background-color: #677176;
+  cursor: pointer;
+  width: 40px;
+  border:1px solid white
+}
+
+.slideControlButton4{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #A39280;
+  cursor: pointer;
+  border:1px solid white
+}
+
+.slideControlButton5{
+  border-radius: 50%;
+  height: 40px;
+  cursor: pointer;
+  background-color: #A4A3A4;
+  width: 40px;
+  border:1px solid white
+}
+
+
+
+
 .image1 {
   position: absolute;
   left: 38%;
@@ -367,6 +427,19 @@
 }
 
 @media (min-width: 1600px) and (max-width: 1920px) {
+
+
+  .slideControlButtons{
+    display: flex;
+    gap:1rem;
+    transform: translate(7rem, -4rem);
+    background-color: #E8D8CE;
+    width: fit-content;
+    padding:1rem 1rem;
+  }
+  
+
+
   .image1 {
     position: absolute;
     left: 38%;
