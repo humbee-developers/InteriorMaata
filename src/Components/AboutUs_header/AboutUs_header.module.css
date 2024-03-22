@@ -1,7 +1,6 @@
 .aboutUsHeader {
   padding-top: 10rem;
   padding-bottom: 8rem;
-
 }
 
 .ananya {
@@ -74,11 +73,6 @@
     margin: 0 auto;
     width: 52%;
   }
-
-  .aboutUs_banner_text {
-    /* font-size: 14px;  */
-    /* line-height: 18px;  */
-  }
 }
 @media(max-width:575px){
   .ananya {
@@ -86,6 +80,16 @@
     line-height: normal;
     padding-bottom: 0.5rem;
     width: 100%;
+  }
+
+  .aboutUsHeader {
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+  }
+
+  .aboutUs_banner_text_outer {
+    margin: 0 auto;
+    width: 80%;
   }
   
 }

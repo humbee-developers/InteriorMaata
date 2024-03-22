@@ -124,6 +124,10 @@
     transition: all 0.5s;
   }
 
+  .landing_page_second_content_text{
+    font-size: 5.2vw;
+  }
+
   .Landing_image1:hover {
     display: none;
   }
@@ -158,8 +162,14 @@
 }
 
 
-@media (max-width:310px){
+@media(min-width:375px ) and (max-width:429px){
   .landing_page_second_content_text{
-    font-size:4.7vw;
+    font-size:5vw;
+  }
+}
+
+@media(min-width:300px ) and (max-width:374px){
+  .landing_page_second_content_text{
+    font-size:4.9vw;
   }
 }
