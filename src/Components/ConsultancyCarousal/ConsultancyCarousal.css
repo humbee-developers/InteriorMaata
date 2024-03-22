@@ -40,12 +40,12 @@
 } */
 
 .swiper-button-prev{
-  color: white;
+  color: white !important;
   padding-left: 2rem;
 }
 
 .swiper-button-next{
-  color: white;
+  color: white !important;
   padding-right: 2rem;
 }
 @media (max-width:768px){

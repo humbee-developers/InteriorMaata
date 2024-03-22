@@ -71,13 +71,23 @@
     object-fit: cover;
   }
 }
+@media(max-width:501px){
+  .third_section_overlay_text,
+  .third_section_overlay_span {
+    font-size: 14px;
+    transform: translate(0rem, 7rem);
+    margin: 0 auto;
+  
+  }
+}
 
 @media (max-width: 425px) {
   .third_section_overlay_text,
   .third_section_overlay_span {
     font-size: 14px;
+    transform: translate(0rem, 7rem);
     margin: 0 auto;
-    width: 70%;
+  
   }
 }
 
@@ -85,7 +95,7 @@
   .third_section_overlay_text,
   .third_section_overlay_span {
     font-size: 12px;
-    width: 65%;
+    
   }
 }
 
