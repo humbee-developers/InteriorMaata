@@ -51,7 +51,7 @@ const Page = () => {
       y: 0,
       transition: {
         duration: 1.2,
-        delay: 1.6, // Delay added for a staggered effect
+        delay: 1.6,
         ease: "easeOut",
       },
     },
