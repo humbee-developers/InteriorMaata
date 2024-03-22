@@ -7,10 +7,10 @@
   display: flex;
   gap:1rem;
   border-radius: 15px;
+  width: fit-content;
   transform: translate(6rem, -5rem);
-  /* background-color: #E8D8CE; */
   background: #CC7D45;
-  opacity: 0.9;
+  opacity: 1;
 background: linear-gradient(to bottom right, #CC7D45 10%, #E8D8CE 68%);
   padding:1rem 1rem;
 }
@@ -1190,6 +1190,10 @@ background: linear-gradient(to bottom right, #CC7D45 10%, #E8D8CE 68%);
   }
 }
 @media (max-width: 768px) {
+  .slideControlButtons{
+    transform: translate(2rem, -3rem);
+    padding:0.8rem 0.8rem;
+  }
   .main_carousel {
     position: relative;
     height: auto;
@@ -1448,6 +1452,13 @@ background: linear-gradient(to bottom right, #CC7D45 10%, #E8D8CE 68%);
 }
 
 @media (max-width: 500px) {
+  .slideControlButtons{
+    transform: translate(1rem, -3rem);
+    padding:0.8rem 0.8rem;
+  }
+
+
+
   .main_carousel {
     position: relative;
     height: auto;

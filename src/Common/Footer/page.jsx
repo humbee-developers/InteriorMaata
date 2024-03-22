@@ -10,6 +10,7 @@ import Instagram_logo from "@/svgs/instagram.svg";
 import youtube_logo from "@/svgs/youtube.svg";
 import whatsapp_logo from "@/svgs/whatsapp.svg";
 import linkedin_logo from "@/svgs/linkedin.svg";
+import BackgroundImage from "@/images/textureImage.png"
 import ScrollToTop from "react-scroll-to-top";
 import styles from "@/Common/Footer/Footer.module.css";
 import "./Scroll_To_Top.css";
@@ -27,7 +28,7 @@ const Footer = () => {
   }, [controls, inView]);
 
   return (
-    <div>
+    <div style={{backgroundImage: `url(${BackgroundImage.src})`, backgroundRepeat:"no-repeat",backgroundSize: "cover",backgroundPosition:"center"}}>
       <div className={styles.Footer_Section}>
         <div className={styles.Footer_Content}>
           <div>
@@ -153,9 +154,9 @@ const Footer = () => {
 
         </div>
       </div>
-      {/* <div>
-        <ScrollToTop smooth color="black" />
-      </div> */}
+      <div>
+        <ScrollToTop smooth />
+      </div>
     </div>
   );
 };

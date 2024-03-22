@@ -64,10 +64,6 @@ import slide5_src8 from "@/images/aboutUsSlideFiveImage8.png";
 import slide5_src9 from "@/images/aboutUsSlideFiveImage9.png";
 import slide5_src10 from "@/images/aboutUsSlideFiveImage10.png";
 import slide5_src11 from "@/images/aboutUsSlideFiveImage11.png";
-
-
-import PrevArrow from "@/Components/AboutUs_Carousel2/Arrows/PrevArrow";
-import NextArrow from "@/Components/AboutUs_Carousel2/Arrows/NextArrow";
 import "@/Components/AboutUs_Carousel2/Inbuilt.css";
 import styles from "@/Components/AboutUs_Carousel2/AboutUS_Carousel2.module.css";
 
@@ -1049,8 +1045,6 @@ const Page = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // prevArrow: <PrevArrow onClick={resetAnimations} />,
-    // nextArrow: <NextArrow onClick={resetAnimations} />,
     beforeChange: (oldIndex, newIndex) => {
       setCurrentSlide(newIndex);
     },
@@ -1068,14 +1062,14 @@ const Page = () => {
         breakpoint: 768,
         settings: {
           arrows: false,
-          dots: true,
+          dots: false,
         },
       },
       {
         breakpoint: 476,
         settings: {
           arrows: false,
-          dots: true,
+          dots: false,
         },
       },
     ],
