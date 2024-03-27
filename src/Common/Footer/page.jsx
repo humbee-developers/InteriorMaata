@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import HeadingTextAnimation from "@/Common/AnimatedText/HeadingTextAnimation";
@@ -55,9 +55,7 @@ const Footer = () => {
               </li>
             </ul>
             <ul className={styles.footerUl}>
-              {/* <li className={styles.footer_home}>
-                <Link href="/Team">Team</Link>
-              </li> */}
+
               <li className={styles.footer_Search}>
                 <Link href="/HowWeWork">How we work</Link>
               </li>

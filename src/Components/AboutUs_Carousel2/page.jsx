@@ -1,4 +1,4 @@
-import React, { useState, useEffect ,useRef  } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
@@ -72,32 +72,8 @@ const Page = () => {
     triggerOnce: false,
   });
 
-  const [ref2, inView2] = useInView({
-    triggerOnce: false,
-  });
-
-  const [ref3, inView3] = useInView({
-    triggerOnce: false,
-  });
-
-
-  const [ref4, inView4] = useInView({
-    triggerOnce: false,
-  });
-
-
-  const [ref5, inView5] = useInView({
-    triggerOnce: false,
-  });
-
-
   // Separate animation controls for each slider
   const controls1 = useAnimation();
-  const controls2 = useAnimation();
-  const controls3 = useAnimation();
-  const controls4 = useAnimation();
-  const controls5 = useAnimation();
-
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const imageAnimations = [
@@ -274,718 +250,7 @@ const Page = () => {
       },
     },
 
-
-// second slider animations
-
-
-
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 1.5,
-          delay: 1.3,
-          x: { duration: 1.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-
-        transition: {
-          ease: "linear",
-          duration: 1,
-          delay: 0.8,
-          x: { duration: 0.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: -100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.5,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: {
-          duration: 2,
-          delay: 1.5,
-          ease: "easeOut",
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.5,
-          delay: 1.5,
-          x: { duration: 2.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.2,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.2,
-          delay: 1.4,
-          x: { duration: 2.2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.4,
-          delay: 1.6,
-          x: { duration: 2.4 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.6,
-          delay: 1.8,
-          x: { duration: 2.6 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.8,
-          delay: 2,
-          x: { duration: 2.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-
-
-    // slider three animations
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 1.5,
-          delay: 1.3,
-          x: { duration: 1.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-
-        transition: {
-          ease: "linear",
-          duration: 1,
-          delay: 0.8,
-          x: { duration: 0.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: -100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.5,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: {
-          duration: 2,
-          delay: 1.5,
-          ease: "easeOut",
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.5,
-          delay: 1.5,
-          x: { duration: 2.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.2,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.2,
-          delay: 1.4,
-          x: { duration: 2.2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.4,
-          delay: 1.6,
-          x: { duration: 2.4 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.6,
-          delay: 1.8,
-          x: { duration: 2.6 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.8,
-          delay: 2,
-          x: { duration: 2.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-
-    // slider four animations
-
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 1.5,
-          delay: 1.3,
-          x: { duration: 1.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-
-        transition: {
-          ease: "linear",
-          duration: 1,
-          delay: 0.8,
-          x: { duration: 0.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: -100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.5,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: {
-          duration: 2,
-          delay: 1.5,
-          ease: "easeOut",
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.5,
-          delay: 1.5,
-          x: { duration: 2.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.2,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.2,
-          delay: 1.4,
-          x: { duration: 2.2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.4,
-          delay: 1.6,
-          x: { duration: 2.4 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.6,
-          delay: 1.8,
-          x: { duration: 2.6 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.8,
-          delay: 2,
-          x: { duration: 2.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-
-    // slider animations five
-
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 1.5,
-          delay: 1.3,
-          x: { duration: 1.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-
-        transition: {
-          ease: "linear",
-          duration: 1,
-          delay: 0.8,
-          x: { duration: 0.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: -100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.5,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: {
-          duration: 2,
-          delay: 1.5,
-          ease: "easeOut",
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.5,
-          delay: 1.5,
-          x: { duration: 2.5 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2,
-          delay: 1.2,
-          x: { duration: 2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.2,
-          delay: 1.4,
-          x: { duration: 2.2 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.4,
-          delay: 1.6,
-          x: { duration: 2.4 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.6,
-          delay: 1.8,
-          x: { duration: 2.6 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-    {
-      hidden: { opacity: 0, y: 100 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: {
-          ease: "linear",
-          duration: 2.8,
-          delay: 2,
-          x: { duration: 2.8 },
-          type: "spring",
-          stiffness: 100,
-        },
-      },
-    },
-
-
+    // second slider animations
   ];
 
   useEffect(() => {
@@ -993,30 +258,6 @@ const Page = () => {
       controls1.start("visible");
     }
   }, [controls1, inView1]);
-
-  useEffect(() => {
-    if (inView2) {
-      controls2.start("visible");
-    }
-  }, [controls2, inView2]);
-
-  useEffect(() => {
-    if (inView3) {
-      controls3.start("visible");
-    }
-  }, [controls3, inView3]);
-
-  useEffect(() => {
-    if (inView4) {
-      controls4.start("visible");
-    }
-  }, [controls4, inView4]);
-
-  useEffect(() => {
-    if (inView5) {
-      controls5.start("visible");
-    }
-  }, [controls5, inView5]);
 
   const sliderRef = useRef(null);
 
@@ -1027,17 +268,13 @@ const Page = () => {
 
   const totalImages = 5;
 
-  const resetAnimations = () => {
-    controls1.start("hidden").then(() => controls1.start("visible"));
-    controls2.start("hidden").then(() => controls2.start("visible"));
-    controls3.start("hidden").then(() => controls3.start("visible"));
-    controls4.start("hidden").then(() => controls4.start("visible"));
-    controls5.start("hidden").then(() => controls5.start("visible"));
-  };
+  // const resetAnimations = () => {
+  //   controls1.start("hidden").then(() => controls1.start("visible"));
+  // };
 
   var settings = {
     dots: false,
-    speed: 5,
+    speed: 1500,
     centerMode: true,
     centerPadding: "0px",
     fade: true,
@@ -1049,7 +286,7 @@ const Page = () => {
       setCurrentSlide(newIndex);
     },
     afterChange: (currentIndex) => {
-      resetAnimations();
+      // resetAnimations();
     },
     responsive: [
       {
@@ -1078,7 +315,7 @@ const Page = () => {
   return (
     <div className={styles.main_carousel}>
       <div className={styles.wrapper}>
-        <Slider {...settings}  ref={sliderRef}>
+        <Slider {...settings} ref={sliderRef}>
           <div className={styles.slide1} ref={ref1}>
             <div className={styles.slideContent}>
               <motion.div
@@ -1183,104 +420,49 @@ const Page = () => {
 
           {/* slide 2 */}
 
-          <div className={styles.slid2} ref={ref2}>
+          <div className={styles.slid2}>
             <div className={styles.slideContent}>
-              <motion.div
-                className={styles.image12}
-                variants={imageAnimations[11]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image12}>
                 <Image className="image" src={slide2_src1} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image13}
-                variants={imageAnimations[12]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image13}>
                 <Image className="image" src={slide2_src2} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image14}
-                variants={imageAnimations[13]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image14}>
                 <Image className="image" src={slide2_src3} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image15}
-                variants={imageAnimations[14]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image15}>
                 <Image className="image" src={slide2_src4} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image16}
-                variants={imageAnimations[15]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image16}>
                 <Image className="image" src={slide2_src5} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image17}
-                variants={imageAnimations[16]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image17}>
                 <Image className="image" src={slide2_src6} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image18}
-                variants={imageAnimations[17]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image18}>
                 <Image className="image" src={slide2_src7} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image19}
-                variants={imageAnimations[18]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image19}>
                 <Image className="image" src={slide2_src8} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image20}
-                variants={imageAnimations[19]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image20}>
                 <Image className="image" src={slide2_src9} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image21}
-                variants={imageAnimations[20]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image21}>
                 <Image className="image" src={slide2_src10} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image22}
-                variants={imageAnimations[21]}
-                initial="hidden"
-                animate={controls2}
-              >
+              <motion.div className={styles.image22}>
                 <Image className="image" src={slide2_src11} alt="image" />
               </motion.div>
             </div>
@@ -1288,326 +470,153 @@ const Page = () => {
 
           {/* slide 3 */}
 
-          <div className={styles.slid2} ref={ref3}>
+          <div className={styles.slid2}>
             <div className={styles.slideContent}>
-              <motion.div
-                className={styles.image23}
-                variants={imageAnimations[22]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image23}>
                 <Image className="image" src={slide3_src1} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image24}
-                variants={imageAnimations[23]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image24}>
                 <Image className="image" src={slide3_src2} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image25}
-                variants={imageAnimations[24]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image25}>
                 <Image className="image" src={slide3_src3} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image26}
-                variants={imageAnimations[25]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image26}>
                 <Image className="image" src={slide3_src4} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image27}
-                variants={imageAnimations[26]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image27}>
                 <Image className="image" src={slide3_src5} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image28}
-                variants={imageAnimations[27]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image28}>
                 <Image className="image" src={slide3_src6} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image29}
-                variants={imageAnimations[28]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image29}>
                 <Image className="image" src={slide3_src7} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image30}
-                variants={imageAnimations[29]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image30}>
                 <Image className="image" src={slide3_src8} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image31}
-                variants={imageAnimations[30]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image31}>
                 <Image className="image" src={slide3_src9} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image32}
-                variants={imageAnimations[31]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image32}>
                 <Image className="image" src={slide3_src10} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image33}
-                variants={imageAnimations[32]}
-                initial="hidden"
-                animate={controls3}
-              >
+              <motion.div className={styles.image33}>
                 <Image className="image" src={slide3_src11} alt="image" />
               </motion.div>
-
             </div>
           </div>
 
-            {/* slide 4 */}
+          {/* slide 4 */}
 
-            <div className={styles.slid2} ref={ref4}>
+          <div className={styles.slid2}>
             <div className={styles.slideContent}>
-              <motion.div
-                className={styles.image34}
-                variants={imageAnimations[33]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image34}>
                 <Image className="image" src={slide4_src1} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image35}
-                variants={imageAnimations[34]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image35}>
                 <Image className="image" src={slide4_src2} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image36}
-                variants={imageAnimations[35]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image36}>
                 <Image className="image" src={slide4_src3} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image37}
-                variants={imageAnimations[36]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image37}>
                 <Image className="image" src={slide4_src4} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image38}
-                variants={imageAnimations[37]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image38}>
                 <Image className="image" src={slide4_src5} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image39}
-                variants={imageAnimations[38]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image39}>
                 <Image className="image" src={slide4_src6} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image40}
-                variants={imageAnimations[39]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image40}>
                 <Image className="image" src={slide4_src7} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image41}
-                variants={imageAnimations[40]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image41}>
                 <Image className="image" src={slide4_src8} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image42}
-                variants={imageAnimations[41]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image42}>
                 <Image className="image" src={slide4_src9} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image43}
-                variants={imageAnimations[42]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image43}>
                 <Image className="image" src={slide4_src10} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image44}
-                variants={imageAnimations[43]}
-                initial="hidden"
-                animate={controls4}
-              >
+              <motion.div className={styles.image44}>
                 <Image className="image" src={slide4_src11} alt="image" />
               </motion.div>
-
             </div>
           </div>
 
+          {/* slide 5 */}
 
-           {/* slide 5 */}
-
-
-           <div className={styles.slid2} ref={ref5}>
+          <div className={styles.slid2}>
             <div className={styles.slideContent}>
-              <motion.div
-                className={styles.image45}
-                variants={imageAnimations[44]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image45}>
                 <Image className="image" src={slide5_src1} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image46}
-                variants={imageAnimations[45]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image46}>
                 <Image className="image" src={slide5_src2} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image47}
-                variants={imageAnimations[46]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image47}>
                 <Image className="image" src={slide5_src3} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image48}
-                variants={imageAnimations[47]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image48}>
                 <Image className="image" src={slide5_src4} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image49}
-                variants={imageAnimations[48]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image49}>
                 <Image className="image" src={slide5_src5} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image50}
-                variants={imageAnimations[49]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image50}>
                 <Image className="image" src={slide5_src6} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image51}
-                variants={imageAnimations[50]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image51}>
                 <Image className="image" src={slide5_src7} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image52}
-                variants={imageAnimations[51]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image52}>
                 <Image className="image" src={slide5_src8} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image53}
-                variants={imageAnimations[41]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image53}>
                 <Image className="image" src={slide5_src9} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image54}
-                variants={imageAnimations[52]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image54}>
                 <Image className="image" src={slide5_src10} alt="image" />
               </motion.div>
 
-              <motion.div
-                className={styles.image55}
-                variants={imageAnimations[53]}
-                initial="hidden"
-                animate={controls5}
-              >
+              <motion.div className={styles.image55}>
                 <Image className="image" src={slide5_src11} alt="image" />
               </motion.div>
-
             </div>
           </div>
-
-
-
         </Slider>
       </div>
 
@@ -1618,11 +627,26 @@ const Page = () => {
       </div>
 
       <div className={styles.slideControlButtons}>
-        <button className={styles.slideControlButton1} onClick={() => goToSlide(0)}></button>
-        <button className={styles.slideControlButton2} onClick={() => goToSlide(1)}></button>
-        <button className={styles.slideControlButton3} onClick={() => goToSlide(2)}></button>
-        <button className={styles.slideControlButton4} onClick={() => goToSlide(3)}></button>
-        <button className={styles.slideControlButton5} onClick={() => goToSlide(4)}></button>
+        <button
+          className={styles.slideControlButton1}
+          onClick={() => goToSlide(0)}
+        ></button>
+        <button
+          className={styles.slideControlButton2}
+          onClick={() => goToSlide(1)}
+        ></button>
+        <button
+          className={styles.slideControlButton3}
+          onClick={() => goToSlide(2)}
+        ></button>
+        <button
+          className={styles.slideControlButton4}
+          onClick={() => goToSlide(3)}
+        ></button>
+        <button
+          className={styles.slideControlButton5}
+          onClick={() => goToSlide(4)}
+        ></button>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@
   transform: translate(6rem, -5rem);
   background: #CC7D45;
   opacity: 1;
-background: linear-gradient(to bottom right, #CC7D45 10%, #E8D8CE 68%);
+background:linear-gradient(to bottom right, #dc925d 6%, #e9dbd3 86%);
   padding:1rem 1rem;
 }
 
@@ -1930,10 +1930,6 @@ background: linear-gradient(to bottom right, #CC7D45 10%, #E8D8CE 68%);
     top: 32rem;
   }
 }
-
-/* .wrapper {
-  background-color: rgba(249, 241, 235, 1);
-} */
 
 .slideContent {
   justify-content: center;
