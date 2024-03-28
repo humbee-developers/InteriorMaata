@@ -23,7 +23,16 @@
 .timline1_meet_text {
   color: #CC7D45;
   font-family: Roseritta;
-  font-size: 58px;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.timline1_meet_text1 {
+  color: #CC7D45;
+  font-family: Roseritta;
+  font-size: 3.7vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -137,7 +146,7 @@
     width: 100%;
   }
   .timline1_meet_text {
-    font-size: 68px;
+    font-size: 4vw;
   }
   .timeline1_innertext {
     padding-top: 1rem;
@@ -156,10 +165,43 @@
     width: 85%;
   }
 }
-@media (max-width: 1024px) and (min-width: 767px) {
+@media (max-width: 1400px)
+{
   .timeline_container {
     padding-left: 8rem;
-    padding-right: 6rem;
+    padding-right: 8rem;
+    padding-bottom: 10rem;
+  }
+  /* .timline1_meet_text{
+    font-size: 55px;
+  } */
+}
+@media (max-width: 1300px)
+{
+  .timeline_container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+  }
+  /* .timline1_meet_text{
+    font-size: 50px;
+  } */
+}
+@media (max-width: 1210px)
+{
+  .timeline_container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 10rem;
+  }
+  /* .timline1_meet_text{
+    font-size: 50px;
+  } */
+}
+@media (max-width: 1024px) and (min-width: 767px) {
+  .timeline_container {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .timeline1_content,
   .timeline1_content1 {
@@ -172,18 +214,28 @@
     width: 70%;
   }
   .timline1_meet_text {
-    font-size: 45px;
+    font-size: 4vw;
+  }
+  .timline1_meet_text1 {
+    font-size: 3.6vw;
   }
   .timeline_content1,
   .timeline_content2 {
     /* padding-bottom: 2rem; */
   }
+  .border_top{
+    display: none;
+  }
+  .border_top1{
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .timeline_container {
     padding-top: 4rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
   }
   .timeline_content1,
   .timeline_content2 {
@@ -200,7 +252,10 @@
     width: 100%;
   }
   .timline1_meet_text {
-    font-size: 49px;
+    font-size: 5vw;
+  }
+  .timline1_meet_text1 {
+    font-size: 4.3vw;
   }
   .timline1_meet_text_content {
     width: 100%;
@@ -229,15 +284,20 @@
   .timeline_container {
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 0rem;
   }
   .timline1_meet_text {
-    font-size: 28px;
+    font-size: 10vw;
+  }
+  .timline1_meet_text1 {
+    font-size: 7.8vw;
   }
   .timeline_content1,
   .timeline_content2 {
     gap: 2rem;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     /* padding-bottom: 2rem; */
     /* flex-direction: column; */
   }

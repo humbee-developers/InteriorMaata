@@ -100,7 +100,7 @@
   .Services_Header_Outer {
     gap: 4rem;
   }
-    .Consultancy_page_second_container {
+  .Consultancy_page_second_container {
     padding-top: 2rem;
   }
 }
@@ -127,6 +127,7 @@
 @media screen and (max-width: 768px) {
   .Services_Header_Outer {
     gap: 2rem;
+    padding-left: 0rem;
   }
   .Main_Container {
     padding-left: 5rem;
@@ -142,15 +143,21 @@
 
 @media screen and (max-width: 765px) {
   .Services_Header_Outer {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    flex-wrap: wrap;
+    gap: 0rem;
+  }
+  .Services_header_img_outer {
+    width: 50%;
+    padding-bottom: 2rem;
   }
   .Consultancy_page_second_content_text {
     font-size: 5vw;
   }
   .Main_Container {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 8rem;
+    padding-right: -8rem;
   }
   .Consultancy_page_second_content {
     padding-top: 3rem;
@@ -158,7 +165,7 @@
 }
 
 @media screen and (max-width: 576px) {
-   .Consultancy_page_second_content {
+  .Consultancy_page_second_content {
     padding-top: 3rem;
   }
   .Consultancy_page_second_content {
@@ -171,7 +178,7 @@
     font-size: 5vw;
   }
   .Main_Container {
-    padding-left: 0rem;
+    padding-left: 5rem;
     padding-right: 0rem;
   }
   .online_consultancy_text {
@@ -186,11 +193,18 @@
 }
 @media screen and (max-width: 425px) {
   .Main_Container {
-    padding-left: 0rem;
+    padding-left: 2rem;
     padding-right: 0rem;
   }
   .Consultancy_page_second_content_text {
     font-size: 5vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Services_Header_Outer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
   }
 }
 @media screen and (max-width: 320px) {
